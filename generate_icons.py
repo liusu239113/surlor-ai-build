@@ -14,7 +14,7 @@ ICON_SIZES = {
 }
 
 def generate_icons():
-    project_root = "D:/WorkBuddy/projects/operit-game-dev"
+    project_root = "D:/WorkBuddy/projects/Surlor AI"
     logo_path = os.path.join(project_root, "logo.png")
     
     # Open and resize logo

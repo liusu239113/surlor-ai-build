@@ -2,7 +2,7 @@
 # Surlor AI APK 构建 + 自动安装监控脚本
 # 每10秒检查构建进度，APK 生成后自动安装到手机
 
-APK_PATH="D:/WorkBuddy/projects/operit-game-dev/app/build/outputs/apk/debug/app-debug.apk"
+APK_PATH="D:/WorkBuddy/projects/Surlor AI/app/build/outputs/apk/debug/app-debug.apk"
 LOG_FILE="D:/gradle-build-final.log"
 STATUS_FILE="D:/apk-build-status.log"
 DEVICE_SERIAL=""

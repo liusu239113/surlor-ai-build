@@ -1,7 +1,7 @@
 # APK 自动监控和安装脚本 - 每10秒轮巡
 # 当 APK 生成后立即安装到手机
 
-$APKPath = "D:\WorkBuddy\projects\operit-game-dev\app\build\outputs\apk\debug\app-debug.apk"
+$APKPath = "D:\WorkBuddy\projects\Surlor AI\app\build\outputs\apk\debug\app-debug.apk"
 $Device = "adb-161d7700"
 $LogFile = "D:\apk-monitor.log"
 $MaxWaitSeconds = 3600  # 最多等待1小时
