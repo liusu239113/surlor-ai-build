@@ -21,7 +21,7 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.ai.assistance.surlor"
+    namespace = "com.ai.assistance.operit"
     compileSdk = 36
 
     signingConfigs {
