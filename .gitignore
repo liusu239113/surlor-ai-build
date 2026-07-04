@@ -20,11 +20,8 @@ pnpm-lock.yaml
 temp.json
 temp
 build
-/app/src/main/jniLibs
 /app/src/main/assets/models
 /app/src/main/assets/subpack
-/app/libs/*
-!/app/libs/.keep
 
 .env
 .env.*
