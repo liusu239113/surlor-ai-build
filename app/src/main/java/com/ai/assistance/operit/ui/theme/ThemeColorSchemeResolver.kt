@@ -16,13 +16,13 @@ import com.ai.assistance.operit.data.preferences.UserPreferencesManager.Companio
 import com.ai.assistance.operit.data.preferences.UserPreferencesManager.Companion.ON_COLOR_MODE_LIGHT
 
 private val ResolvedDarkColorScheme =
-    darkColorScheme(primary = Purple80, secondary = PurpleGrey80, tertiary = Pink80)
+    darkColorScheme(primary = Orange80, secondary = Blue80, tertiary = AccentOrange)
 
 private val ResolvedLightColorScheme =
     lightColorScheme(
-        primary = Purple40,
-        secondary = PurpleGrey40,
-        tertiary = Pink40
+        primary = Orange40,
+        secondary = Blue40,
+        tertiary = AccentBlue
     )
 
 fun resolveThemeColorScheme(
