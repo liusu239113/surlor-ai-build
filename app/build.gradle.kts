@@ -106,7 +106,7 @@ android {
                 signingConfig = releaseSigningConfig
             }
             matchingFallbacks += listOf("debug")
-            resValue("string", "app_name", "Operit Clone")
+            resValue("string", "app_name", "Surlor AI Clone")
         }
         create("nightly") {
             isMinifyEnabled = false
