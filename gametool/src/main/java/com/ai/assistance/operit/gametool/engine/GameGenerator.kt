@@ -1,13 +1,22 @@
 package com.ai.assistance.operit.gametool.engine
 
+import android.content.Context
+import android.util.Log
+import com.ai.assistance.llama.LlamaSession
+import com.ai.assistance.operit.gametool.models.GameModelConfig
 import com.ai.assistance.operit.gametool.models.GameProject
 import com.ai.assistance.operit.gametool.models.GameType
 import com.ai.assistance.operit.gametool.models.SourceFile
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.io.File
 
 /**
  * 游戏生成引擎 - 通过 AI 对话生成游戏代码
  */
 object GameGenerator {
+
+    private const val TAG = "GameGenerator"
 
     /**
      * AI 游戏生成系统提示词
@@ -72,6 +81,7 @@ object GameGenerator {
      * 使用 AI 生成游戏代码
      */
     suspend fun generateGame(
+        context: Context,
         description: String,
         project: GameProject,
         onCodeGenerated: (SourceFile) -> Unit
@@ -79,11 +89,10 @@ object GameGenerator {
         return try {
             // 构建 AI 提示
             val prompt = buildPrompt(description, project.type)
-            
-            // 这里会调用本地 LLM 生成代码
-            // 实际实现中通过 JsEngine 调用 llama.cpp/mnn
-            val generatedCode = callLocalModel(prompt)
-            
+
+            // 优先调用本地 LLM 生成代码，未下载模型时给出占位并提示
+            val generatedCode = callLocalModel(context, prompt)
+
             val sourceFile = SourceFile(
                 path = project.entryFile,
                 content = generatedCode,
@@ -93,9 +102,9 @@ object GameGenerator {
                     GameType.GODOT -> com.ai.assistance.operit.gametool.models.FileType.GDSCRIPT
                 }
             )
-            
+
             onCodeGenerated(sourceFile)
-            
+
             val updatedProject = project.copy(
                 sourceFiles = listOf(sourceFile),
                 updatedAt = System.currentTimeMillis()
@@ -141,12 +150,87 @@ ${description}
 
     /**
      * 调用本地模型生成代码
-     * 通过 Operit 的 JsEngine 桥接到 llama.cpp/MNN
+     * 优先使用 llama.cpp 加载内置 GGUF 模型；模型未下载时返回占位并提示。
      */
-    private suspend fun callLocalModel(prompt: String): String {
-        // 实际实现将委托给 app 模块的 AI 推理引擎
-        // 通过 JsEngine 调用本地 LLM
-        // 返回生成的代码文本
+    private suspend fun callLocalModel(context: Context, prompt: String): String {
+        val modelDir = File(context.getExternalFilesDir(null) ?: context.filesDir, "models")
+        val model = GameModelConfig.getRecommendedModel()
+        val modelFile = File(modelDir, "${model.id}.gguf")
+
+        if (!modelFile.exists()) {
+            Log.w(TAG, "本地模型不存在: ${modelFile.absolutePath}")
+            return generatePlaceholderWithDownloadHint(model)
+        }
+
+        if (!LlamaSession.isAvailable()) {
+            Log.e(TAG, "LlamaSession 不可用")
+            return generatePlaceholderWithDownloadHint(model, "当前设备不支持本地推理，请检查 so 库是否已打包。")
+        }
+
+        return withContext(Dispatchers.Default) {
+            val session = LlamaSession.create(
+                modelFile.absolutePath,
+                LlamaSession.Config(
+                    nThreads = Runtime.getRuntime().availableProcessors().coerceAtMost(4),
+                    nCtx = 2048,
+                    nBatch = 512,
+                    nUBatch = 512,
+                    nGpuLayers = 0,
+                    useMmap = false,
+                    flashAttention = false,
+                    kvUnified = true,
+                    offloadKqv = false
+                )
+            )
+
+            if (session == null) {
+                Log.e(TAG, "创建 LlamaSession 失败")
+                return@withContext generatePlaceholderWithDownloadHint(model, "模型加载失败，请检查模型文件是否完整。")
+            }
+
+            try {
+                session.setSamplingParams(
+                    temperature = 0.35f,
+                    topP = 0.9f,
+                    topK = 40,
+                    repetitionPenalty = 1.05f,
+                    frequencyPenalty = 0.0f,
+                    presencePenalty = 0.0f,
+                    penaltyLastN = 64
+                )
+
+                val builder = StringBuilder()
+                session.generateStream(prompt, maxTokens = 2048) { token ->
+                    builder.append(token)
+                    true
+                }
+
+                val raw = builder.toString()
+                extractHtmlCode(raw) ?: raw
+            } finally {
+                session.release()
+            }
+        }
+    }
+
+    private fun extractHtmlCode(raw: String): String? {
+        val start = raw.indexOf("<!DOCTYPE html")
+        if (start == -1) return null
+        val end = raw.lastIndexOf("</html>")
+        if (end == -1) return raw.substring(start)
+        return raw.substring(start, end + 7)
+    }
+
+    private fun generatePlaceholderWithDownloadHint(
+        model: com.ai.assistance.operit.gametool.models.ModelInfo,
+        extraMessage: String = ""
+    ): String {
+        val message = buildString {
+            append("模型: ${model.displayName}<br>")
+            append("下载: <a href=\"${model.mirrorUrl}\">${model.mirrorUrl}</a><br>")
+            append("放置路径: &lt;外部存储&gt;/Android/data/&lt;package&gt;/files/models/${model.id}.gguf<br>")
+            if (extraMessage.isNotEmpty()) append("$extraMessage<br>")
+        }
         return """
 <!DOCTYPE html>
 <html>
@@ -170,6 +254,10 @@ canvas { display: block; }
 </style>
 </head>
 <body>
+<div id="hint" style="position:fixed;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px;background:#0d1117;color:#f2f6ff;text-align:center;z-index:10;font-size:14px;line-height:1.6;">
+  <div style="font-size:48px;margin-bottom:12px;">🤖</div>
+  <div style="max-width:420px;">$message</div>
+</div>
 <canvas id="game"></canvas>
 <script>
 (function() {

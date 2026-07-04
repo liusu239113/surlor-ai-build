@@ -19,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -57,6 +58,7 @@ fun GameEditorScreen(
     var isGenerating by remember { mutableStateOf(false) }
     val listState = rememberLazyListState()
     val coroutineScope = rememberCoroutineScope()
+    val context = LocalContext.current
 
     Scaffold(
         topBar = {
@@ -239,8 +241,13 @@ fun GameEditorScreen(
                                         
                                         // 使用 Compose 协程作用域启动
                                         coroutineScope.launch {
-                                            kotlinx.coroutines.delay(1500)
-                                            val newCode = generateGameCode(userMsg)
+                                            val result = GameGenerator.generateGame(
+                                                context = context,
+                                                description = userMsg,
+                                                project = project.copy(description = userMsg)
+                                            ) { }
+                                            val newCode = result.getOrNull()?.sourceFiles?.firstOrNull()?.content
+                                                ?: generateGameCode(userMsg)
                                             currentSource = newCode
                                             messages = messages + ChatMessage(
                                                 role = "assistant",
@@ -255,6 +262,8 @@ fun GameEditorScreen(
 1. 直接在预览区试玩
 2. 继续描述修改需求
 3. 点击打包按钮生成 APK
+
+如果预览区提示需要下载模型，请到设置中下载内置 GGUF 模型后重试。
                                                 """.trimIndent()
                                             )
                                             isGenerating = false

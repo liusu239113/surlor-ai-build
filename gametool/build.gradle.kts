@@ -38,6 +38,10 @@ dependencies {
     // GameTool 不直接依赖 :app，避免循环依赖
     // GameTool 的 API 由 app 模块消费
 
+    // 本地 AI 推理引擎
+    implementation(project(":llama"))
+    implementation(project(":mnn"))
+
     // Compose
     implementation(platform(libs.compose.bom))
     implementation(libs.compose.ui)

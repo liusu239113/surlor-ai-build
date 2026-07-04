@@ -128,12 +128,12 @@ export function buildChatThemeStyle(theme: WebThemeSnapshot | null): ThemeStyle 
   const isLight = theme.theme_mode === 'light';
   const palette = theme.palette;
   const hasBackgroundAsset = Boolean(theme.background.asset_url);
-  const primary = theme.primary_color || palette.primary_color || '#8ca9ff';
-  const secondary = theme.secondary_color || palette.secondary_color || '#67d4c8';
-  const backgroundColor = palette.background_color || (isLight ? '#faf8ff' : '#101520');
-  const surfaceColor = palette.surface_color || (isLight ? '#ffffff' : '#1b202b');
+  const primary = theme.primary_color || palette.primary_color || '#ff6b35';
+  const secondary = theme.secondary_color || palette.secondary_color || '#1e88e5';
+  const backgroundColor = palette.background_color || (isLight ? '#faf8ff' : '#0d1117');
+  const surfaceColor = palette.surface_color || (isLight ? '#ffffff' : '#161b22');
   const surfaceVariantColor =
-    palette.surface_variant_color || (isLight ? '#ece8f1' : '#45464f');
+    palette.surface_variant_color || (isLight ? '#ece8f1' : '#21262d');
   const surfaceContainerColor =
     palette.surface_container_color || surfaceColor;
   const surfaceContainerHighColor =

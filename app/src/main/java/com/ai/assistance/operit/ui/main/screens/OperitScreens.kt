@@ -90,6 +90,11 @@ import com.ai.assistance.operit.ui.features.toolbox.screens.autoglm.AutoGlmToolS
 import com.ai.assistance.operit.ui.features.update.screens.UpdateScreen
 import com.ai.assistance.operit.ui.features.workflow.screens.WorkflowListScreen
 import com.ai.assistance.operit.ui.features.workflow.screens.WorkflowDetailScreen
+import com.ai.assistance.operit.gametool.ui.GameEditorScreen
+import com.ai.assistance.operit.gametool.ui.GameKitMainScreen
+import com.ai.assistance.operit.gametool.ui.GamePackagerScreen
+import com.ai.assistance.operit.gametool.models.GameProject
+import com.ai.assistance.operit.gametool.models.GameType
 import com.ai.assistance.operit.ui.main.PendingChatDraftHandler
 import com.ai.assistance.operit.ui.main.navigation.AppRouterGateway
 
@@ -1506,6 +1511,71 @@ sealed class Screen(
                 onGestureConsumed: (Boolean) -> Unit
         ) {
             AutoGlmToolScreen()
+        }
+    }
+
+    // GameKit 游戏开发工作室
+    data object GameKitMain : Screen(navItem = NavItem.GameKit, titleRes = R.string.screen_title_gamekit) {
+        @Composable
+        override fun Content(
+                navController: NavController,
+                navigateTo: ScreenNavigationHandler,
+                onGoBack: () -> Unit,
+                hasBackgroundImage: Boolean,
+                onLoading: (Boolean) -> Unit,
+                onError: (String) -> Unit,
+                onGestureConsumed: (Boolean) -> Unit
+        ) {
+            GameKitMainScreen(
+                onCreateProject = { type ->
+                    navigateTo(GameKitEditor(project = GameProject(name = "未命名游戏", type = type)))
+                },
+                onOpenProject = { project ->
+                    navigateTo(GameKitEditor(project = project))
+                },
+                onAiGenerate = {
+                    navigateTo(GameKitEditor(project = GameProject(name = "AI 生成游戏", type = GameType.H5)))
+                }
+            )
+        }
+    }
+
+    data class GameKitEditor(val project: GameProject) : Screen(navItem = NavItem.GameKit, titleRes = R.string.screen_title_gamekit_editor) {
+        @Composable
+        override fun Content(
+                navController: NavController,
+                navigateTo: ScreenNavigationHandler,
+                onGoBack: () -> Unit,
+                hasBackgroundImage: Boolean,
+                onLoading: (Boolean) -> Unit,
+                onError: (String) -> Unit,
+                onGestureConsumed: (Boolean) -> Unit
+        ) {
+            GameEditorScreen(
+                project = project,
+                onBack = onGoBack,
+                onPackageApk = { navigateTo(GameKitPackager(project = project)) },
+                onSave = { }
+            )
+        }
+    }
+
+    data class GameKitPackager(val project: GameProject) : Screen(navItem = NavItem.GameKit, titleRes = R.string.screen_title_gamekit_packager) {
+        @Composable
+        override fun Content(
+                navController: NavController,
+                navigateTo: ScreenNavigationHandler,
+                onGoBack: () -> Unit,
+                hasBackgroundImage: Boolean,
+                onLoading: (Boolean) -> Unit,
+                onError: (String) -> Unit,
+                onGestureConsumed: (Boolean) -> Unit
+        ) {
+            GamePackagerScreen(
+                project = project,
+                onBack = onGoBack,
+                onPackageComplete = { }
+            )
         }
     }
 

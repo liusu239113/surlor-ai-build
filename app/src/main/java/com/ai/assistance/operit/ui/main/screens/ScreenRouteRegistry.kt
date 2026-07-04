@@ -134,6 +134,14 @@ object ScreenRouteRegistry {
                 order = 30
             ),
             hostEntryDefinition(
+                entryId = "main.gamekit",
+                screen = Screen.GameKitMain,
+                surface = NavigationSurface.MAIN_SIDEBAR_AI,
+                launchNavItem = NavItem.GameKit,
+                icon = NavItem.GameKit.icon,
+                order = 40
+            ),
+            hostEntryDefinition(
                 entryId = "main.packages",
                 screen = Screen.Packages,
                 surface = NavigationSurface.MAIN_SIDEBAR_TOOLS,

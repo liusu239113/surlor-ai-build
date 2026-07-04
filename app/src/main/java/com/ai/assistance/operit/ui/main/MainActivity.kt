@@ -37,6 +37,7 @@ import com.ai.assistance.operit.R
 import com.ai.assistance.operit.api.chat.AIForegroundService
 import com.ai.assistance.operit.core.application.OperitApplication
 import com.ai.assistance.operit.core.tools.AIToolHandler
+import com.ai.assistance.operit.gametool.download.ModelDownloadManager
 import com.ai.assistance.operit.data.preferences.AgreementPreferences
 import com.ai.assistance.operit.data.preferences.DisplayPreferencesManager
 import com.ai.assistance.operit.data.preferences.UserPreferencesManager
@@ -46,6 +47,7 @@ import com.ai.assistance.operit.data.updates.UpdateManager
 import com.ai.assistance.operit.data.updates.UpdateStatus
 import com.ai.assistance.operit.ui.common.NavItem
 import com.ai.assistance.operit.ui.features.agreement.screens.AgreementScreen
+import com.ai.assistance.operit.ui.features.modelselection.ModelSelectionScreen
 import com.ai.assistance.operit.ui.features.permission.screens.PermissionGuideScreen
 import com.ai.assistance.operit.ui.features.startup.screens.PluginLoadingScreenWithState
 import com.ai.assistance.operit.ui.features.startup.screens.PluginLoadingState
@@ -103,6 +105,9 @@ class MainActivity : ComponentActivity() {
 
     // 是否显示权限引导界面
     private var showPermissionGuide by mutableStateOf(false)
+
+    // 是否显示首次启动模型选择界面
+    private var showModelSelection by mutableStateOf(false)
 
     // 存储待处理的分享文件URIs
     private var pendingSharedFileUris: List<Uri>? = null
@@ -576,6 +581,14 @@ class MainActivity : ComponentActivity() {
 
     }
 
+    // ======== 检查是否需要显示首次启动模型选择界面 ========
+    private fun checkModelSelectionNeeded() {
+        val selectionCompleted = ModelDownloadManager.isModelSelectionCompleted(this)
+        val hasDownloadedModel = ModelDownloadManager.getDownloadedModel(this) != null
+        showModelSelection = !selectionCompleted && !hasDownloadedModel
+        AppLogger.d(TAG, "模型选择检查: 已完成=$selectionCompleted, 已下载=$hasDownloadedModel, 将显示=${showModelSelection}")
+    }
+
     // ======== 检查通知权限 ========
     private fun checkNotificationPermission() {
         // Android 13 (API 33) 及以上需要请求通知权限
@@ -676,6 +689,11 @@ class MainActivity : ComponentActivity() {
 
     // ======== 设置应用内容 ========
     private fun setAppContent() {
+        // 如果协议和权限引导都已完成，但模型选择状态未初始化，则进行检查
+        if (agreementPreferences.isAgreementAccepted() && !showPermissionGuide && !showModelSelection) {
+            checkModelSelectionNeeded()
+        }
+
         setContent {
             OperitTheme {
                 Box {
@@ -690,7 +708,10 @@ class MainActivity : ComponentActivity() {
                                             delay(300) // 短暂延迟确保UI状态更新
                                             checkPermissionLevelSet()
                                             if (!showPermissionGuide) {
-                                                startPluginLoading()
+                                                checkModelSelectionNeeded()
+                                                if (!showModelSelection) {
+                                                    startPluginLoading()
+                                                }
                                             }
                                             // 重新设置应用内容
                                             setAppContent()
@@ -703,10 +724,28 @@ class MainActivity : ComponentActivity() {
                             PermissionGuideScreen(
                                     onComplete = {
                                         showPermissionGuide = false
-                                        // 权限设置完成后，启动插件加载并更新内容
-                                        startPluginLoading()
+                                        // 权限设置完成后，检查是否需要显示模型选择
+                                        checkModelSelectionNeeded()
+                                        if (!showModelSelection) {
+                                            startPluginLoading()
+                                        }
                                         setAppContent()
                                     }
+                            )
+                        }
+                        // 检查是否需要显示首次启动模型选择界面
+                        else if (showModelSelection) {
+                            ModelSelectionScreen(
+                                onModelDownloaded = {
+                                    showModelSelection = false
+                                    startPluginLoading()
+                                    setAppContent()
+                                },
+                                onSkip = {
+                                    showModelSelection = false
+                                    startPluginLoading()
+                                    setAppContent()
+                                }
                             )
                         }
                         // 显示主应用界面

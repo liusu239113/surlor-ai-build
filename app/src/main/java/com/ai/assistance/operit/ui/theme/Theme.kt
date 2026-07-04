@@ -17,8 +17,6 @@ import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.material3.ColorScheme
 import androidx.compose.runtime.Composable
@@ -67,24 +65,22 @@ import io.github.fletchmckee.liquid.liquefiable
 import io.github.fletchmckee.liquid.rememberLiquidState
 
 private val DarkColorScheme =
-        darkColorScheme(primary = Purple80, secondary = PurpleGrey80, tertiary = Pink80)
+        darkColorScheme(
+            primary = Orange80,
+            secondary = Blue80,
+            tertiary = Blue80,
+            background = GameSurfaceDark,
+            surface = GameSurface
+        )
 
 private val LightColorScheme =
         lightColorScheme(
-                primary = Purple40,
-                secondary = PurpleGrey40,
-                tertiary = Pink40,
-
-                /* Other default colors to override
-                background = Color(0xFFFFFBFE),
-                surface = Color(0xFFFFFBFE),
-                onPrimary = Color.White,
-                onSecondary = Color.White,
-                onTertiary = Color.White,
-                onBackground = Color(0xFF1C1B1F),
-                onSurface = Color(0xFF1C1B1F),
-                */
-                )
+                primary = Orange40,
+                secondary = Blue40,
+                tertiary = Blue40,
+                background = Color(0xFFF6F8FA),
+                surface = Color(0xFFFFFFFF)
+        )
 
 
 @SuppressLint("UnusedBoxWithConstraintsScope")
@@ -163,19 +159,8 @@ fun OperitTheme(content: @Composable () -> Unit) {
                 themeMode == UserPreferencesManager.THEME_MODE_DARK
             }
 
-    // Dynamic color is available on Android 12+
-    val dynamicColor = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
-
-    // 基础主题色调
-    var colorScheme =
-            when {
-                dynamicColor -> {
-                    if (darkTheme) dynamicDarkColorScheme(context)
-                    else dynamicLightColorScheme(context)
-                }
-                darkTheme -> DarkColorScheme
-                else -> LightColorScheme
-            }
+    // Surlor AI 固定使用橙蓝游戏开发风格主题，不跟随系统动态颜色
+    var colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
 
     // 应用自定义颜色和文本颜色
     if (useCustomColors) {

@@ -34,6 +34,7 @@ import com.ai.assistance.operit.core.tools.AIToolHandler
 import com.ai.assistance.operit.core.tools.system.AndroidShellExecutor
 import com.ai.assistance.operit.core.tools.system.Terminal
 import com.ai.assistance.operit.core.workflow.WorkflowSchedulerInitializer
+import com.ai.assistance.operit.gametool.GameKit
 import com.ai.assistance.operit.data.backup.RoomDatabaseBackupPreferences
 import com.ai.assistance.operit.data.backup.RoomDatabaseBackupScheduler
 import com.ai.assistance.operit.data.db.AppDatabase
@@ -188,6 +189,11 @@ class OperitApplication : Application(), ImageLoaderFactory, WorkConfiguration.P
         // Initialize AIMessageManager
         AIMessageManager.initialize(this)
         PluginRegistry.initializeBuiltins()
+
+        // Initialize GameKit game development module
+        GameKit.initialize(this)
+        AppLogger.d(TAG, "【启动计时】GameKit 游戏开发模块初始化完成 - ${System.currentTimeMillis() - startTime}ms")
+
         AppLifecycleHookPluginRegistry.dispatchAsync(
             event = AppLifecycleEvent.APPLICATION_CREATE,
             params =

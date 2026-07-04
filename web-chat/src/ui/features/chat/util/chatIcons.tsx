@@ -26,6 +26,19 @@ function IconBase({
   );
 }
 
+export function BotIcon(props: IconProps) {
+  return (
+    <IconBase {...props}>
+      <rect x="6" y="4" width="12" height="16" rx="4" />
+      <path d="M9 9h.01" />
+      <path d="M15 9h.01" />
+      <path d="M10 14h4" />
+      <path d="M8 2v2" />
+      <path d="M16 2v2" />
+    </IconBase>
+  );
+}
+
 export function HistoryIcon(props: IconProps) {
   return (
     <IconBase {...props}>

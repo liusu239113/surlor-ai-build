@@ -264,6 +264,44 @@
   width: 100%;
 }
 
+.configuration-screen-mode-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.configuration-screen-mode-options button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 10px;
+  border-radius: 14px;
+  background: var(--chat-card-soft);
+  color: var(--chat-text-main);
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.configuration-screen-mode-options button small {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--chat-text-soft);
+}
+
+.configuration-screen-mode-options button.is-active {
+  background: var(--chat-primary-container);
+  border-color: var(--chat-primary);
+  color: var(--chat-on-primary-container);
+}
+
+.configuration-screen-mode-options button.is-active small {
+  color: var(--chat-on-primary-container);
+  opacity: 0.8;
+}
+
 @media (min-width: 768px) {
   .chat-screen-frame {
     padding-left: 12px;
