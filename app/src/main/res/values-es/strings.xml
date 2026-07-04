@@ -26,7 +26,7 @@
     <string name="write_large_file_test_desc">Escribe un archivo de texto más grande para validar la escritura por bloques.</string>
     <string name="query_memory_test_desc">Probar la consulta de la biblioteca de memorias.</string>
 
-    <!-- 用于NavItem类的标识符 -->
+    <!-- 用于NavItem类的标识�?-->
     <string name="shizuku_commands">Concesión de permisos</string>
     <string name="tool_permissions">Configuración de permisos de herramientas</string>
     <string name="about">Acerca de</string>
@@ -228,7 +228,7 @@
     <string name="copy_path">Copiar ruta</string>
     <string name="path_copied_to_clipboard">Ruta copiada al portapapeles</string>
     <string name="open_file_manager">Abrir gestor de archivos</string>
-    <string name="navigate_to_external_files">Navegue a Android/data/com.ai.assistance.operit/files/packages</string>
+    <string name="navigate_to_external_files">Navegue a Android/data/com.ai.assistance.surlor/files/packages</string>
 
     <!-- OperScript Execution -->
     <string name="run_script">Ejecutar script</string>
@@ -452,7 +452,7 @@
     
     <!-- Free Usage -->
     <string name="free_usage_title">Confirmar uso de recursos gratuitos</string>
-    <string name="free_usage_interval_tip">Para evitar que el autor vaya a la bancarrota, el tiempo de espera se duplica después de cada uso～</string>
+    <string name="free_usage_interval_tip">Para evitar que el autor vaya a la bancarrota, el tiempo de espera se duplica después de cada uso�?/string>
     
     <!-- Accessibility Risk Warning -->
     <string name="accessibility_risk_warning_title">Advertencia de riesgo del servicio de accesibilidad</string>
@@ -809,7 +809,7 @@
     <string name="toolbox_permissions_search_hint">Buscar aplicaciones</string>
     <string name="toolbox_permissions_system_apps">Aplicaciones del sistema</string>
     <string name="toolbox_permissions_app_count">%d aplicaciones en total</string>
-    <string name="toolbox_permissions_loading_apps">Cargando lista de aplicaciones…</string>
+    <string name="toolbox_permissions_loading_apps">Cargando lista de aplicaciones�?/string>
     <string name="toolbox_permissions_no_match">No se encontraron aplicaciones coincidentes</string>
     <string name="toolbox_permissions_try_other_keywords">Pruebe con otras palabras clave</string>
     <string name="toolbox_permissions_try_system_apps">Pruebe marcar "Aplicaciones del sistema" para ver más</string>
@@ -819,7 +819,7 @@
     <string name="toolbox_permissions_total">Permisos totales</string>
     <string name="toolbox_permissions_granted">Concedidos</string>
     <string name="toolbox_permissions_dangerous">Permisos peligrosos</string>
-    <string name="toolbox_permissions_loading_info">Cargando información de permisos…</string>
+    <string name="toolbox_permissions_loading_info">Cargando información de permisos�?/string>
     <string name="toolbox_permissions_no_special">Esta aplicación no tiene permisos especiales</string>
     <string name="toolbox_permissions_no_special_desc">Esto significa que la aplicación no necesita acceso a datos o funciones sensibles</string>
     <string name="toolbox_permissions_count_suffix"> permisos</string>
@@ -1509,7 +1509,7 @@
     <string name="workflow_action_delete_node">Eliminar nodo</string>
     <string name="workflow_source_node_format">Nodo fuente: %1$s</string>
     <string name="workflow_no_connectable_nodes">No hay nodos conectables</string>
-    <string name="workflow_connection_condition_arrow_format">→ %1$s</string>
+    <string name="workflow_connection_condition_arrow_format">�?%1$s</string>
     <string name="workflow_edit_connection_condition">Editar</string>
     <string name="workflow_edit_connection_condition_title">Editar condición de conexión</string>
     <string name="workflow_connection_condition_default_true">true (predeterminado)</string>
@@ -1782,7 +1782,7 @@
     <string name="avatar_custom_type_edit_title">Editar tipo personalizado</string>
     <string name="avatar_custom_type_key">Clave de tipo</string>
     <string name="avatar_custom_type_key_hint">Solo se permiten letras minúsculas, números, _ y -. Clave normalizada: %1$s</string>
-    <string name="avatar_empty_value_placeholder">&lt;空&gt;</string>
+    <string name="avatar_empty_value_placeholder">&lt;�?gt;</string>
     <string name="avatar_custom_type_prompt_hint_label">Descripción del prompt</string>
     <string name="avatar_custom_type_prompt_hint_help">Este prompt se agregará a la regla de mood de la mascota/avatar de voz, guiando al modelo sobre en qué escenario usar este tipo.</string>
     <string name="avatar_emotion_mapping_title">Mapeo de emociones</string>
@@ -1862,7 +1862,7 @@
     <string name="free_usage_used_today">La cuota gratuita de hoy se ha agotado QAQ</string>
     <string name="free_usage_next_available">Próxima fecha disponible: %1$s (¡espere pacientemente~)</string>
     <string name="free_usage_first_tip">Es la primera vez que lo usas, después tendrás que esperar 1 día para volver a usarlo~</string>
-    <string name="free_usage_later_tip">Aprovecharse también tiene límites, necesitas esperar %1$d días más para seguir aprovechándote (๑•̀ㅂ•́)و✧</string>
+    <string name="free_usage_later_tip">Aprovecharse también tiene límites, necesitas esperar %1$d días más para seguir aprovechándote (๑•̀ㅂ•�?و�?/string>
     <string name="plugin_skip">Saltar</string>
     <string name="plugin_app_name">OPERIT</string>
     <string name="plugin_status">Iniciados: %1$d / %2$d</string>
@@ -2026,8 +2026,8 @@
     <string name="message_info_wait_duration">Tiempo de espera</string>
     <string name="message_info_output_duration">Tiempo de salida</string>
     <string name="message_info_token_summary">Resumen de tokens</string>
-    <string name="message_info_token_input_short">↑</string>
-    <string name="message_info_token_output_short">↓</string>
+    <string name="message_info_token_input_short">�?/string>
+    <string name="message_info_token_output_short">�?/string>
     <string name="message_info_token_cached_short">Caché</string>
     <string name="message_info_unavailable">No registrado</string>
     <string name="webview_ssl_cert_error">Error de certificado SSL</string>
@@ -2334,7 +2334,7 @@
     <string name="voice_wakeup_personal_config_dialog_desc">Diga la palabra de activación tres veces; el sistema registrará sus características de pronunciación para el reconocimiento de activación.</string>
     <string name="voice_wakeup_personal_config_step">Vez %1$d</string>
     <string name="voice_wakeup_personal_config_record">Comenzar grabación</string>
-    <string name="voice_wakeup_personal_config_recording">Grabando…</string>
+    <string name="voice_wakeup_personal_config_recording">Grabando�?/string>
     <string name="voice_wakeup_personal_config_record_done">Grabado</string>
     <string name="voice_wakeup_personal_config_save">Guardar</string>
     <string name="voice_wakeup_personal_config_cancel">Cancelar</string>
@@ -2588,7 +2588,7 @@
     <string name="workspace_project_type_go_title">Proyecto Go</string>
     <string name="workspace_project_type_go_description">Adecuado para desarrollo Go, proporciona comandos go mod y build</string>
     <string name="please_select_or_create_conversation">Seleccione o cree una conversación primero</string>
-    <string name="main_highlights">✨ Principales novedades</string>
+    <string name="main_highlights">�?Principales novedades</string>
     <string name="complete_update_content">📋 Contenido completo de la actualización</string>
     <string name="view_release">Ver lanzamiento</string>
     <string name="streaming_rendering">Renderizado en streaming (Streaming)</string>
@@ -2888,14 +2888,14 @@
     <string name="process_limit_what_is_title">¿Qué es el límite de procesos fantasma?</string>
     <string name="process_limit_what_is_desc">Android 12+ introdujo el mecanismo de procesos fantasma (Phantom Processes) para limitar la cantidad de procesos secundarios en segundo plano y evitar que las aplicaciones consuman recursos del sistema creando muchos procesos secundarios.</string>
     <string name="process_limit_benefits_title">Beneficios de eliminar el límite</string>
-    <string name="process_limit_benefits_desc">• Permite que la aplicación cree más procesos secundarios en segundo plano\n• Mejora la capacidad de ejecución de tareas en segundo plano\n• Evita que los procesos secundarios sean terminados inesperadamente por el sistema\n• Adecuado para aplicaciones que requieren procesamiento multiproceso</string>
+    <string name="process_limit_benefits_desc">�?Permite que la aplicación cree más procesos secundarios en segundo plano\n�?Mejora la capacidad de ejecución de tareas en segundo plano\n�?Evita que los procesos secundarios sean terminados inesperadamente por el sistema\n�?Adecuado para aplicaciones que requieren procesamiento multiproceso</string>
     <string name="process_limit_warnings_title">Advertencias</string>
-    <string name="process_limit_warnings_desc">• Solo compatible con Android 12 y versiones superiores\n• Puede aumentar el consumo de batería y el uso de memoria\n• Requiere permisos de ADB Shell o Root\n• La configuración se perderá al reiniciar el dispositivo, se debe volver a ejecutar</string>
+    <string name="process_limit_warnings_desc">�?Solo compatible con Android 12 y versiones superiores\n�?Puede aumentar el consumo de batería y el uso de memoria\n�?Requiere permisos de ADB Shell o Root\n�?La configuración se perderá al reiniciar el dispositivo, se debe volver a ejecutar</string>
     <string name="process_limit_action_remove">Eliminar límite</string>
     <string name="process_limit_action_remove_desc">Elimina el límite de procesos fantasma del sistema Android</string>
     <string name="process_limit_action_restore">Restaurar límite</string>
     <string name="process_limit_action_restore_desc">Restaura el límite predeterminado de procesos fantasma del sistema Android</string>
-    <string name="process_limit_status_checking">Verificando…</string>
+    <string name="process_limit_status_checking">Verificando�?/string>
     <string name="process_limit_status_removed">Límite eliminado (máximo: %s)</string>
     <string name="process_limit_status_limited">Limitado (límite actual: %s procesos)</string>
     <string name="process_limit_status_default">Límite predeterminado (sin valor personalizado)</string>
@@ -2904,7 +2904,7 @@
     <string name="process_limit_current_status">Estado actual</string>
     <string name="process_limit_choose_action">Seleccionar acción</string>
     <string name="process_limit_execute">Ejecutar</string>
-    <string name="process_limit_executing">Ejecutando…</string>
+    <string name="process_limit_executing">Ejecutando�?/string>
     <string name="process_limit_success_title">Ejecución exitosa</string>
     <string name="process_limit_error_title">Error de ejecución</string>
     <string name="process_limit_execution_history">Historial de ejecución</string>
@@ -3046,7 +3046,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="speech_services_simple_tts_voice_default">Usar voz predeterminada del sistema</string>
     <string name="speech_services_simple_tts_voice_select">Seleccionar voz del sistema</string>
     <string name="speech_services_simple_tts_voice_clear">Limpiar voz del sistema</string>
-    <string name="speech_services_simple_tts_loading">Cargando voces del sistema TTS…</string>
+    <string name="speech_services_simple_tts_loading">Cargando voces del sistema TTS�?/string>
     <string name="speech_services_tts_type_http">API HTTP (remoto)</string>
     <string name="speech_services_tts_type_siliconflow">SiliconFlow TTS</string>
     <string name="speech_services_tts_type_minimax">MiniMax TTS</string>
@@ -3063,7 +3063,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="speech_services_tts_cleaner_template_asterisk">Eliminar *xxxx*</string>
     <string name="speech_services_tts_cleaner_template_double_asterisk">Eliminar **xxxx**</string>
     <string name="speech_services_tts_cleaner_template_parenthesis">Eliminar (xxx)</string>
-    <string name="speech_services_tts_cleaner_template_chinese_parenthesis">Eliminar （xxxx）</string>
+    <string name="speech_services_tts_cleaner_template_chinese_parenthesis">Eliminar （xxxx�?/string>
     <string name="speech_services_tts_cleaner_template_xml">Eliminar etiquetas XML</string>
     <string name="speech_services_http_tts_config">Configuración de HTTP TTS</string>
     <string name="speech_services_http_url_template">Plantilla de URL</string>
@@ -3595,7 +3595,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="settings_token_price_description_with_currency">Establecer precio por solicitud de API (%1$s)</string>
     <string name="settings_exchange_rate_title">Configuración de tipo de cambio</string>
     <string name="settings_exchange_rate_subtitle">Los modelos facturados en USD se convertirán a CNY según este tipo de cambio</string>
-    <string name="settings_usd_to_cny_rate_label">Tipo de cambio USD → CNY</string>
+    <string name="settings_usd_to_cny_rate_label">Tipo de cambio USD �?CNY</string>
     <string name="settings_rate_applied_hint">Costo total calculado a 1 USD = %1$.4f CNY</string>
     <string name="settings_input_price_per_million">Precio de entrada (por millón de tokens)</string>
     <string name="settings_output_price_per_million">Precio de salida (por millón de tokens)</string>
@@ -3816,7 +3816,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="appearance_prompt_placeholder">Por ejemplo: long hair, purple eyes, sweater vest...</string>
     <string name="appearance_prompt_tip">Consejo: usa palabras clave en inglés para describir la apariencia, separadas por comas</string>
     <string name="feature_explanation">Explicación de la función</string>
-    <string name="waifu_mode_explanation">• Modo normal: la respuesta de la IA se envía completa de una vez\n• Modo Waifu: la respuesta de la IA se divide en oraciones, cada una en una burbuja independiente\n• Retardo inteligente: calcula el retardo según la longitud de la oración\n• Limpieza automática: elimina etiquetas de estado, solo muestra texto plano\n• Funciones opcionales: eliminar puntuación al final, editar prompt de Waifu, activar emoticonos\n• Escenario de uso: simular un ritmo de conversación más natural\n• Nota: este modo puede no adaptarse bien a las llamadas de herramientas</string>
+    <string name="waifu_mode_explanation">�?Modo normal: la respuesta de la IA se envía completa de una vez\n�?Modo Waifu: la respuesta de la IA se divide en oraciones, cada una en una burbuja independiente\n�?Retardo inteligente: calcula el retardo según la longitud de la oración\n�?Limpieza automática: elimina etiquetas de estado, solo muestra texto plano\n�?Funciones opcionales: eliminar puntuación al final, editar prompt de Waifu, activar emoticonos\n�?Escenario de uso: simular un ritmo de conversación más natural\n�?Nota: este modo puede no adaptarse bien a las llamadas de herramientas</string>
     <string name="settings_saved_message">Configuración guardada</string>
     <string name="settings_section_account">Cuenta</string>
 
@@ -3995,9 +3995,9 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="closed">Cerrado</string>
     <string name="github_account">Cuenta de GitHub</string>
     <string name="login_github">Iniciar sesión con GitHub</string>
-    <string name="publish_mcp_plugins_to_market">• Publicar tus plugins MCP en el mercado</string>
-    <string name="manage_published_plugins">• Gestionar tus plugins publicados</string>
-    <string name="better_installation_experience">• Obtener una mejor experiencia de instalación</string>
+    <string name="publish_mcp_plugins_to_market">�?Publicar tus plugins MCP en el mercado</string>
+    <string name="manage_published_plugins">�?Gestionar tus plugins publicados</string>
+    <string name="better_installation_experience">�?Obtener una mejor experiencia de instalación</string>
     <string name="edit_description">Editar descripción</string>
     <string name="publish_description">Descripción de publicación</string>
     <string name="only_alphanumeric_underscore_plugin_id">Solo se permiten letras, números y guiones bajos. Este nombre se usará como ID del plugin</string>
@@ -4216,10 +4216,10 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="please_select_or_create_card">Selecciona o crea una tarjeta de personaje en la barra lateral para comenzar.</string>
     <string name="persona_generation_welcome">🎭 ¡Bienvenido al asistente de generación de tarjetas de personaje!\n\n¡Ahora editemos \'%1$s\'!\nDime qué personaje quieres crear o qué parte deseas modificar.</string>
     <string name="new_character">Nuevo personaje</string>
-    <string name="generating">Generando…</string>
+    <string name="generating">Generando�?/string>
     <string name="send_failed">Error al enviar: %1$s</string>
-    <string name="currently_generating">Generando…</string>
-    <string name="describe_character_hint">Describe el personaje que deseas…</string>
+    <string name="currently_generating">Generando�?/string>
+    <string name="describe_character_hint">Describe el personaje que deseas�?/string>
     <string name="character_card_complete">🎉 ¡Tarjeta de personaje generada! Toda la información se ha guardado.</string>
     <string name="confirm_clear_chat_history">¿Estás seguro de borrar el historial de chat de la tarjeta de personaje actual? Esta operación no se puede deshacer.</string>
     <string name="message_limit_reached_title">Límite de mensajes alcanzado</string>
@@ -4335,18 +4335,18 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="mcp_publish_body_label_description">**Descripción:** %1$s</string>
     <string name="mcp_publish_body_section_repo_info">## 🔗 Información del repositorio</string>
     <string name="mcp_publish_body_label_repo_url">**Dirección del repositorio:** %1$s</string>
-    <string name="mcp_publish_body_section_quick_install">## ⚡ Instalación rápida</string>
+    <string name="mcp_publish_body_section_quick_install">## �?Instalación rápida</string>
     <string name="mcp_publish_body_section_install_method">## 📦 Método de instalación</string>
     <string name="mcp_publish_body_method_repo_import_title">### Método 1: Importar desde repositorio</string>
     <string name="mcp_publish_body_method_repo_import_step1">1. Abra la página de configuración de Operit MCP</string>
-    <string name="mcp_publish_body_method_repo_import_step2">2. Haga clic en «Importar» → «Importar desde repositorio»</string>
+    <string name="mcp_publish_body_method_repo_import_step2">2. Haga clic en «Importar» �?«Importar desde repositorio»</string>
     <string name="mcp_publish_body_method_repo_import_step3">3. Ingrese la dirección del repositorio: `%1$s`</string>
     <string name="mcp_publish_body_method_repo_import_step4">4. Configure el nombre del plugin e impórtelo</string>
     <string name="mcp_publish_body_method_config_import_title">### Método 2: Importar configuración</string>
     <string name="mcp_publish_body_method_config_import_step1">1. Abra la página de configuración de Operit MCP</string>
-    <string name="mcp_publish_body_method_config_import_step2">2. Haga clic en «Importar» → «Importar configuración»</string>
+    <string name="mcp_publish_body_method_config_import_step2">2. Haga clic en «Importar» �?«Importar configuración»</string>
     <string name="mcp_publish_body_method_config_import_step3">3. Pegue la siguiente configuración:</string>
-    <string name="mcp_publish_body_section_tech_info">## 🛠️ Información técnica</string>
+    <string name="mcp_publish_body_section_tech_info">## 🛠�?Información técnica</string>
     <string name="mcp_publish_body_table_header">| Elemento | Valor |</string>
     <string name="mcp_publish_body_table_separator">|------|-----|</string>
     <string name="mcp_publish_body_table_row_platform">| Plataforma de publicación | Mercado Operit MCP |</string>
@@ -4469,19 +4469,19 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="mcp_market_update_plugin_success_toast">¡Información del plugin actualizada con éxito!</string>
     <string name="mcp_market_plugin_removed_from_market">El plugin \"%1$s\" se ha eliminado del mercado</string>
 
-    <string name="default_assistant_guide_step2_detail3">• Activación por voz: "Hey Google" o la palabra de activación especificada por el dispositivo (requiere compatibilidad del dispositivo)</string>
+    <string name="default_assistant_guide_step2_detail3">�?Activación por voz: "Hey Google" o la palabra de activación especificada por el dispositivo (requiere compatibilidad del dispositivo)</string>
     <string name="default_assistant_guide_step2_note">Nota: los gestos pueden variar según la marca del teléfono. Consulte las opciones disponibles en la configuración del sistema.</string>
     <string name="default_assistant_guide_step4_title">Probar el asistente de voz</string>
     <string name="default_assistant_guide_step4_desc">Una vez configurado, compruebe si se inicia correctamente.</string>
-    <string name="default_assistant_guide_step4_detail1">• Mantener presionado el botón de inicio debería abrir el asistente de voz Operit.</string>
-    <string name="default_assistant_guide_step4_detail2">• Si el dispositivo admite activación por voz, decir "Hey Google" o la palabra de activación especificada también puede activar Operit.</string>
+    <string name="default_assistant_guide_step4_detail1">�?Mantener presionado el botón de inicio debería abrir el asistente de voz Operit.</string>
+    <string name="default_assistant_guide_step4_detail2">�?Si el dispositivo admite activación por voz, decir "Hey Google" o la palabra de activación especificada también puede activar Operit.</string>
     <string name="default_assistant_guide_step3_title">Probar la función del asistente</string>
     <string name="default_assistant_guide_step3_desc">Una vez configurado, compruebe si Operit se activa correctamente.</string>
-    <string name="default_assistant_guide_step3_detail1">• Use el gesto configurado (como mantener presionado el botón de inicio) para activar el asistente.</string>
-    <string name="default_assistant_guide_step3_detail2">• Si tiene éxito, debería ver la interfaz del asistente de voz de Operit.</string>
-    <string name="default_assistant_guide_step3_detail3">• Puede intentar hablar o escribir texto para interactuar con el asistente.</string>
+    <string name="default_assistant_guide_step3_detail1">�?Use el gesto configurado (como mantener presionado el botón de inicio) para activar el asistente.</string>
+    <string name="default_assistant_guide_step3_detail2">�?Si tiene éxito, debería ver la interfaz del asistente de voz de Operit.</string>
+    <string name="default_assistant_guide_step3_detail3">�?Puede intentar hablar o escribir texto para interactuar con el asistente.</string>
     <string name="default_assistant_guide_troubleshooting_title">¿Problemas?</string>
-    <string name="default_assistant_guide_troubleshooting_content">Si no encuentra Operit en la lista, asegúrese de que:\n\n• La aplicación esté instalada correctamente y no esté deshabilitada.\n• Se hayan concedido los permisos necesarios (micrófono, ventana flotante, etc.).\n• Intente reiniciar el dispositivo y configurarlo de nuevo.\n\nAlgunos sistemas personalizados pueden restringir aplicaciones de terceros como asistente predeterminado. En ese caso, aún puede usar Operit mediante la función de ventana flotante dentro de la aplicación.</string>
+    <string name="default_assistant_guide_troubleshooting_content">Si no encuentra Operit en la lista, asegúrese de que:\n\n�?La aplicación esté instalada correctamente y no esté deshabilitada.\n�?Se hayan concedido los permisos necesarios (micrófono, ventana flotante, etc.).\n�?Intente reiniciar el dispositivo y configurarlo de nuevo.\n\nAlgunos sistemas personalizados pueden restringir aplicaciones de terceros como asistente predeterminado. En ese caso, aún puede usar Operit mediante la función de ventana flotante dentro de la aplicación.</string>
     <string name="voice_interaction_service_name">Asistente Operit AI</string>
     <string name="voice_interaction_service_summary">Servicio de asistente de voz inteligente</string>
     <string name="tool_permissions_title">Permisos de herramientas</string>
@@ -4524,7 +4524,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="execution_failed">Ejecución fallida</string>
     <string name="copy_result">Copiar resultado</string>
     <string name="tool_call_parameters">Parámetros de llamada</string>
-    <string name="tool_call_param_bytes">%1$d↓</string>
+    <string name="tool_call_param_bytes">%1$d�?/string>
     <string name="tool_call">Llamada a herramienta</string>
     <string name="lines_count">líneas</string>
     <string name="edit_message">Editar mensaje</string>
@@ -4556,13 +4556,13 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="chats_assigned_to_character">Se han clasificado %1$d conversaciones en «%2$s».</string>
     <string name="chats_group_updated">Se ha establecido el grupo de %1$d conversaciones como «%2$s».</string>
     <string name="batch_update_failed">Error al actualizar en lote: %1$s</string>
-    <string name="loading_data_please_wait">Cargando datos, espera…</string>
+    <string name="loading_data_please_wait">Cargando datos, espera�?/string>
     <string name="no_chat_stats_to_assign">No se encontraron estadísticas de chat para clasificar.</string>
     <string name="please_select_a_character_card">Selecciona una tarjeta de personaje.</string>
     <string name="assigned_to_character_card">Clasificado en la tarjeta de personaje «%1$s».</string>
     <string name="assign_failed_error">Error al clasificar: %1$s</string>
     <string name="chat_history_overview">Resumen del historial de chat</string>
-    <string name="counting_chat_data">Contando datos de chat…</string>
+    <string name="counting_chat_data">Contando datos de chat�?/string>
     <string name="no_chat_data_available">No hay datos de chat disponibles para contar.</string>
     <string name="chats_and_messages_count">%1$d conversaciones · %2$d mensajes</string>
     <string name="click_to_assign_to_card">Toca para clasificar en una tarjeta de personaje existente</string>
@@ -4657,7 +4657,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="llama_kv_unified_subtitle">Para chats de una sola sesión, se recomienda activarlo por defecto para reducir la sobrecarga de gestión de contexto en Android.</string>
     <string name="llama_offload_kqv">Descargar KQV a GPU</string>
     <string name="llama_offload_kqv_subtitle">Solo tiene sentido si el número de capas de GPU es mayor que 0. Se ignora automáticamente si no hay backend de GPU.</string>
-    <string name="workflow_execution_running">Ejecutando…</string>
+    <string name="workflow_execution_running">Ejecutando�?/string>
     <string name="workflow_execution_success">Ejecución exitosa</string>
     <string name="workflow_execution_failed">Ejecución fallida</string>
     <string name="workflow_node_pending">Pendiente</string>
@@ -4700,16 +4700,16 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="default_assistant_guide_steps_title">Pasos de configuración</string>
     <string name="default_assistant_guide_step1_title">Configurar como asistente predeterminado</string>
     <string name="default_assistant_guide_step1_desc">Configurar Operit como la aplicación de asistente digital predeterminada del sistema</string>
-    <string name="default_assistant_guide_step1_detail1">• Abre Configuración del sistema → Aplicaciones → Aplicaciones predeterminadas → Aplicación de asistente digital</string>
-    <string name="default_assistant_guide_step1_detail2">• En la lista de aplicaciones de asistente, busca y selecciona "Operit AI"</string>
-    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Configuración → Aplicaciones → Aplicaciones predeterminadas → Aplicación de asistente digital → Aplicación de asistente digital predeterminada</string>
+    <string name="default_assistant_guide_step1_detail1">�?Abre Configuración del sistema �?Aplicaciones �?Aplicaciones predeterminadas �?Aplicación de asistente digital</string>
+    <string name="default_assistant_guide_step1_detail2">�?En la lista de aplicaciones de asistente, busca y selecciona "Operit AI"</string>
+    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Configuración �?Aplicaciones �?Aplicaciones predeterminadas �?Aplicación de asistente digital �?Aplicación de asistente digital predeterminada</string>
     <string name="default_assistant_guide_open_settings">Abrir configuración del asistente</string>
     <string name="default_assistant_guide_open_gesture_settings">Abrir configuración de gestos</string>
     <string name="default_assistant_guide_step2_title">Configurar gesto de activación</string>
     <string name="default_assistant_guide_step2_desc">Configurar cómo invocar rápidamente al asistente Operit</string>
-    <string name="default_assistant_guide_step2_detail1">• Mantener presionado el botón de inicio: la forma más común, disponible en la mayoría de dispositivos</string>
-    <string name="default_assistant_guide_step2_detail2">• Deslizar hacia arriba desde la parte inferior de la pantalla: en algunos dispositivos con gestos de pantalla completa</string>
-    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Configuración → Aplicaciones → Aplicaciones predeterminadas → Aplicación de asistente digital → Aplicación de asistente digital predeterminada</string>
+    <string name="default_assistant_guide_step2_detail1">�?Mantener presionado el botón de inicio: la forma más común, disponible en la mayoría de dispositivos</string>
+    <string name="default_assistant_guide_step2_detail2">�?Deslizar hacia arriba desde la parte inferior de la pantalla: en algunos dispositivos con gestos de pantalla completa</string>
+    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Configuración �?Aplicaciones �?Aplicaciones predeterminadas �?Aplicación de asistente digital �?Aplicación de asistente digital predeterminada</string>
 
     <string name="batch_import_success">Importación masiva exitosa</string>
     <string name="batch_import_failed">Error en la importación masiva</string>
@@ -4794,7 +4794,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
 
     <string name="show_message_timing_stats">Mostrar estadísticas de tiempo de mensajes</string>
     <string name="show_message_timing_stats_description">Mostrar el tiempo del primer paquete y el tiempo de generación en la parte inferior de los mensajes de IA</string>
-    <string name="chat_message_token_stats_compact">token: %1$d ↑ %3$d (caché: %2$d) ↓ %4$d</string>
+    <string name="chat_message_token_stats_compact">token: %1$d �?%3$d (caché: %2$d) �?%4$d</string>
     <string name="chat_message_timing_stats_compact">tiempo: %1$s (primer %2$s generar %3$s)</string>
     <string name="global_user_name">Nombre de usuario global</string>
     <string name="system_display_settings">Configuración de pantalla del sistema</string>
@@ -5192,7 +5192,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="memory_embedding_rebuild_failed">Error al completar vectores y reconstruir: %1$s</string>
 
     <string name="backup_model_config_warning_security_tips">Consejos de seguridad:</string>
-    <string name="backup_model_config_warning_tips">• No compartas este archivo con nadie\n• No lo subas a almacenamiento en la nube público\n• Se recomienda mover el archivo a una ubicación segura\n• Se recomienda usar herramientas de cifrado para proteger el archivo</string>
+    <string name="backup_model_config_warning_tips">�?No compartas este archivo con nadie\n�?No lo subas a almacenamiento en la nube público\n�?Se recomienda mover el archivo a una ubicación segura\n�?Se recomienda usar herramientas de cifrado para proteger el archivo</string>
     <string name="backup_model_config_warning_export_path">Ubicación de exportación:</string>
     <string name="backup_model_config_warning_confirm">Entendido</string>
     <string name="backup_memory_import_strategy_title">Seleccionar estrategia de importación</string>
@@ -5217,7 +5217,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="vd_overlay_a11y_resume_automation">Reanudar automatización</string>
     <string name="vd_overlay_a11y_stop_automation">Detener automatización</string>
     <string name="toolreg_env_info"> (Entorno: %1$s)</string>
-    <string name="toolreg_env_arrow_info"> (%1$s → %2$s)</string>
+    <string name="toolreg_env_arrow_info"> (%1$s �?%2$s)</string>
     <string name="toolreg_execute_shell_desc">Ejecutar ADB Shell: %1$s</string>
     <string name="toolreg_close_all_virtual_displays_desc">Cerrar todas las pantallas virtuales</string>
     <string name="toolreg_unnamed">Sin nombre</string>
@@ -5235,7 +5235,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="toolreg_user_pref_identity">Identidad</string>
     <string name="toolreg_user_pref_occupation">Ocupación</string>
     <string name="toolreg_user_pref_ai_style">Estilo de IA</string>
-    <string name="toolreg_list_separator">、</string>
+    <string name="toolreg_list_separator">�?/string>
     <string name="toolreg_update_user_preferences_desc">Actualizar preferencias de usuario: %1$s</string>
     <string name="toolreg_create_memory_desc">Crear recuerdo: %1$s</string>
     <string name="toolreg_update_memory_desc">Actualizar recuerdo: %1$s -&gt; %2$s</string>
@@ -5291,8 +5291,8 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="mcp_open_config_file">Abrir archivo de configuración</string>
     <string name="mcp_config_file_location">Ubicación del archivo de configuración: %1$s</string>
     <string name="mcp_merged_servers">Se han fusionado %1$d configuraciones de servidor</string>
-    <string name="mcp_merge_failed">✗ Error al fusionar: %1$s</string>
-    <string name="mcp_import_exception">✗ Excepción al importar: %1$s</string>
+    <string name="mcp_merge_failed">�?Error al fusionar: %1$s</string>
+    <string name="mcp_import_exception">�?Excepción al importar: %1$s</string>
     <string name="mcp_please_enter_config">Introduce el contenido de configuración</string>
     <string name="mcp_server_plugin_install_path_label">Ruta de instalación del plugin:</string>
     <string name="mcp_server_json_config_title">Configuración JSON</string>
@@ -5321,11 +5321,11 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="skill_publish_body_section_repo_info">## 🔗 Información del repositorio</string>
     <string name="skill_publish_body_label_repo_url">**URL del repositorio:** %1$s</string>
     <string name="skill_publish_body_section_install_method">## 📦 Método de instalación</string>
-    <string name="skill_publish_body_install_step1">1. Abre Operit → Gestión de paquetes → Skills</string>
-    <string name="skill_publish_body_install_step2">2. Haz clic en «Importar Skill» → «Importar desde repositorio»</string>
+    <string name="skill_publish_body_install_step1">1. Abre Operit �?Gestión de paquetes �?Skills</string>
+    <string name="skill_publish_body_install_step2">2. Haz clic en «Importar Skill» �?«Importar desde repositorio»</string>
     <string name="skill_publish_body_install_step3">3. Introduce la URL del repositorio: `%1$s`</string>
     <string name="skill_publish_body_install_step4">4. Confirma la importación</string>
-    <string name="skill_publish_body_section_tech_info">## 🛠️ Información técnica</string>
+    <string name="skill_publish_body_section_tech_info">## 🛠�?Información técnica</string>
     <string name="skill_publish_body_table_header">| Elemento | Valor |</string>
     <string name="skill_publish_body_table_separator">|------|-----|</string>
     <string name="skill_publish_body_table_row_platform">| Plataforma de publicación | Mercado de Skills de Operit |</string>
@@ -5568,7 +5568,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="emoticon_shyness">Vergüenza</string>
     <string name="emoticon_blush">Sonrojo</string>
     <string name="emoticon_embarrassed">Avergonzado</string>
-    <string name="autoglm_task_complete">✅ Tarea completada: %1$s</string>
+    <string name="autoglm_task_complete">�?Tarea completada: %1$s</string>
     <string name="autoglm_thinking_process">💭 Proceso de pensamiento:</string>
     <string name="autoglm_execute_action">🎯 Ejecutar acción:</string>
     <string name="version_update">Actualización de versión</string>
@@ -5831,11 +5831,11 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="toolreg_swipe_desc">Deslizar: (%1$s,%2$s) -&gt; (%3$s,%4$s)</string>
     <string name="toolreg_ffmpeg_execute_desc">Ejecutar comando FFmpeg: %1$s</string>
     <string name="toolreg_ffmpeg_info_desc">Obtener información de FFmpeg</string>
-    <string name="toolreg_ffmpeg_convert_desc">Convertir video: %1$s → %2$s</string>
+    <string name="toolreg_ffmpeg_convert_desc">Convertir video: %1$s �?%2$s</string>
     <string name="screen_ocr_capture_failed">Captura de pantalla fallida</string>
     <string name="screen_ocr_load_failed">No se pudo cargar la captura de pantalla</string>
     <string name="screen_ocr_selection_too_small">Área de selección demasiado pequeña</string>
-    <string name="screen_ocr_position">【Posición】%1$s</string>
+    <string name="screen_ocr_position">【Posición�?1$s</string>
     <string name="screen_ocr_no_text_recognized">No se reconoció texto</string>
     <string name="screen_ocr_selection_ocr_header">【Reconocimiento de selección】\n</string>
 
@@ -6298,12 +6298,12 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="apk_sign_with_keystore_failed">Error al firmar APK con KeyStore: %1$s</string>
     <string name="gemini_establishing">Estableciendo conexión...</string>
     <string name="gemini_connected">Conexión exitosa, procesando respuesta...</string>
-    <string name="gemini_network_timeout_retry">【Tiempo de espera de red agotado, reintento %1$d...】</string>
-    <string name="gemini_network_unstable_retry">【Red inestable, reintento %1$d...】</string>
-    <string name="gemini_network_interrupted_retry">【Red interrumpida, reintento %1$d...】</string>
+    <string name="gemini_network_timeout_retry">【Tiempo de espera de red agotado, reintento %1$d...�?/string>
+    <string name="gemini_network_unstable_retry">【Red inestable, reintento %1$d...�?/string>
+    <string name="gemini_network_interrupted_retry">【Red interrumpida, reintento %1$d...�?/string>
     <string name="gemini_empty_response">Respuesta vacía</string>
-    <string name="gemini_google_search_source">**🔍 Fuente de búsqueda de Google：**\n\n</string>
-    <string name="gemini_reference_sources">\n**📄 Fuentes de referencia：**\n\n</string>
+    <string name="gemini_google_search_source">**🔍 Fuente de búsqueda de Google�?*\n\n</string>
+    <string name="gemini_reference_sources">\n**📄 Fuentes de referencia�?*\n\n</string>
     <string name="gemini_default">Predeterminado</string>
     <string name="mcp_no_available_tools">No hay herramientas disponibles</string>
     <string name="run">Ejecutar</string>
@@ -6583,7 +6583,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="anr_main_thread_section">【Hilo principal】\n%1$s\n\n</string>
     <string name="anr_analysis_section">【Análisis】\n%1$s\n\n</string>
     <string name="anr_recent_call_info">【Información de llamadas recientes】\n</string>
-    <string name="anr_package_calls">【%1$s (%2$d llamadas)】\n</string>
+    <string name="anr_package_calls">�?1$s (%2$d llamadas)】\n</string>
     <string name="anr_cannot_extract_package_info">No se pudo extraer la información del paquete %1$s</string>
     <string name="anr_report_header">===== Informe de monitoreo ANR =====\n</string>
     <string name="anr_report_time">Hora: %1$s\n</string>
@@ -6780,8 +6780,8 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="message_image_capture_failed">Error al capturar la imagen: %1$s</string>
     <string name="workspace_browser_preview">Vista previa del navegador</string>
     <string name="perform_edit_edittext_empty">EditText no puede estar vacío</string>
-    <string name="graph_char_for_measurement">中</string>
-    <string name="date_format_pattern">yyyy年MM月dd日</string>
+    <string name="graph_char_for_measurement">�?/string>
+    <string name="date_format_pattern">yyyy年MM月dd�?/string>
     <string name="demo_complete_message">Bien, si tiene alguna pregunta o necesita ayuda, no dude en contactarme en cualquier momento.\n\n\n&lt;status type="complete"&gt;&lt;/status&gt;</string>
     <string name="update_check_failed">Error al buscar actualizaciones: %1$s</string>
     <string name="update_cannot_fetch_info">No se pudo obtener información de actualización.</string>
@@ -7001,7 +7001,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="toolpkg_widget_picker_cancel">Cancelar</string>
     <string name="toolpkg_widget_picker_empty_title">Aún no hay widgets disponibles</string>
     <string name="toolpkg_widget_picker_empty_body">Activa primero un ToolPkg que tenga registrado un desktop widget y luego vuelve para añadirlo.</string>
-    <string name="toolpkg_widget_picker_selecting">Configurando…</string>
+    <string name="toolpkg_widget_picker_selecting">Configurando�?/string>
     <string name="chat_message_locator_favorites_filter">Solo mensajes favoritos</string>
     <string name="attachment_package">Paquete</string>
     <string name="attachment_package_select_title">Seleccionar paquete</string>
@@ -7274,7 +7274,7 @@ Ahora puede usar el modo AutoGLM en la interfaz de conversación.</string>
     <string name="ai_message_image_attached_multimodal_notice">El contenido de la imagen se adjunta como entrada multimodal con este mensaje. No llames a la herramienta de lectura de archivos para leer esta ruta.</string>
     <string name="ai_message_result_prefix">[Resultado: </string>
     <string name="ai_message_result_suffix">]</string>
-    <string name="ai_message_package_warmup_title">【Precalentamiento del kit】</string>
+    <string name="ai_message_package_warmup_title">【Precalentamiento del kit�?/string>
     <string name="ai_message_package_warmup_empty">No se detectaron llamadas a herramientas del kit en el alcance de este resumen, por lo que no se realizó el precalentamiento del kit.</string>
     <string name="ai_message_package_warmup_intro">Según la frecuencia de uso de herramientas en el alcance de este resumen, se activaron automáticamente los kits más usados y se adjuntan los resultados de use_package para el próximo precalentamiento.</string>
     <string name="ai_message_use_package_failed">Error al llamar a use_package: %1$s</string>

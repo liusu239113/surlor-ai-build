@@ -138,7 +138,7 @@
     <string name="workflow_action_delete_node">Hapus node</string>
     <string name="workflow_source_node_format">Node sumber: %1$s</string>
     <string name="workflow_no_connectable_nodes">Tidak ada node yang dapat dihubungkan</string>
-    <string name="workflow_connection_condition_arrow_format">â†’ %1$s</string>
+    <string name="workflow_connection_condition_arrow_format">â†?%1$s</string>
     <string name="workflow_edit_connection_condition">Edit</string>
     <string name="workflow_edit_connection_condition_title">Edit kondisi koneksi</string>
     <string name="workflow_connection_condition_default_true">true (default)</string>
@@ -407,12 +407,12 @@
     <string name="avatar_custom_type_edit_title">Edit tipe kustom</string>
     <string name="avatar_custom_type_key">Kunci tipe</string>
     <string name="avatar_custom_type_key_hint">Hanya huruf kecil, angka, _ dan - yang diizinkan. Kunci yang dinormalisasi: %1$s</string>
-    <string name="avatar_empty_value_placeholder">&lt;ç©º&gt;</string>
+    <string name="avatar_empty_value_placeholder">&lt;ç©?gt;</string>
     <string name="avatar_custom_type_prompt_hint_label">Penjelasan petunjuk</string>
 
     <string name="avatar_custom_type_prompt_hint_help">Petunjuk ini akan digabungkan ke dalam aturan mood avatar desktop/suara, untuk memandu model kapan menggunakan tipe ini.</string>
     <string name="avatar_emotion_mapping_title">Pemetaan Ekspresi</string>
-    <string name="avatar_emotion_mapping_chip">%1$sï¼š%2$s</string>
+    <string name="avatar_emotion_mapping_chip">%1$sï¼?2$s</string>
     <string name="avatar_emotion_label">Ekspresi</string>
     <string name="avatar_clear_selected_mapping">Hapus pemetaan saat ini</string>
     <string name="avatar_emotion_idle">Siaga</string>
@@ -755,12 +755,12 @@
     <string name="free_usage_confirm">Konfirmasi Penggunaan</string>
     <string name="free_usage_depleted">Sudah habis hari ini</string>
     <string name="free_usage_tip">Datang lagi besok, atau gunakan kunci API Anda sendiri</string>
-    <string name="free_usage_wait_days">Perlu menunggu %1$d hari untuk bisa digunakan lagiï½</string>
+    <string name="free_usage_wait_days">Perlu menunggu %1$d hari untuk bisa digunakan lagiï½?/string>
     <string name="free_usage_used_today">Kuota gratis hari ini sudah habis QAQ</string>
-    <string name="free_usage_next_available">Tanggal tersedia berikutnya: %1$s (sabar menunggu yaï½)</string>
-    <string name="free_usage_interval_tip">Untuk mencegah penulis bangkrut, waktu tunggu setelah setiap penggunaan akan berlipat gandaï½</string>
-    <string name="free_usage_first_tip">Ini adalah penggunaan pertama, setelahnya perlu menunggu 1 hari untuk bisa digunakan lagiï½</string>
-    <string name="free_usage_later_tip">Mengambil keuntungan juga harus ada batasnya, perlu menunggu %1$d hari lagi untuk melanjutkan (à¹‘â€¢Ì€ã…‚â€¢Ì)Ùˆâœ§</string>
+    <string name="free_usage_next_available">Tanggal tersedia berikutnya: %1$s (sabar menunggu yaï½?</string>
+    <string name="free_usage_interval_tip">Untuk mencegah penulis bangkrut, waktu tunggu setelah setiap penggunaan akan berlipat gandaï½?/string>
+    <string name="free_usage_first_tip">Ini adalah penggunaan pertama, setelahnya perlu menunggu 1 hari untuk bisa digunakan lagiï½?/string>
+    <string name="free_usage_later_tip">Mengambil keuntungan juga harus ada batasnya, perlu menunggu %1$d hari lagi untuk melanjutkan (à¹‘â€¢Ì€ã…‚â€¢Ì?Ùˆâœ?/string>
     <string name="plugin_skip">Lewati</string>
     <string name="plugin_app_name">OPERIT</string>
     <string name="plugin_status">Sudah dimulai: %1$d / %2$d</string>
@@ -839,7 +839,7 @@
     <string name="copy_path">Salin Jalur</string>
     <string name="path_copied_to_clipboard">Jalur telah disalin ke papan klip</string>
     <string name="open_file_manager">Buka Pengelola File</string>
-    <string name="navigate_to_external_files">Silakan navigasi ke direktori Android/data/com.ai.assistance.operit/files/packages</string>
+    <string name="navigate_to_external_files">Silakan navigasi ke direktori Android/data/com.ai.assistance.surlor/files/packages</string>
     <string name="package_js_only">Hanya mendukung file JavaScript (.js) dan ToolPkg (.toolpkg)</string>
     <string name="pkg_toolpkg_subpackages">Subpaket ToolPkg</string>
     <string name="pkg_toolpkg_version">Versi: %1$s</string>
@@ -941,7 +941,7 @@
     <string name="voice_wakeup_personal_config_dialog_desc">Ucapkan kata panggilan tiga kali, sistem akan merekam karakteristik pengucapan Anda untuk pengenalan panggilan.</string>
     <string name="voice_wakeup_personal_config_step">Percobaan ke-%1$d</string>
     <string name="voice_wakeup_personal_config_record">Mulai Rekam</string>
-    <string name="voice_wakeup_personal_config_recording">Sedang merekamâ€¦</string>
+    <string name="voice_wakeup_personal_config_recording">Sedang merekamâ€?/string>
 
     <string name="cut">Potong</string>
     <string name="paste">Tempel</string>
@@ -1428,8 +1428,8 @@
     <string name="message_info_wait_duration">Durasi Tunggu</string>
     <string name="message_info_output_duration">Durasi Output</string>
     <string name="message_info_token_summary">Statistik Token</string>
-    <string name="message_info_token_input_short">â†‘</string>
-    <string name="message_info_token_output_short">â†“</string>
+    <string name="message_info_token_input_short">â†?/string>
+    <string name="message_info_token_output_short">â†?/string>
     <string name="message_info_token_cached_short">Cache</string>
     <string name="message_info_unavailable">Tidak tercatat</string>
 
@@ -1714,7 +1714,7 @@
     <string name="workspace_project_type_go_description">Cocok untuk pengembangan Go, menyediakan perintah go mod dan build</string>
     <string name="please_select_or_create_conversation">Silakan pilih atau buat percakapan terlebih dahulu</string>
     <string name="latest">Terbaru</string>
-    <string name="main_highlights">âœ¨ Sorotan Utama</string>
+    <string name="main_highlights">âœ?Sorotan Utama</string>
     <string name="complete_update_content">ğŸ“‹ Konten Pembaruan Lengkap</string>
     <string name="view_release">Lihat Rilis</string>
     <string name="streaming_rendering">Rendering Aliran (Streaming)</string>
@@ -1983,7 +1983,7 @@
     <string name="toolbox_permissions_total">Total Izin</string>
     <string name="toolbox_permissions_granted">Diizinkan</string>
     <string name="toolbox_permissions_dangerous">Izin Berbahaya</string>
-    <string name="toolbox_permissions_loading_info">Memuat informasi izinâ€¦</string>
+    <string name="toolbox_permissions_loading_info">Memuat informasi izinâ€?/string>
     <string name="toolbox_permissions_no_special">Aplikasi ini tidak meminta izin khusus apa pun</string>
     <string name="toolbox_permissions_no_special_desc">Ini berarti aplikasi tidak perlu mengakses data atau fungsi sensitif</string>
     <string name="toolbox_permissions_count_suffix"> izin</string>
@@ -2051,9 +2051,9 @@
     <string name="process_limit_what_is_title">Apa itu batas proses phantom?</string>
     <string name="process_limit_what_is_desc">Android 12+ memperkenalkan mekanisme proses phantom (Phantom Processes) untuk membatasi jumlah proses latar belakang, mencegah aplikasi mengonsumsi sumber daya sistem dengan membuat banyak proses anak.</string>
     <string name="process_limit_benefits_title">Manfaat Menghapus Batas</string>
-    <string name="process_limit_benefits_desc">â€¢ Izinkan aplikasi membuat lebih banyak proses latar belakang\nâ€¢ Tingkatkan kemampuan eksekusi tugas latar belakang\nâ€¢ Hindari proses anak yang dihentikan sistem secara tidak sengaja\nâ€¢ Cocok untuk aplikasi yang memerlukan pemrosesan multi-proses</string>
+    <string name="process_limit_benefits_desc">â€?Izinkan aplikasi membuat lebih banyak proses latar belakang\nâ€?Tingkatkan kemampuan eksekusi tugas latar belakang\nâ€?Hindari proses anak yang dihentikan sistem secara tidak sengaja\nâ€?Cocok untuk aplikasi yang memerlukan pemrosesan multi-proses</string>
     <string name="process_limit_warnings_title">Peringatan</string>
-    <string name="process_limit_warnings_desc">â€¢ Hanya mendukung Android 12 ke atas\nâ€¢ Dapat meningkatkan konsumsi daya dan penggunaan memori\nâ€¢ Memerlukan izin ADB Shell atau Root\nâ€¢ Pengaturan akan hilang setelah perangkat dihidupkan ulang, perlu dieksekusi ulang</string>
+    <string name="process_limit_warnings_desc">â€?Hanya mendukung Android 12 ke atas\nâ€?Dapat meningkatkan konsumsi daya dan penggunaan memori\nâ€?Memerlukan izin ADB Shell atau Root\nâ€?Pengaturan akan hilang setelah perangkat dihidupkan ulang, perlu dieksekusi ulang</string>
     <string name="process_limit_action_remove">Hapus Batas</string>
     <string name="process_limit_action_remove_desc">Hapus batas jumlah proses phantom sistem Android</string>
     <string name="process_limit_action_restore">Pulihkan Batas</string>
@@ -2100,7 +2100,7 @@
     <string name="file_dialog_compress_title">Kompres file</string>
 
     <string name="process_limit_action_restore_desc">Kembalikan batas proses phantom default sistem Android</string>
-    <string name="process_limit_status_checking">Memeriksaâ€¦</string>
+    <string name="process_limit_status_checking">Memeriksaâ€?/string>
     <string name="process_limit_status_removed">Batas telah dihapus (maksimum: %s)</string>
     <string name="process_limit_status_limited">Dibatasi (batas saat ini: %s proses)</string>
     <string name="process_limit_status_default">Batas default (nilai kustom belum diatur)</string>
@@ -2109,7 +2109,7 @@
     <string name="process_limit_current_status">Status saat ini</string>
     <string name="process_limit_choose_action">Pilih tindakan</string>
     <string name="process_limit_execute">Jalankan</string>
-    <string name="process_limit_executing">Menjalankanâ€¦</string>
+    <string name="process_limit_executing">Menjalankanâ€?/string>
     <string name="process_limit_success_title">Berhasil dijalankan</string>
     <string name="process_limit_error_title">Gagal dijalankan</string>
     <string name="process_limit_execution_history">Riwayat eksekusi</string>
@@ -2344,7 +2344,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="speech_services_simple_tts_voice_default">Gunakan suara default sistem</string>
     <string name="speech_services_simple_tts_voice_select">Pilih suara sistem</string>
     <string name="speech_services_simple_tts_voice_clear">Hapus suara sistem</string>
-    <string name="speech_services_simple_tts_loading">Membaca suara TTS Sistemâ€¦</string>
+    <string name="speech_services_simple_tts_loading">Membaca suara TTS Sistemâ€?/string>
     <string name="speech_services_tts_type_http">HTTP API (Jarak Jauh)</string>
     <string name="speech_services_tts_type_siliconflow">TTS SiliconFlow</string>
     <string name="speech_services_tts_type_minimax">TTS MiniMax</string>
@@ -2446,7 +2446,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="speech_services_tts_cleaner_template_asterisk">Hapus *xxxx*</string>
     <string name="speech_services_tts_cleaner_template_double_asterisk">Hapus **xxxx**</string>
     <string name="speech_services_tts_cleaner_template_parenthesis">Hapus (xxx)</string>
-    <string name="speech_services_tts_cleaner_template_chinese_parenthesis">Hapus ï¼ˆxxxxï¼‰</string>
+    <string name="speech_services_tts_cleaner_template_chinese_parenthesis">Hapus ï¼ˆxxxxï¼?/string>
     <string name="speech_services_tts_cleaner_template_xml">Hapus Tag XML</string>
     <string name="speech_services_http_tts_config">Konfigurasi HTTP TTS</string>
     <string name="speech_services_http_url_template">Templat URL</string>
@@ -2931,7 +2931,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="ai_style_educational">Panduan Instruksional</string>
     <string name="ai_style_supportive">Dukungan Emosional</string>
     <string name="default_profile">Profil Default</string>
-    <string name="date_format_chinese">yyyyå¹´MMæœˆddæ—¥</string>
+    <string name="date_format_chinese">yyyyå¹´MMæœˆddæ—?/string>
     <string name="save_action">Simpan</string>
     <string name="clear_action">Kosongkan</string>
     <string name="edit_profile">Edit Profil</string>
@@ -3109,7 +3109,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="settings_token_price_description_with_currency">Atur harga per permintaan API (%1$s)</string>
     <string name="settings_exchange_rate_title">Pengaturan Nilai Tukar</string>
     <string name="settings_exchange_rate_subtitle">Model penagihan USD akan dikonversi ke total biaya RMB menggunakan nilai tukar ini</string>
-    <string name="settings_usd_to_cny_rate_label">Nilai Tukar USD â†’ CNY</string>
+    <string name="settings_usd_to_cny_rate_label">Nilai Tukar USD â†?CNY</string>
     <string name="settings_rate_applied_hint">Total biaya dikonversi dengan 1 USD = %1$.4f CNY</string>
     <string name="settings_input_price_per_million">Harga Input (per juta Token)</string>
     <string name="settings_output_price_per_million">Harga Output (per juta Token)</string>
@@ -3671,9 +3671,9 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="closed">Ditutup</string>
     <string name="github_account">Akun GitHub</string>
     <string name="login_github">Masuk ke GitHub</string>
-    <string name="publish_mcp_plugins_to_market">â€¢ Publikasikan plugin MCP Anda ke pasar</string>
-    <string name="manage_published_plugins">â€¢ Kelola plugin yang telah Anda publikasikan</string>
-    <string name="better_installation_experience">â€¢ Dapatkan pengalaman instalasi yang lebih baik</string>
+    <string name="publish_mcp_plugins_to_market">â€?Publikasikan plugin MCP Anda ke pasar</string>
+    <string name="manage_published_plugins">â€?Kelola plugin yang telah Anda publikasikan</string>
+    <string name="better_installation_experience">â€?Dapatkan pengalaman instalasi yang lebih baik</string>
     <string name="edit_description">Edit deskripsi</string>
     <string name="publish_description">Deskripsi publikasi</string>
     <string name="only_alphanumeric_underscore_plugin_id">Hanya huruf Inggris, angka, dan garis bawah yang diizinkan, nama ini akan digunakan sebagai ID plugin</string>
@@ -3747,7 +3747,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="supported_app_versions">Versi Perangkat Lunak yang Didukung</string>
     <string name="supported_app_versions_short">Kompatibel dengan %1$s</string>
     <string name="unsupported_artifact_version_title">Versi perangkat lunak saat ini mungkin tidak kompatibel</string>
-    <string name="unsupported_artifact_version_message">ã€Œ%1$sã€ mendeklarasikan dukungan untuk versi perangkat lunak %3$s, versi perangkat lunak saat ini adalah %2$s. Mengunduh tetap dapat gagal atau tidak dapat digunakan.</string>
+    <string name="unsupported_artifact_version_message">ã€?1$sã€?mendeklarasikan dukungan untuk versi perangkat lunak %3$s, versi perangkat lunak saat ini adalah %2$s. Mengunduh tetap dapat gagal atau tidak dapat digunakan.</string>
     <string name="continue_download_anyway">Tetap Lanjutkan Unduhan</string>
     <string name="publisher_colon">Penerbit: %1$s</string>
     <string name="market_registrar_colon">Pendaftar %1$s</string>
@@ -3777,9 +3777,9 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="choose_mcp_community_to_get_plugins">Pilih komunitas MCP berkualitas berikut untuk mendapatkan plugin:</string>
     <string name="awesome_mcp">Awesome MCP</string>
     <string name="loading_your_plugins">Memuat plugin Anda...</string>
-    <string name="confirm_remove_plugin_from_market">Yakin ingin menghapus plugin ã€Œ%1$sã€ dari pasar? Tindakan ini akan menutup Issue terkait, tetapi tidak akan menghapus repositori kode Anda.</string>
-    <string name="confirm_remove_skill_from_market">Yakin ingin menghapus Skill ã€Œ%1$sã€ dari pasar? Tindakan ini akan menutup Issue terkait, tetapi tidak akan menghapus repositori kode Anda.</string>
-    <string name="confirm_remove_script_from_market">Yakin ingin menghapus skrip ã€Œ%1$sã€ dari pasar? Tindakan ini akan menutup Issue terkait, tetapi tidak akan menghapus repositori rilis Anda.</string>
+    <string name="confirm_remove_plugin_from_market">Yakin ingin menghapus plugin ã€?1$sã€?dari pasar? Tindakan ini akan menutup Issue terkait, tetapi tidak akan menghapus repositori kode Anda.</string>
+    <string name="confirm_remove_skill_from_market">Yakin ingin menghapus Skill ã€?1$sã€?dari pasar? Tindakan ini akan menutup Issue terkait, tetapi tidak akan menghapus repositori kode Anda.</string>
+    <string name="confirm_remove_script_from_market">Yakin ingin menghapus skrip ã€?1$sã€?dari pasar? Tindakan ini akan menutup Issue terkait, tetapi tidak akan menghapus repositori rilis Anda.</string>
 
     <string name="character_group_empty_state">Belum ada grup</string>
     <string name="character_group_member_count">Anggota: %1$d</string>
@@ -3873,7 +3873,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="appearance_prompt_placeholder">Contoh: rambut panjang, mata ungu, rompi sweater...</string>
     <string name="appearance_prompt_tip">Tip: Gunakan kata kunci bahasa Inggris untuk mendeskripsikan ciri fisik, pisahkan beberapa kata kunci dengan koma</string>
     <string name="feature_explanation">Penjelasan fitur</string>
-    <string name="waifu_mode_explanation">â€¢ Mode biasa: Balasan AI dikirim sekaligus\nâ€¢ Mode Waifu: Balasan AI dipisah per kalimat, setiap kalimat dalam gelembung terpisah\nâ€¢ Penundaan cerdas: Waktu tunda dihitung berdasarkan panjang kalimat\nâ€¢ Pembersihan otomatis: Hapus label status, hanya tampilkan teks biasa\nâ€¢ Fitur opsional: Hapus tanda baca di akhir kalimat, edit prompt Waifu, aktifkan stiker\nâ€¢ Skenario yang cocok: Simulasi ritme percakapan yang lebih alami\nâ€¢ Catatan: Mode ini mungkin kurang cocok untuk adaptasi panggilan alat</string>
+    <string name="waifu_mode_explanation">â€?Mode biasa: Balasan AI dikirim sekaligus\nâ€?Mode Waifu: Balasan AI dipisah per kalimat, setiap kalimat dalam gelembung terpisah\nâ€?Penundaan cerdas: Waktu tunda dihitung berdasarkan panjang kalimat\nâ€?Pembersihan otomatis: Hapus label status, hanya tampilkan teks biasa\nâ€?Fitur opsional: Hapus tanda baca di akhir kalimat, edit prompt Waifu, aktifkan stiker\nâ€?Skenario yang cocok: Simulasi ritme percakapan yang lebih alami\nâ€?Catatan: Mode ini mungkin kurang cocok untuk adaptasi panggilan alat</string>
     <string name="settings_saved_message">Pengaturan telah disimpan</string>
     <string name="settings_section_account">Akun</string>
     <string name="github_account_not_logged_in">Belum masuk</string>
@@ -4161,18 +4161,18 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="mcp_publish_body_label_description">**Deskripsi:** %1$s</string>
     <string name="mcp_publish_body_section_repo_info">## ğŸ”— Informasi Repositori</string>
     <string name="mcp_publish_body_label_repo_url">**Alamat Repositori:** %1$s</string>
-    <string name="mcp_publish_body_section_quick_install">## âš¡ Instalasi Cepat</string>
+    <string name="mcp_publish_body_section_quick_install">## âš?Instalasi Cepat</string>
     <string name="mcp_publish_body_section_install_method">## ğŸ“¦ Metode Instalasi</string>
     <string name="mcp_publish_body_method_repo_import_title">### Metode 1: Impor dari Repositori</string>
     <string name="mcp_publish_body_method_repo_import_step1">1. Buka halaman konfigurasi Operit MCP</string>
-    <string name="mcp_publish_body_method_repo_import_step2">2. Klik "Impor" â†’ "Impor dari Repositori"</string>
+    <string name="mcp_publish_body_method_repo_import_step2">2. Klik "Impor" â†?"Impor dari Repositori"</string>
     <string name="mcp_publish_body_method_repo_import_step3">3. Masukkan alamat repositori: `%1$s`</string>
     <string name="mcp_publish_body_method_repo_import_step4">4. Konfigurasi nama plugin dan impor</string>
     <string name="mcp_publish_body_method_config_import_title">### Metode 2: Impor Konfigurasi</string>
     <string name="mcp_publish_body_method_config_import_step1">1. Buka halaman konfigurasi Operit MCP</string>
-    <string name="mcp_publish_body_method_config_import_step2">2. Klik "Impor" â†’ "Impor Konfigurasi"</string>
+    <string name="mcp_publish_body_method_config_import_step2">2. Klik "Impor" â†?"Impor Konfigurasi"</string>
     <string name="mcp_publish_body_method_config_import_step3">3. Tempel konfigurasi berikut:</string>
-    <string name="mcp_publish_body_section_tech_info">## ğŸ› ï¸ Informasi Teknis</string>
+    <string name="mcp_publish_body_section_tech_info">## ğŸ› ï¸?Informasi Teknis</string>
     <string name="mcp_publish_body_table_header">| Item | Nilai |</string>
     <string name="mcp_publish_body_table_separator">|------|-----|</string>
     <string name="mcp_publish_body_table_row_platform">| Platform Rilis | Pasar Operit MCP |</string>
@@ -4260,7 +4260,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="llama_kv_unified_subtitle">Secara default disarankan untuk diaktifkan untuk obrolan sesi tunggal, dapat mengurangi overhead manajemen konteks di Android</string>
     <string name="llama_offload_kqv">Offload KQV ke GPU</string>
     <string name="llama_offload_kqv_subtitle">Hanya bermakna jika jumlah lapisan GPU lebih besar dari 0, akan diabaikan secara otomatis jika tidak ada backend GPU</string>
-    <string name="workflow_execution_running">Sedang dieksekusiâ€¦</string>
+    <string name="workflow_execution_running">Sedang dieksekusiâ€?/string>
     <string name="workflow_execution_success">Eksekusi berhasil</string>
     <string name="workflow_execution_failed">Eksekusi gagal</string>
     <string name="workflow_node_pending">Menunggu eksekusi</string>
@@ -4305,10 +4305,10 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="please_select_or_create_card">Silakan pilih atau buat kartu karakter di bilah sisi untuk memulai.</string>
     <string name="persona_generation_welcome">ğŸ­ Selamat datang di Asisten Pembuat Kartu Karakter!\n\nSekarang mari kita edit \'%1$s\'!\nBeri tahu saya karakter apa yang ingin Anda buat, atau bagian mana yang ingin diubah?</string>
     <string name="new_character">Karakter baru</string>
-    <string name="generating">Sedang menghasilkanâ€¦</string>
+    <string name="generating">Sedang menghasilkanâ€?/string>
     <string name="send_failed">Gagal mengirim: %1$s</string>
-    <string name="currently_generating">Sedang menghasilkanâ€¦</string>
-    <string name="describe_character_hint">Jelaskan karakter yang Anda inginkanâ€¦</string>
+    <string name="currently_generating">Sedang menghasilkanâ€?/string>
+    <string name="describe_character_hint">Jelaskan karakter yang Anda inginkanâ€?/string>
     <string name="character_card_complete">ğŸ‰ Kartu karakter selesai dibuat! Semua informasi telah disimpan.</string>
     <string name="confirm_clear_chat_history">Yakin ingin menghapus riwayat percakapan kartu karakter saat ini? Tindakan ini tidak dapat dibatalkan.</string>
     <string name="message_limit_reached_title">Batas jumlah percakapan tercapai</string>
@@ -4393,7 +4393,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="execution_failed">Eksekusi Gagal</string>
     <string name="copy_result">Salin Hasil</string>
     <string name="tool_call_parameters">Parameter Panggilan</string>
-    <string name="tool_call_param_bytes">%1$dâ†“</string>
+    <string name="tool_call_param_bytes">%1$dâ†?/string>
     <string name="tool_call">Panggilan Alat</string>
     <string name="lines_count">Baris</string>
     <string name="edit_message">Edit Pesan</string>
@@ -4536,29 +4536,29 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="default_assistant_guide_steps_title">Langkah Pengaturan</string>
     <string name="default_assistant_guide_step1_title">Atur sebagai Asisten Default</string>
     <string name="default_assistant_guide_step1_desc">Atur Operit sebagai aplikasi asisten digital default sistem</string>
-    <string name="default_assistant_guide_step1_detail1">â€¢ Buka Pengaturan sistem â†’ Aplikasi â†’ Aplikasi default â†’ Aplikasi asisten digital</string>
-    <string name="default_assistant_guide_step1_detail2">â€¢ Temukan dan pilih "Operit AI" dalam daftar aplikasi asisten</string>
-    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Pengaturan â†’ Aplikasi â†’ Aplikasi default â†’ Aplikasi asisten digital â†’ Aplikasi asisten digital default</string>
+    <string name="default_assistant_guide_step1_detail1">â€?Buka Pengaturan sistem â†?Aplikasi â†?Aplikasi default â†?Aplikasi asisten digital</string>
+    <string name="default_assistant_guide_step1_detail2">â€?Temukan dan pilih "Operit AI" dalam daftar aplikasi asisten</string>
+    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Pengaturan â†?Aplikasi â†?Aplikasi default â†?Aplikasi asisten digital â†?Aplikasi asisten digital default</string>
     <string name="default_assistant_guide_open_settings">Buka pengaturan asisten</string>
     <string name="default_assistant_guide_open_gesture_settings">Buka pengaturan gestur</string>
     <string name="default_assistant_guide_step2_title">Konfigurasi Gestur Peluncuran</string>
     <string name="default_assistant_guide_step2_desc">Atur cara memanggil asisten Operit dengan cepat</string>
-    <string name="default_assistant_guide_step2_detail1">â€¢ Tekan lama tombol Home: Cara paling umum, tersedia di sebagian besar perangkat</string>
-    <string name="default_assistant_guide_step2_detail2">â€¢ Geser ke atas dari bagian bawah layar: Untuk beberapa perangkat yang mendukung gestur layar penuh</string>
-    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Pengaturan â†’ Aplikasi â†’ Aplikasi default â†’ Aplikasi asisten digital â†’ Aplikasi asisten digital default</string>
-    <string name="default_assistant_guide_step2_detail3">â€¢ Pemicu suara: "Hey Google" atau kata pemicu yang ditentukan perangkat (jika didukung perangkat)</string>
+    <string name="default_assistant_guide_step2_detail1">â€?Tekan lama tombol Home: Cara paling umum, tersedia di sebagian besar perangkat</string>
+    <string name="default_assistant_guide_step2_detail2">â€?Geser ke atas dari bagian bawah layar: Untuk beberapa perangkat yang mendukung gestur layar penuh</string>
+    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Pengaturan â†?Aplikasi â†?Aplikasi default â†?Aplikasi asisten digital â†?Aplikasi asisten digital default</string>
+    <string name="default_assistant_guide_step2_detail3">â€?Pemicu suara: "Hey Google" atau kata pemicu yang ditentukan perangkat (jika didukung perangkat)</string>
     <string name="default_assistant_guide_step2_note">Catatan: Pengaturan gestur dapat berbeda di ponsel merek yang berbeda, periksa opsi yang tersedia di pengaturan sistem</string>
     <string name="default_assistant_guide_step4_title">Uji Asisten Suara</string>
     <string name="default_assistant_guide_step4_desc">Setelah pengaturan selesai, uji apakah dapat diluncurkan dengan normal</string>
-    <string name="default_assistant_guide_step4_detail1">â€¢ Menekan lama tombol Home (tombol layar utama) seharusnya memunculkan asisten suara Operit</string>
-    <string name="default_assistant_guide_step4_detail2">â€¢ Jika perangkat mendukung pemicu suara, mengucapkan "Hey Google" atau kata pemicu yang ditentukan perangkat juga dapat memicu Operit</string>
+    <string name="default_assistant_guide_step4_detail1">â€?Menekan lama tombol Home (tombol layar utama) seharusnya memunculkan asisten suara Operit</string>
+    <string name="default_assistant_guide_step4_detail2">â€?Jika perangkat mendukung pemicu suara, mengucapkan "Hey Google" atau kata pemicu yang ditentukan perangkat juga dapat memicu Operit</string>
     <string name="default_assistant_guide_step3_title">Uji Fungsi Asisten</string>
     <string name="default_assistant_guide_step3_desc">Setelah pengaturan selesai, uji apakah Operit dapat dipanggil dengan normal</string>
-    <string name="default_assistant_guide_step3_detail1">â€¢ Gunakan gestur yang Anda atur (seperti menekan lama tombol Home) untuk memanggil asisten</string>
-    <string name="default_assistant_guide_step3_detail2">â€¢ Jika berhasil, Anda akan melihat antarmuka asisten suara Operit</string>
-    <string name="default_assistant_guide_step3_detail3">â€¢ Anda dapat mencoba berbicara atau mengetik teks untuk berinteraksi dengan asisten</string>
+    <string name="default_assistant_guide_step3_detail1">â€?Gunakan gestur yang Anda atur (seperti menekan lama tombol Home) untuk memanggil asisten</string>
+    <string name="default_assistant_guide_step3_detail2">â€?Jika berhasil, Anda akan melihat antarmuka asisten suara Operit</string>
+    <string name="default_assistant_guide_step3_detail3">â€?Anda dapat mencoba berbicara atau mengetik teks untuk berinteraksi dengan asisten</string>
     <string name="default_assistant_guide_troubleshooting_title">Mengalami masalah?</string>
-    <string name="default_assistant_guide_troubleshooting_content">Jika tidak dapat menemukan Operit dalam daftar, pastikan:\n\nâ€¢ Aplikasi telah diinstal dengan benar dan tidak dinonaktifkan\nâ€¢ Izin yang diperlukan telah diberikan (mikrofon, jendela mengambang, dll.)\nâ€¢ Coba restart perangkat dan atur ulang\n\nBeberapa sistem kustom mungkin membatasi aplikasi pihak ketiga sebagai asisten default. Jika mengalami hal ini, Anda masih dapat menggunakan Operit melalui fungsi jendela mengambang dalam aplikasi.</string>
+    <string name="default_assistant_guide_troubleshooting_content">Jika tidak dapat menemukan Operit dalam daftar, pastikan:\n\nâ€?Aplikasi telah diinstal dengan benar dan tidak dinonaktifkan\nâ€?Izin yang diperlukan telah diberikan (mikrofon, jendela mengambang, dll.)\nâ€?Coba restart perangkat dan atur ulang\n\nBeberapa sistem kustom mungkin membatasi aplikasi pihak ketiga sebagai asisten default. Jika mengalami hal ini, Anda masih dapat menggunakan Operit melalui fungsi jendela mengambang dalam aplikasi.</string>
     <string name="voice_interaction_service_name">Asisten Operit AI</string>
     <string name="voice_interaction_service_summary">Layanan asisten suara pintar</string>
     <string name="tool_permissions_title">Izin Alat</string>
@@ -4588,13 +4588,13 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="chats_assigned_to_character">%1$d percakapan telah dikategorikan ke dalam "%2$s"</string>
     <string name="chats_group_updated">Pengelompokan %1$d percakapan telah diatur ke "%2$s"</string>
     <string name="batch_update_failed">Pembaruan massal gagal: %1$s</string>
-    <string name="loading_data_please_wait">Sedang memuat data, harap tungguâ€¦</string>
+    <string name="loading_data_please_wait">Sedang memuat data, harap tungguâ€?/string>
     <string name="no_chat_stats_to_assign">Tidak ditemukan statistik obrolan yang perlu dikategorikan</string>
     <string name="please_select_a_character_card">Silakan pilih kartu karakter</string>
     <string name="assigned_to_character_card">Telah dikategorikan ke kartu karakter "%1$s"</string>
     <string name="assign_failed_error">Kategorisasi gagal: %1$s</string>
     <string name="chat_history_overview">Ikhtisar Riwayat Obrolan</string>
-    <string name="counting_chat_data">Sedang menghitung data obrolanâ€¦</string>
+    <string name="counting_chat_data">Sedang menghitung data obrolanâ€?/string>
     <string name="no_chat_data_available">Belum ada data obrolan yang tersedia untuk dihitung.</string>
     <string name="chats_and_messages_count">%1$d percakapan Â· %2$d pesan</string>
     <string name="click_to_assign_to_card">Klik untuk mengategorikan ke kartu karakter yang ada</string>
@@ -4958,7 +4958,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="backup_model_config_warning_model_params">Konfigurasi parameter model</string>
     <string name="backup_model_config_warning_custom_params">Pengaturan parameter kustom</string>
     <string name="backup_model_config_warning_security_tips">Saran keamanan:</string>
-    <string name="backup_model_config_warning_tips">â€¢ Jangan bagikan file ini kepada orang lain\nâ€¢ Jangan unggah ke penyimpanan awan publik\nâ€¢ Disarankan memindahkan file ke lokasi aman\nâ€¢ Disarankan menggunakan alat enkripsi untuk melindungi file</string>
+    <string name="backup_model_config_warning_tips">â€?Jangan bagikan file ini kepada orang lain\nâ€?Jangan unggah ke penyimpanan awan publik\nâ€?Disarankan memindahkan file ke lokasi aman\nâ€?Disarankan menggunakan alat enkripsi untuk melindungi file</string>
     <string name="backup_model_config_warning_export_path">Lokasi ekspor:</string>
     <string name="backup_model_config_warning_confirm">Saya mengerti</string>
     <string name="backup_memory_import_strategy_title">Pilih strategi impor</string>
@@ -5027,7 +5027,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="vd_overlay_a11y_resume_automation">Lanjutkan Otomatisasi</string>
     <string name="vd_overlay_a11y_stop_automation">Hentikan Otomatisasi</string>
     <string name="toolreg_env_info"> (Lingkungan: %1$s)</string>
-    <string name="toolreg_env_arrow_info"> (%1$s â†’ %2$s)</string>
+    <string name="toolreg_env_arrow_info"> (%1$s â†?%2$s)</string>
     <string name="toolreg_execute_shell_desc">Jalankan ADB Shell: %1$s</string>
     <string name="toolreg_close_all_virtual_displays_desc">Tutup semua layar virtual</string>
     <string name="toolreg_unnamed">Tanpa Nama</string>
@@ -5045,7 +5045,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="toolreg_user_pref_identity">Identitas</string>
     <string name="toolreg_user_pref_occupation">Pekerjaan</string>
     <string name="toolreg_user_pref_ai_style">Gaya AI</string>
-    <string name="toolreg_list_separator">ã€</string>
+    <string name="toolreg_list_separator">ã€?/string>
     <string name="toolreg_update_user_preferences_desc">Perbarui preferensi pengguna: %1$s</string>
     <string name="toolreg_create_memory_desc">Buat memori: %1$s</string>
     <string name="toolreg_update_memory_desc">Perbarui memori: %1$s -&gt; %2$s</string>
@@ -5116,11 +5116,11 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="toolreg_swipe_desc">Geser: (%1$s,%2$s) -&gt; (%3$s,%4$s)</string>
     <string name="toolreg_ffmpeg_execute_desc">Jalankan perintah FFmpeg: %1$s</string>
     <string name="toolreg_ffmpeg_info_desc">Dapatkan informasi FFmpeg</string>
-    <string name="toolreg_ffmpeg_convert_desc">Konversi video: %1$s â†’ %2$s</string>
+    <string name="toolreg_ffmpeg_convert_desc">Konversi video: %1$s â†?%2$s</string>
     <string name="screen_ocr_capture_failed">Gagal mengambil tangkapan layar</string>
     <string name="screen_ocr_load_failed">Tidak dapat memuat tangkapan layar</string>
     <string name="screen_ocr_selection_too_small">Area pilihan terlalu kecil</string>
-    <string name="screen_ocr_position">ã€Posisiã€‘%1$s</string>
+    <string name="screen_ocr_position">ã€Posisiã€?1$s</string>
     <string name="screen_ocr_no_text_recognized">Tidak ada teks yang dikenali</string>
     <string name="screen_ocr_selection_ocr_header">ã€Pengenalan Pilihanã€‘\n</string>
     <string name="screen_ocr_inline_instruction">Jangan membaca file, langsung jawab pertanyaan pengguna berdasarkan konten lampiran dan pertanyaan pengguna</string>
@@ -5157,9 +5157,9 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="toolreg_unzip_files_desc">Mengekstrak file: %1$s -&gt; %2$s%3$s</string>
     <string name="toolreg_open_file_desc">Membuka file: %1$s%2$s</string>
     <string name="toolreg_share_file_desc">Membagikan file: %1$s%2$s</string>
-    <string name="toolreg_grep_code_with_file_pattern_desc">Mencari kode di %1$s: ã€Œ%2$sã€%3$s (tipe file: %4$s)</string>
-    <string name="toolreg_grep_code_desc">Mencari kode di %1$s: ã€Œ%2$sã€%3$s</string>
-    <string name="toolreg_grep_context_desc">Mencari file terkait berdasarkan maksud di %1$s: ã€Œ%2$sã€%3$s</string>
+    <string name="toolreg_grep_code_with_file_pattern_desc">Mencari kode di %1$s: ã€?2$sã€?3$s (tipe file: %4$s)</string>
+    <string name="toolreg_grep_code_desc">Mencari kode di %1$s: ã€?2$sã€?3$s</string>
+    <string name="toolreg_grep_context_desc">Mencari file terkait berdasarkan maksud di %1$s: ã€?2$sã€?3$s</string>
     <string name="toolreg_download_file_desc">Mengunduh file: %1$s -&gt; %2$s%3$s</string>
     <string name="toolreg_index_suffix">, indeks: %1$s</string>
     <string name="toolreg_click_element_resourceid_desc">Klik elemen [ID Sumber Daya: %1$s%2$s]</string>
@@ -5225,8 +5225,8 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="mcp_open_config_file">Buka berkas konfigurasi</string>
     <string name="mcp_config_file_location">Lokasi berkas konfigurasi: %1$s</string>
     <string name="mcp_merged_servers">Konfigurasi %1$d server telah digabungkan</string>
-    <string name="mcp_merge_failed">âœ— Gagal menggabungkan: %1$s</string>
-    <string name="mcp_import_exception">âœ— Pengecualian impor: %1$s</string>
+    <string name="mcp_merge_failed">âœ?Gagal menggabungkan: %1$s</string>
+    <string name="mcp_import_exception">âœ?Pengecualian impor: %1$s</string>
     <string name="mcp_please_enter_config">Masukkan konten konfigurasi</string>
     <string name="mcp_server_plugin_install_path_label">Jalur pemasangan plugin:</string>
     <string name="mcp_server_json_config_title">Konfigurasi JSON</string>
@@ -5379,11 +5379,11 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="memory_embedding_error_empty_data">Data respons vektor kosong: %1$s</string>
     <string name="memory_embedding_error_invalid_first_item">Respons vektor data[0] bukan objek: %1$s</string>
 
-    <string name="skill_publish_body_install_step1">1. Buka Operit â†’ Manajemen Paket â†’ Skills</string>
-    <string name="skill_publish_body_install_step2">2. Ketuk "Impor Skill" â†’ "Impor dari Repositori"</string>
+    <string name="skill_publish_body_install_step1">1. Buka Operit â†?Manajemen Paket â†?Skills</string>
+    <string name="skill_publish_body_install_step2">2. Ketuk "Impor Skill" â†?"Impor dari Repositori"</string>
     <string name="skill_publish_body_install_step3">3. Masukkan alamat repositori: `%1$s`</string>
     <string name="skill_publish_body_install_step4">4. Konfirmasi impor</string>
-    <string name="skill_publish_body_section_tech_info">## ğŸ› ï¸ Informasi Teknis</string>
+    <string name="skill_publish_body_section_tech_info">## ğŸ› ï¸?Informasi Teknis</string>
     <string name="skill_publish_body_table_header">| Item | Nilai |</string>
     <string name="skill_publish_body_table_separator">|------|-----|</string>
     <string name="skill_publish_body_table_row_platform">| Platform Publikasi | Pasar Operit Skill |</string>
@@ -5588,7 +5588,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="emoticon_shyness">Malu</string>
     <string name="emoticon_blush">Muka memerah</string>
     <string name="emoticon_embarrassed">Salah tingkah</string>
-    <string name="autoglm_task_complete">âœ… Tugas selesai: %1$s</string>
+    <string name="autoglm_task_complete">âœ?Tugas selesai: %1$s</string>
     <string name="autoglm_thinking_process">ğŸ’­ Proses berpikir:</string>
     <string name="autoglm_execute_action">ğŸ¯ Eksekusi aksi:</string>
     <string name="version_update">Pembaruan versi</string>
@@ -6136,7 +6136,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="anr_main_thread_section">ã€Utas Utamaã€‘\n%1$s\n\n</string>
     <string name="anr_analysis_section">ã€Analisisã€‘\n%1$s\n\n</string>
     <string name="anr_recent_call_info">ã€Informasi Panggilan Terbaruã€‘\n</string>
-    <string name="anr_package_calls">ã€%1$s (%2$d panggilan)ã€‘\n</string>
+    <string name="anr_package_calls">ã€?1$s (%2$d panggilan)ã€‘\n</string>
     <string name="anr_cannot_extract_package_info">Gagal mengekstrak informasi paket %1$s</string>
     <string name="anr_report_header">===== Laporan Pemantauan ANR =====\n</string>
     <string name="anr_report_time">Waktu: %1$s\n</string>
@@ -6255,12 +6255,12 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="apk_sign_with_keystore_failed">Gagal menandatangani APK dengan KeyStore: %1$s</string>
     <string name="gemini_establishing">Membuat koneksi...</string>
     <string name="gemini_connected">Koneksi berhasil, memproses respons...</string>
-    <string name="gemini_network_timeout_retry">ã€Waktu jaringan habis, mencoba ulang ke-%1$d...ã€‘</string>
-    <string name="gemini_network_unstable_retry">ã€Jaringan tidak stabil, mencoba ulang ke-%1$d...ã€‘</string>
-    <string name="gemini_network_interrupted_retry">ã€Jaringan terputus, mencoba ulang ke-%1$d...ã€‘</string>
+    <string name="gemini_network_timeout_retry">ã€Waktu jaringan habis, mencoba ulang ke-%1$d...ã€?/string>
+    <string name="gemini_network_unstable_retry">ã€Jaringan tidak stabil, mencoba ulang ke-%1$d...ã€?/string>
+    <string name="gemini_network_interrupted_retry">ã€Jaringan terputus, mencoba ulang ke-%1$d...ã€?/string>
     <string name="gemini_empty_response">Respons kosong</string>
-    <string name="gemini_google_search_source">**ğŸ” Sumber Pencarian Googleï¼š**\n\n</string>
-    <string name="gemini_reference_sources">\n**ğŸ“„ Sumber Referensiï¼š**\n\n</string>
+    <string name="gemini_google_search_source">**ğŸ” Sumber Pencarian Googleï¼?*\n\n</string>
+    <string name="gemini_reference_sources">\n**ğŸ“„ Sumber Referensiï¼?*\n\n</string>
     <string name="gemini_default">Default</string>
     <string name="mcp_no_available_tools">Belum ada alat yang tersedia</string>
     <string name="run">Jalankan</string>
@@ -6475,8 +6475,8 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="message_image_capture_failed">Penangkapan gambar gagal: %1$s</string>
     <string name="workspace_browser_preview">Pratinjau peramban</string>
     <string name="perform_edit_edittext_empty">EditText tidak boleh kosong</string>
-    <string name="graph_char_for_measurement">ä¸­</string>
-    <string name="date_format_pattern">yyyyå¹´MMæœˆddæ—¥</string>
+    <string name="graph_char_for_measurement">ä¸?/string>
+    <string name="date_format_pattern">yyyyå¹´MMæœˆddæ—?/string>
     <string name="demo_complete_message">Baik, jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk menghubungi saya kapan saja.\n\n\n&lt;status type="complete"&gt;&lt;/status&gt;</string>
     <string name="update_check_failed">Pemeriksaan pembaruan gagal: %1$s</string>
     <string name="update_cannot_fetch_info">Tidak dapat mengambil informasi pembaruan.</string>
@@ -6839,7 +6839,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="show_message_token_stats_description">Tampilkan informasi ringkas token naik/turun dan cache di bagian bawah pesan AI</string>
     <string name="show_message_timing_stats">Tampilkan statistik waktu pesan</string>
     <string name="show_message_timing_stats_description">Tampilkan waktu paket pertama dan waktu generasi di bagian bawah pesan AI</string>
-    <string name="chat_message_token_stats_compact">token: %1$d â†‘ %3$d (cache: %2$d) â†“ %4$d</string>
+    <string name="chat_message_token_stats_compact">token: %1$d â†?%3$d (cache: %2$d) â†?%4$d</string>
     <string name="chat_message_timing_stats_compact">waktu: %1$s (pertama %2$s generasi %3$s)</string>
     <string name="software_identity_title">Identitas Perangkat Lunak</string>
     <string name="software_identity_description">Ubah identitas perangkat lunak yang ditampilkan di bagian atas sidebar.</string>
@@ -6934,7 +6934,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="toolpkg_widget_picker_cancel">Batal</string>
     <string name="toolpkg_widget_picker_empty_title">Belum ada widget yang tersedia</string>
     <string name="toolpkg_widget_picker_empty_body">Aktifkan ToolPkg yang mendaftarkan desktop widget terlebih dahulu, lalu kembali untuk menambahkan.</string>
-    <string name="toolpkg_widget_picker_selecting">Sedang mengonfigurasiâ€¦</string>
+    <string name="toolpkg_widget_picker_selecting">Sedang mengonfigurasiâ€?/string>
     <string name="chat_message_locator_favorites_filter">Hanya Lihat Pesan Favorit</string>
     <string name="attachment_package">Paket</string>
     <string name="attachment_package_select_title">Pilih Paket</string>
@@ -7207,7 +7207,7 @@ Sekarang Anda dapat menggunakan mode AutoGLM di antarmuka percakapan.</string>
     <string name="ai_message_image_attached_multimodal_notice">Konten gambar telah dilampirkan sebagai input multimodal pada pesan ini, jangan panggil alat baca file untuk membaca jalur ini.</string>
     <string name="ai_message_result_prefix">[Hasil: </string>
     <string name="ai_message_result_suffix">]</string>
-    <string name="ai_message_package_warmup_title">ã€Pemanasan Paket Alatã€‘</string>
+    <string name="ai_message_package_warmup_title">ã€Pemanasan Paket Alatã€?/string>
     <string name="ai_message_package_warmup_empty">Tidak ada panggilan alat paket yang terdeteksi dalam cakupan ringkasan ini, sehingga tidak dilakukan pemanasan paket alat.</string>
     <string name="ai_message_package_warmup_intro">Berdasarkan frekuensi penggunaan alat dalam cakupan ringkasan ini, paket alat dengan frekuensi tertinggi telah diaktifkan secara otomatis, dan hasil pengembalian use_package disertakan untuk pemanasan putaran berikutnya.</string>
     <string name="ai_message_use_package_failed">Panggilan use_package gagal: %1$s</string>

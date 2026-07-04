@@ -134,7 +134,7 @@
     <string name="workflow_action_delete_node">Excluir nó</string>
     <string name="workflow_source_node_format">Nó de origem: %1$s</string>
     <string name="workflow_no_connectable_nodes">Nenhum nó para se conectar</string>
-    <string name="workflow_connection_condition_arrow_format">→ %1$s</string>
+    <string name="workflow_connection_condition_arrow_format">�?%1$s</string>
     <string name="workflow_edit_connection_condition">editar</string>
     <string name="workflow_edit_connection_condition_title">Editar condições de conexão</string>
     <string name="workflow_connection_condition_default_true">verdadeiro (padrão)</string>
@@ -402,7 +402,7 @@
     <string name="avatar_import_methods_desc">- Seleção direta de arquivo: .glb / .gltf / .mp4 / .fbx\n - Importação ZIP: DragonBones, WebP, MP4, MMD, glTF de vários arquivos ou pacote FBX com texturas/recursos externos</string>
     <string name="import_structure_guide_tap_to_expand">Guia de estrutura de importação (clique para expandir)</string>
     <string name="import_structure_guide_tap_to_collapse">Guia de estrutura de importação (clique para recolher)</string>
-    <string name="import_structure_guide_content">Esta é a estrutura de diretórios do “pacote de importação” (dentro do ZIP ou arquivo selecionado), não o armazenamento interno do aplicativo. \n\nDragonBones (.zip)\n my_dragonbones.zip\n any_folder_name/\n hero_ske.json\n hero_tex.json\n hero_tex.png\n Requisito: o prefixo do nome do arquivo ske/tex json/png é consistente. \n\nWebP (.zip)\n my_webp.zip\n any_folder_name/\n idle.webp\n talk.webp\n happy.webp\n Requisito: Contém pelo menos um arquivo .webp. \n\nMP4\n Caminho A (arquivo direto):\n avatar.mp4\n Caminho B (.zip):\n my_mp4.zip\n any_folder_name/\n idle.mp4\n talk.mp4\n happy.mp4\n Requisito: Contém pelo menos um arquivo .mp4. \n\nMMD (.zip)\n my_mmd.zip\n any_folder_name/\n character.pmx (ou .pmd)\n motions/idle.vmd (opcional)\n texturas/...\n Requisito: Mantenha os caminhos relativos das referências PMX/PMD inalterados. \n\nglTF\n Caminho A (arquivo direto):\n avatar.glb\n Caminho B (glTF de vários arquivos usando .zip):\n my_gltf.zip\n any_folder_name/\n avatar.gltf\n avatar.bin\n texturas/...\n Requisito: Mantenha o caminho relativo da referência .gltf inalterado. \n\nFBX\n Método A (arquivo direto, somente recursos independentes):\n avatar.fbx\n Método B (texturas/recursos externos, use .zip):\n my_fbx.zip\n any_folder_name/\n avatar.fbx\n texturas/...\n Requisito: Carregar diretamente .fbx Somente recursos incorporados são suportados; se o modelo fizer referência a texturas externas ou outros recursos, mantenha o caminho relativo e coloque-o em ZIP.</string>
+    <string name="import_structure_guide_content">Esta é a estrutura de diretórios do “pacote de importação�?(dentro do ZIP ou arquivo selecionado), não o armazenamento interno do aplicativo. \n\nDragonBones (.zip)\n my_dragonbones.zip\n any_folder_name/\n hero_ske.json\n hero_tex.json\n hero_tex.png\n Requisito: o prefixo do nome do arquivo ske/tex json/png é consistente. \n\nWebP (.zip)\n my_webp.zip\n any_folder_name/\n idle.webp\n talk.webp\n happy.webp\n Requisito: Contém pelo menos um arquivo .webp. \n\nMP4\n Caminho A (arquivo direto):\n avatar.mp4\n Caminho B (.zip):\n my_mp4.zip\n any_folder_name/\n idle.mp4\n talk.mp4\n happy.mp4\n Requisito: Contém pelo menos um arquivo .mp4. \n\nMMD (.zip)\n my_mmd.zip\n any_folder_name/\n character.pmx (ou .pmd)\n motions/idle.vmd (opcional)\n texturas/...\n Requisito: Mantenha os caminhos relativos das referências PMX/PMD inalterados. \n\nglTF\n Caminho A (arquivo direto):\n avatar.glb\n Caminho B (glTF de vários arquivos usando .zip):\n my_gltf.zip\n any_folder_name/\n avatar.gltf\n avatar.bin\n texturas/...\n Requisito: Mantenha o caminho relativo da referência .gltf inalterado. \n\nFBX\n Método A (arquivo direto, somente recursos independentes):\n avatar.fbx\n Método B (texturas/recursos externos, use .zip):\n my_fbx.zip\n any_folder_name/\n avatar.fbx\n texturas/...\n Requisito: Carregar diretamente .fbx Somente recursos incorporados são suportados; se o modelo fizer referência a texturas externas ou outros recursos, mantenha o caminho relativo e coloque-o em ZIP.</string>
     <string name="enter">Digitar</string>
     <string name="about_avatar_formats">Este aplicativo suporta vários formatos de avatar, incluindo DragonBones. Abaixo estão as instruções para fazer e importar modelos.</string>
     <string name="dragon_bones_config">Configuração do DragonBones</string>
@@ -438,7 +438,7 @@
     <string name="voice_wakeup_personal_config_dialog_desc">Diga a palavra de ativação três vezes e o sistema registrará suas características de pronúncia para reconhecimento de ativação.</string>
     <string name="voice_wakeup_personal_config_step">%1$d vez</string>
     <string name="voice_wakeup_personal_config_record">Comece a gravar</string>
-    <string name="voice_wakeup_personal_config_recording">Gravação…</string>
+    <string name="voice_wakeup_personal_config_recording">Gravação�?/string>
     <string name="voice_wakeup_personal_config_record_done">Já inserido</string>
     <string name="voice_wakeup_personal_config_save">salvar</string>
     <string name="voice_wakeup_personal_config_cancel">Cancelar</string>
@@ -581,7 +581,7 @@
     <string name="free_usage_next_available">Próxima data disponível: %1$s (espere pacientemente~)</string>
     <string name="free_usage_interval_tip">Para evitar a falência do autor, o tempo de espera será duplicado após cada utilização ~</string>
     <string name="free_usage_first_tip">Esta é a primeira vez que você usa, você precisa esperar 1 dia antes de poder usá-lo novamente ~</string>
-    <string name="free_usage_later_tip">Você tem que ter cuidado ao trocar a lã. Você precisa esperar mais %1$d dias antes de continuar cortando(๑•̀ㅂ•́)و✧</string>
+    <string name="free_usage_later_tip">Você tem que ter cuidado ao trocar a lã. Você precisa esperar mais %1$d dias antes de continuar cortando(๑•̀ㅂ•�?و�?/string>
     <string name="plugin_skip">pular sobre</string>
     <string name="plugin_app_name">OPERAÇÃO</string>
     <string name="plugin_status">Iniciado: %1$d / %2$d</string>
@@ -593,7 +593,7 @@
     <string name="plugin_initializing">Inicializando...</string>
     <string name="plugin_starting_server">Iniciando servidor MCP...</string>
     <string name="plugin_configuring_server">Configurar servidor MCP...</string>
-    <string name="plugin_server_failed">O servidor MCP falhou ao iniciar. Você pode clicar em “Pular” no canto superior direito para continuar.</string>
+    <string name="plugin_server_failed">O servidor MCP falhou ao iniciar. Você pode clicar em “Pular�?no canto superior direito para continuar.</string>
     <string name="plugin_server_success">Servidor MCP iniciado com sucesso</string>
     <string name="plugin_server_initializing">Inicialização do servidor MCP...</string>
     <string name="plugin_loading_list">Carregando lista de plug-ins...</string>
@@ -607,7 +607,7 @@
     <string name="plugin_termux_not_authorized">O serviço de terminal integrado não está pronto. Por favor, inicie o terminal antes de usar o plug-in.</string>
     <string name="plugin_nodejs_missing">O pnpm não está instalado no ambiente de terminal integrado (requer Node.js), instale-o primeiro antes de usar o plug-in</string>
     <string name="plugin_bridge_failed">Falha na inicialização da ponte, não foi possível iniciar o plugin</string>
-    <string name="plugin_other_error">Ocorreu um erro ao iniciar o plug-in. Você pode clicar em “Pular” no canto superior direito para continuar.</string>
+    <string name="plugin_other_error">Ocorreu um erro ao iniciar o plug-in. Você pode clicar em “Pular�?no canto superior direito para continuar.</string>
     <string name="plugin_complete_with_failures">Inicialização concluída, taxa de sucesso: %1$d%%. Alguns plug-ins não carregaram</string>
     <string name="plugin_complete_success">Inicialização concluída, taxa de sucesso: %1$d%%</string>
     <string name="plugin_no_plugins_to_start">Não há plug-ins para ativar</string>
@@ -808,7 +808,7 @@
     <string name="settings_cached_tokens">(Cache: %1$d)</string>
     <string name="settings_reset_analysis_count">Redefinir contagem de análise de preferência</string>
     <string name="settings_why_token_stats">Por que devo me preocupar com as estatísticas do Token?</string>
-    <string name="settings_token_stats_explanation">Porque é como a conta de um hotel, exceto que a “refeição” aqui é o pensamento da IA, e o “dinheiro” é calculado em RMB! A análise de preferências é onde a IA observa secretamente seus gostos e personaliza o próximo ‘menu’ para você. Não se preocupe, mesmo falando sobre cãibras nos dedos, o custo pode não ser suficiente para comprar uma xícara de chá com leite ~</string>
+    <string name="settings_token_stats_explanation">Porque é como a conta de um hotel, exceto que a “refeição�?aqui é o pensamento da IA, e o “dinheiro�?é calculado em RMB! A análise de preferências é onde a IA observa secretamente seus gostos e personaliza o próximo ‘menu�?para você. Não se preocupe, mesmo falando sobre cãibras nos dedos, o custo pode não ser suficiente para comprar uma xícara de chá com leite ~</string>
     <string name="settings_chat_input_token">Token de entrada de bate-papo</string>
     <string name="settings_chat_output_token">Token de saída de bate-papo</string>
     <string name="settings_preference_input_token">Token de entrada de análise de preferência</string>
@@ -898,7 +898,7 @@
     <string name="copy_path">copiar caminho</string>
     <string name="path_copied_to_clipboard">Caminho copiado para a área de transferência</string>
     <string name="open_file_manager">Abra o gerenciador de arquivos</string>
-    <string name="navigate_to_external_files">Navegue até o diretório Android/data/com.ai.assistance.operit/files/packages</string>
+    <string name="navigate_to_external_files">Navegue até o diretório Android/data/com.ai.assistance.surlor/files/packages</string>
     <string name="package_js_only">Somente arquivos JavaScript(.js) e ToolPkg(.toolpkg) são suportados</string>
     <string name="pkg_toolpkg_subpackages">Subpacote ToolPkg</string>
     <string name="pkg_toolpkg_version">Versão: %1$s</string>
@@ -1005,7 +1005,7 @@
     <string name="permission_guide_location_title">permissões de localização</string>
     <string name="permission_guide_location_desc">Permitir que aplicativos obtenham informações de localização</string>
     <string name="permission_guide_check_permissions">Verifique o status da permissão</string>
-    <string name="permission_guide_all_granted">所有基础权限已授予，可以继续下一步</string>
+    <string name="permission_guide_all_granted">所有基础权限已授予，可以继续下一�?/string>
     <string name="permission_guide_warning_title">Concessão de permissão incompleta</string>
     <string name="permission_guide_warning_message">Você não concedeu todas as permissões necessárias, o que pode resultar na funcionalidade incompleta do aplicativo ou na saída inesperada. Tem certeza de que deseja continuar?</string>
     <string name="permission_guide_warning_continue">continuar</string>
@@ -1589,7 +1589,7 @@
     <string name="workspace_project_type_go_description">Adequado para desenvolvimento Go, fornecendo comandos go mod e build</string>
     <string name="please_select_or_create_conversation">Selecione ou crie uma conversa primeiro</string>
     <string name="latest">atualizado</string>
-    <string name="main_highlights">✨ Principais destaques</string>
+    <string name="main_highlights">�?Principais destaques</string>
     <string name="complete_update_content">📋 Conteúdo de atualização completo</string>
     <string name="view_release">Ver lançamentos</string>
     <string name="streaming_rendering">Transmissão</string>
@@ -1659,7 +1659,7 @@
     <string name="ui_debug_description">Clique no botão no canto inferior direito para iniciar a janela flutuante para depuração da IU</string>
     <string name="current_interface_analysis">Interface de análise atual</string>
     <string name="package_name">nome do pacote</string>
-    <string name="page_nodes">%1$s – nó da página</string>
+    <string name="page_nodes">%1$s �?nó da página</string>
     <string name="no_page_nodes_found">Nó da página não encontrado</string>
     <string name="type_info">Tipo: %1$s</string>
     <string name="control_info">Informações de controle</string>
@@ -1878,14 +1878,14 @@
     <string name="process_limit_what_is_title">O que é limite de processo fantasma?</string>
     <string name="process_limit_what_is_desc">O Android 12+ introduz o mecanismo Phantom Processes para limitar o número de subprocessos em segundo plano e evitar que os aplicativos consumam recursos do sistema criando um grande número de subprocessos.</string>
     <string name="process_limit_benefits_title">O papel do levantamento das restrições</string>
-    <string name="process_limit_benefits_desc">• Permitir que aplicativos criem mais processos filhos em segundo plano\n• Melhore os recursos de execução de tarefas em segundo plano\n• Evite que processos filhos sejam encerrados inesperadamente pelo sistema\n• Adequado para aplicativos que exigem processamento de vários processos</string>
+    <string name="process_limit_benefits_desc">�?Permitir que aplicativos criem mais processos filhos em segundo plano\n�?Melhore os recursos de execução de tarefas em segundo plano\n�?Evite que processos filhos sejam encerrados inesperadamente pelo sistema\n�?Adequado para aplicativos que exigem processamento de vários processos</string>
     <string name="process_limit_warnings_title">Coisas a serem observadas</string>
-    <string name="process_limit_warnings_desc">• Compatível apenas com Android 12 e superior\n• Pode aumentar o consumo de bateria e o uso de memória\n• Requer permissões ADB Shell ou permissões Root\n• As configurações se tornarão inválidas após reiniciar o dispositivo e precisarão ser executadas novamente</string>
+    <string name="process_limit_warnings_desc">�?Compatível apenas com Android 12 e superior\n�?Pode aumentar o consumo de bateria e o uso de memória\n�?Requer permissões ADB Shell ou permissões Root\n�?As configurações se tornarão inválidas após reiniciar o dispositivo e precisarão ser executadas novamente</string>
     <string name="process_limit_action_remove">Restrições de levantamento</string>
     <string name="process_limit_action_remove_desc">Aumente o limite do número de processos fantasmas no sistema Android</string>
     <string name="process_limit_action_restore">Restaurar restrições</string>
     <string name="process_limit_action_restore_desc">Restaure o limite de processo fantasma padrão do sistema Android</string>
-    <string name="process_limit_status_checking">Verificando…</string>
+    <string name="process_limit_status_checking">Verificando�?/string>
     <string name="process_limit_status_removed">A restrição foi suspensa (valor máximo: %s)</string>
     <string name="process_limit_status_limited">Acelerado (limite atual: %s processos)</string>
     <string name="process_limit_status_default">Limite padrão (nenhum valor personalizado definido)</string>
@@ -1894,7 +1894,7 @@
     <string name="process_limit_current_status">Estado atual</string>
     <string name="process_limit_choose_action">Selecione a ação</string>
     <string name="process_limit_execute">implementar</string>
-    <string name="process_limit_executing">Executando…</string>
+    <string name="process_limit_executing">Executando�?/string>
     <string name="process_limit_success_title">Executado com sucesso</string>
     <string name="process_limit_error_title">Falha na execução</string>
     <string name="process_limit_execution_history">histórico de execução</string>
@@ -2006,7 +2006,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="toolbox_permissions_search_hint">Pesquisar aplicativos</string>
     <string name="toolbox_permissions_system_apps">Aplicação do sistema</string>
     <string name="toolbox_permissions_app_count">Total de %d aplicativos</string>
-    <string name="toolbox_permissions_loading_apps">Carregando lista de aplicativos…</string>
+    <string name="toolbox_permissions_loading_apps">Carregando lista de aplicativos�?/string>
     <string name="toolbox_permissions_no_match">Nenhum aplicativo correspondente encontrado</string>
     <string name="toolbox_permissions_try_other_keywords">Tente pesquisar com outras palavras-chave</string>
     <string name="toolbox_permissions_try_system_apps">Tente verificar "Aplicativos do sistema" para ver mais aplicativos</string>
@@ -2968,7 +2968,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="settings_token_price_description_with_currency">Definir preço por solicitação de API (%1$s)</string>
     <string name="settings_exchange_rate_title">Configurações de taxa de câmbio</string>
     <string name="settings_exchange_rate_subtitle">O modelo de cobrança em dólares americanos será convertido em custos totais em RMB com base nesta taxa de câmbio.</string>
-    <string name="settings_usd_to_cny_rate_label">Taxa de câmbio USD → CNY</string>
+    <string name="settings_usd_to_cny_rate_label">Taxa de câmbio USD �?CNY</string>
     <string name="settings_rate_applied_hint">O custo total é calculado como 1 USD = %1$.4f CNY</string>
     <string name="settings_input_price_per_million">Insira o preço (por milhão de tokens)</string>
     <string name="settings_output_price_per_million">Preço de saída (por milhão de tokens)</string>
@@ -3489,7 +3489,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="tag_import_summary">Importação de tag concluída: criar %1$d, atualizar %2$d, pular %3$d</string>
     <string name="content_preview">Conteúdo: %1$s...</string>
     <string name="old_prompt_config">Configuração de palavra de prompt de versão antiga</string>
-    <string name="old_prompt_config_desc">这些是旧版系统的提示词配置，您可以查看和复制内容到新的角色卡系统中。</string>
+    <string name="old_prompt_config_desc">这些是旧版系统的提示词配置，您可以查看和复制内容到新的角色卡系统中�?/string>
     <string name="intro_prompt_preview">Palavra introdutória: %1$s...</string>
     <string name="view_details">verifique os detalhes</string>
     <string name="create_character_card">Crie um novo cartão de personagem</string>
@@ -3543,7 +3543,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="appearance_prompt_placeholder">Por exemplo: cabelo comprido, olhos roxos, colete suéter...</string>
     <string name="appearance_prompt_tip">Dica: Use palavras-chave em inglês para descrever características físicas. Separe várias palavras-chave com vírgulas.</string>
     <string name="feature_explanation">Descrição da função</string>
-    <string name="waifu_mode_explanation">• Modo normal: as respostas de IA são enviadas todas de uma vez\n• Modo Waifu: as respostas de IA são divididas por frases, cada frase tem um balão independente\n• Atraso inteligente: calcula o tempo de atraso com base no comprimento da frase\n• Limpeza automática: remove rótulos de status, exibe apenas texto simples\n• Funções opcionais: remover pontuação no final das frases, editar o prompt do modo Waifu, ativar emoticons\n• Cenários aplicáveis: simular um ritmo de conversa mais natural\n• Observação: este modo pode não ser bem adaptado à ferramenta chamadas</string>
+    <string name="waifu_mode_explanation">�?Modo normal: as respostas de IA são enviadas todas de uma vez\n�?Modo Waifu: as respostas de IA são divididas por frases, cada frase tem um balão independente\n�?Atraso inteligente: calcula o tempo de atraso com base no comprimento da frase\n�?Limpeza automática: remove rótulos de status, exibe apenas texto simples\n�?Funções opcionais: remover pontuação no final das frases, editar o prompt do modo Waifu, ativar emoticons\n�?Cenários aplicáveis: simular um ritmo de conversa mais natural\n�?Observação: este modo pode não ser bem adaptado à ferramenta chamadas</string>
     <string name="settings_saved_message">Configurações salvas</string>
     <string name="settings_section_account">conta</string>
     <string name="github_account_not_logged_in">Não logado</string>
@@ -3692,9 +3692,9 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="closed">Fechado</string>
     <string name="github_account">Conta GitHub</string>
     <string name="login_github">Faça login no GitHub</string>
-    <string name="publish_mcp_plugins_to_market">• Publique seu plugin MCP no mercado</string>
-    <string name="manage_published_plugins">• Gerencie seus plug-ins publicados</string>
-    <string name="better_installation_experience">• Obtenha uma melhor experiência de instalação</string>
+    <string name="publish_mcp_plugins_to_market">�?Publique seu plugin MCP no mercado</string>
+    <string name="manage_published_plugins">�?Gerencie seus plug-ins publicados</string>
+    <string name="better_installation_experience">�?Obtenha uma melhor experiência de instalação</string>
     <string name="edit_description">Notas editoriais</string>
     <string name="publish_description">Notas de versão</string>
     <string name="only_alphanumeric_underscore_plugin_id">Somente letras, números e sublinhados em inglês são permitidos. Este nome será usado como ID do plugin</string>
@@ -3834,16 +3834,16 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="mcp_publish_body_label_description">**Descrição:** %1$s</string>
     <string name="mcp_publish_body_section_repo_info">## 🔗 Informações do armazém</string>
     <string name="mcp_publish_body_label_repo_url">**Endereço do armazém:** %1$s</string>
-    <string name="mcp_publish_body_section_quick_install">## ⚡ Instalação rápida</string>
+    <string name="mcp_publish_body_section_quick_install">## �?Instalação rápida</string>
     <string name="mcp_publish_body_section_install_method">## 📦 Método de instalação</string>
     <string name="mcp_publish_body_method_repo_import_title">### Método 1: Importar do armazém</string>
     <string name="mcp_publish_body_method_repo_import_step1">1. Abra a página de configuração do Operit MCP</string>
-    <string name="mcp_publish_body_method_repo_import_step2">2. Clique em "Importar" → "Importar do armazém"</string>
+    <string name="mcp_publish_body_method_repo_import_step2">2. Clique em "Importar" �?"Importar do armazém"</string>
     <string name="mcp_publish_body_method_repo_import_step3">3. Insira o endereço do armazém: `%1$s`</string>
     <string name="mcp_publish_body_method_repo_import_step4">4. Configure o nome do plug-in e importe-o</string>
     <string name="mcp_publish_body_method_config_import_title">### Método 2: importação de configuração</string>
     <string name="mcp_publish_body_method_config_import_step1">1. Abra a página de configuração do Operit MCP</string>
-    <string name="mcp_publish_body_method_config_import_step2">2. Clique em "Importar" → "Importar configuração"</string>
+    <string name="mcp_publish_body_method_config_import_step2">2. Clique em "Importar" �?"Importar configuração"</string>
     <string name="mcp_publish_body_method_config_import_step3">3. Cole a seguinte configuração:</string>
     <string name="mcp_publish_body_section_tech_info">## 🛠️Informações Técnicas</string>
     <string name="mcp_publish_body_table_header">| item | valor |</string>
@@ -4032,10 +4032,10 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="please_select_or_create_card">Selecione ou crie um cartão de personagem na barra lateral para começar.</string>
     <string name="persona_generation_welcome">🎭 Bem-vindo ao Assistente de Geração de Cartas de Personagem! \n\nVamos editar \'%1$s\' agora! \nPor favor me diga qual personagem você deseja criar ou qual parte deseja modificar?</string>
     <string name="new_character">nova função</string>
-    <string name="generating">Gerando…</string>
+    <string name="generating">Gerando�?/string>
     <string name="send_failed">Falha no envio: %1$s</string>
-    <string name="currently_generating">Gerando…</string>
-    <string name="describe_character_hint">Descreva a função que você deseja…</string>
+    <string name="currently_generating">Gerando�?/string>
+    <string name="describe_character_hint">Descreva a função que você deseja�?/string>
     <string name="character_card_complete">🎉 A geração do cartão de personagem está concluída! Todas as informações foram salvas.</string>
     <string name="confirm_clear_chat_history">Tem certeza de que deseja limpar o histórico de conversas do cartão de personagem atual? Esta ação não pode ser desfeita.</string>
     <string name="message_limit_reached_title">O número máximo de conversas foi atingido</string>
@@ -4052,7 +4052,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="llama_select_downloaded_model">Selecione o modelo baixado</string>
     <string name="llama_thread_count">Número de tópicos</string>
     <string name="llama_context_size">comprimento do contexto</string>
-    <string name="workflow_execution_running">Executando…</string>
+    <string name="workflow_execution_running">Executando�?/string>
     <string name="workflow_execution_success">Executado com sucesso</string>
     <string name="workflow_execution_failed">Falha na execução</string>
     <string name="workflow_node_pending">Para ser executado</string>
@@ -4095,33 +4095,33 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="default_assistant_guide_steps_title">Etapas de configuração</string>
     <string name="default_assistant_guide_step1_title">Definir como assistente padrão</string>
     <string name="default_assistant_guide_step1_desc">Defina o Operit como o aplicativo de assistente digital padrão do seu sistema</string>
-    <string name="default_assistant_guide_step1_detail1">• Abra Configurações do sistema → Aplicativos → Aplicativos padrão → Aplicativo Assistente Digital</string>
-    <string name="default_assistant_guide_step1_detail2">• Encontre e selecione "Operit AI" na lista de aplicativos assistentes</string>
-    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Configurações → Aplicativos → Aplicativos padrão → Aplicativo Digital Assistant → Aplicativo Digital Assistant padrão</string>
+    <string name="default_assistant_guide_step1_detail1">�?Abra Configurações do sistema �?Aplicativos �?Aplicativos padrão �?Aplicativo Assistente Digital</string>
+    <string name="default_assistant_guide_step1_detail2">�?Encontre e selecione "Operit AI" na lista de aplicativos assistentes</string>
+    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Configurações �?Aplicativos �?Aplicativos padrão �?Aplicativo Digital Assistant �?Aplicativo Digital Assistant padrão</string>
     <string name="default_assistant_guide_open_settings">Abra as configurações do assistente</string>
     <string name="default_assistant_guide_open_gesture_settings">Abrir configurações de gestos</string>
     <string name="default_assistant_guide_step2_title">Configurar gestos de inicialização</string>
     <string name="default_assistant_guide_step2_desc">Defina como ativar rapidamente o Operit Assistant</string>
-    <string name="default_assistant_guide_step2_detail1">• Pressionar longamente o botão Início: o método mais comum, disponível na maioria dos dispositivos</string>
-    <string name="default_assistant_guide_step2_detail2">• Deslize de baixo para cima na tela: alguns dispositivos suportam gestos em tela cheia</string>
-    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Configurações → Aplicativos → Aplicativos padrão → Aplicativo Digital Assistant → Aplicativo Digital Assistant padrão</string>
-    <string name="default_assistant_guide_step2_detail3">• Ativação por voz: "Ok Google" ou a palavra de ativação especificada pelo dispositivo (requer suporte do dispositivo)</string>
+    <string name="default_assistant_guide_step2_detail1">�?Pressionar longamente o botão Início: o método mais comum, disponível na maioria dos dispositivos</string>
+    <string name="default_assistant_guide_step2_detail2">�?Deslize de baixo para cima na tela: alguns dispositivos suportam gestos em tela cheia</string>
+    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Configurações �?Aplicativos �?Aplicativos padrão �?Aplicativo Digital Assistant �?Aplicativo Digital Assistant padrão</string>
+    <string name="default_assistant_guide_step2_detail3">�?Ativação por voz: "Ok Google" ou a palavra de ativação especificada pelo dispositivo (requer suporte do dispositivo)</string>
     <string name="default_assistant_guide_step2_note">Nota: As configurações de gestos podem variar entre diferentes marcas de celulares, verifique as opções disponíveis nas configurações do sistema</string>
     <string name="default_assistant_guide_step4_title">Teste seu assistente de voz</string>
     <string name="default_assistant_guide_step4_desc">Depois que a configuração for concluída, teste se ele pode iniciar normalmente</string>
-    <string name="default_assistant_guide_step4_detail1">• Um toque longo no botão Home deve abrir o assistente de voz Operit</string>
-    <string name="default_assistant_guide_step4_detail2">• Se o dispositivo suportar ativação por voz, dizer "Ok Google" ou a palavra de ativação especificada pelo dispositivo também poderá acionar o Operit</string>
+    <string name="default_assistant_guide_step4_detail1">�?Um toque longo no botão Home deve abrir o assistente de voz Operit</string>
+    <string name="default_assistant_guide_step4_detail2">�?Se o dispositivo suportar ativação por voz, dizer "Ok Google" ou a palavra de ativação especificada pelo dispositivo também poderá acionar o Operit</string>
     <string name="default_assistant_guide_step3_title">Funcionalidade do assistente de teste</string>
     <string name="default_assistant_guide_step3_desc">Depois de concluir a configuração, teste se o Operit pode ser despertado normalmente</string>
-    <string name="default_assistant_guide_step3_detail1">• Use um gesto que você definir (como um toque longo no botão Início) para invocar o Assistente</string>
-    <string name="default_assistant_guide_step3_detail2">• Se for bem-sucedido, você deverá ver a interface do assistente de voz do Operit</string>
-    <string name="default_assistant_guide_step3_detail3">• Você pode tentar falar ou digitar para interagir com o assistente</string>
+    <string name="default_assistant_guide_step3_detail1">�?Use um gesto que você definir (como um toque longo no botão Início) para invocar o Assistente</string>
+    <string name="default_assistant_guide_step3_detail2">�?Se for bem-sucedido, você deverá ver a interface do assistente de voz do Operit</string>
+    <string name="default_assistant_guide_step3_detail3">�?Você pode tentar falar ou digitar para interagir com o assistente</string>
     <string name="default_assistant_guide_troubleshooting_title">Está com algum problema?</string>
-    <string name="default_assistant_guide_troubleshooting_content">Se você não encontrar o Operit na lista, verifique se:\n\n• O aplicativo está instalado corretamente e não foi desativado\n• As permissões necessárias (microfone, janela flutuante etc.) foram concedidas\n• Tente reiniciar o dispositivo e configurá-lo novamente\n\n Alguns sistemas de personalização podem restringir aplicativos de terceiros como assistente padrão. Nesse caso, você ainda pode usar o Operit por meio da função de janela flutuante dentro do aplicativo.</string>
+    <string name="default_assistant_guide_troubleshooting_content">Se você não encontrar o Operit na lista, verifique se:\n\n�?O aplicativo está instalado corretamente e não foi desativado\n�?As permissões necessárias (microfone, janela flutuante etc.) foram concedidas\n�?Tente reiniciar o dispositivo e configurá-lo novamente\n\n Alguns sistemas de personalização podem restringir aplicativos de terceiros como assistente padrão. Nesse caso, você ainda pode usar o Operit por meio da função de janela flutuante dentro do aplicativo.</string>
     <string name="voice_interaction_service_name">Assistente Operat AI</string>
     <string name="voice_interaction_service_summary">Serviço de assistente de voz inteligente</string>
     <string name="tool_permissions_title">Permissões de ferramentas</string>
-    <string name="tool_permissions_description">Por padrão, todas as ferramentas exigem que você “pergunte”. Você pode adicionar exceções abaixo.</string>
+    <string name="tool_permissions_description">Por padrão, todas as ferramentas exigem que você “pergunte�? Você pode adicionar exceções abaixo.</string>
     <string name="global_permission_switch">Troca de permissão global</string>
     <string name="global_permission_switch_description">Essa configuração atua como um controle mestre e pode substituir permissões de ferramentas individuais.</string>
     <string name="permission_level_allow">permitir</string>
@@ -4160,7 +4160,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="execution_failed">Falha na execução</string>
     <string name="copy_result">Copiar resultados</string>
     <string name="tool_call_parameters">Parâmetros de chamada</string>
-    <string name="tool_call_param_bytes">%1$d↓</string>
+    <string name="tool_call_param_bytes">%1$d�?/string>
     <string name="tool_call">Chamada de ferramenta</string>
     <string name="lines_count">OK</string>
     <string name="edit_message">Editar mensagem</string>
@@ -4451,7 +4451,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="backup_room_db_restart_later">mais tarde</string>
     <string name="backup_room_db_last_success">Último backup bem-sucedido: %1$s</string>
     <string name="backup_room_db_last_error">Último erro: %1$s</string>
-    <string name="backup_files_location_hint">提示：备份文件保存在 Download/Operit 文件夹</string>
+    <string name="backup_files_location_hint">提示：备份文件保存在 Download/Operit 文件�?/string>
     <string name="backup_raw_snapshot_title">Backup de instantâneo de arquivo (experimental)</string>
     <string name="backup_raw_snapshot_subtitle">Backup e recuperação compactados gerais em unidades de arquivos/diretórios</string>
     <string name="backup_raw_snapshot_desc">Arquivos/shared_prefs/datastore/databases no diretório de dados interno do aplicativo serão empacotados (o ambiente do terminal Linux é muito grande e não tem backup por padrão). A restauração substituirá os dados atuais e exigirá a reinicialização do aplicativo para ter efeito. Alguns dados criptografados podem não estar disponíveis após alterar/reinstalar o dispositivo.</string>
@@ -4652,7 +4652,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="backup_model_config_warning_model_params">Configuração de parâmetros de modelo</string>
     <string name="backup_model_config_warning_custom_params">Configurações de parâmetros personalizados</string>
     <string name="backup_model_config_warning_security_tips">Conselhos de segurança:</string>
-    <string name="backup_model_config_warning_tips">• Não compartilhe este arquivo com outras pessoas\n• Não faça upload para armazenamento em nuvem pública\n• É recomendado mover o arquivo para um local seguro\n• É recomendado usar ferramentas de criptografia para proteger o arquivo</string>
+    <string name="backup_model_config_warning_tips">�?Não compartilhe este arquivo com outras pessoas\n�?Não faça upload para armazenamento em nuvem pública\n�?É recomendado mover o arquivo para um local seguro\n�?É recomendado usar ferramentas de criptografia para proteger o arquivo</string>
     <string name="backup_model_config_warning_export_path">Local de exportação:</string>
     <string name="backup_model_config_warning_confirm">Eu vejo</string>
     <string name="backup_memory_import_strategy_title">Selecione a estratégia de importação</string>
@@ -4679,7 +4679,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="vd_overlay_a11y_resume_automation">Continue a automatizar</string>
     <string name="vd_overlay_a11y_stop_automation">Pare a automação</string>
     <string name="toolreg_env_info">(Ambiente: %1$s)</string>
-    <string name="toolreg_env_arrow_info">(%1$s → %2$s)</string>
+    <string name="toolreg_env_arrow_info">(%1$s �?%2$s)</string>
     <string name="toolreg_execute_shell_desc">Executar Shell ADB: %1$s</string>
     <string name="toolreg_close_all_virtual_displays_desc">Feche todas as telas virtuais</string>
     <string name="toolreg_unnamed">Sem nome</string>
@@ -4806,11 +4806,11 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="toolreg_swipe_desc">Slide: (%1$s,%2$s) -&gt; (%3$s,%4$s)</string>
     <string name="toolreg_ffmpeg_execute_desc">Execute o comando FFmpeg: %1$s</string>
     <string name="toolreg_ffmpeg_info_desc">Obtenha informações do FFmpeg</string>
-    <string name="toolreg_ffmpeg_convert_desc">Converter vídeo: %1$s → %2$s</string>
+    <string name="toolreg_ffmpeg_convert_desc">Converter vídeo: %1$s �?%2$s</string>
     <string name="screen_ocr_capture_failed">Falha na captura de tela</string>
     <string name="screen_ocr_load_failed">Não foi possível carregar a captura de tela</string>
     <string name="screen_ocr_selection_too_small">A área de seleção do círculo é muito pequena</string>
-    <string name="screen_ocr_position">【Localização】%1$s</string>
+    <string name="screen_ocr_position">【Localização�?1$s</string>
     <string name="screen_ocr_no_text_recognized">Texto não reconhecido</string>
     <string name="screen_ocr_selection_ocr_header">【Reconhecimento de círculo】\n</string>
     <string name="screen_ocr_inline_instruction">Não leia o arquivo e responda às perguntas dos usuários diretamente com base no conteúdo do anexo e nas perguntas dos usuários.</string>
@@ -4992,8 +4992,8 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="mcp_open_config_file">Abra o arquivo de configuração</string>
     <string name="mcp_config_file_location">Localização do arquivo de configuração: %1$s</string>
     <string name="mcp_merged_servers">%1$d configurações de servidor mescladas</string>
-    <string name="mcp_merge_failed">✗ Falha na mesclagem: %1$s</string>
-    <string name="mcp_import_exception">✗ Exceção de importação: %1$s</string>
+    <string name="mcp_merge_failed">�?Falha na mesclagem: %1$s</string>
+    <string name="mcp_import_exception">�?Exceção de importação: %1$s</string>
     <string name="mcp_please_enter_config">Insira o conteúdo da configuração</string>
     <string name="mcp_server_plugin_install_path_label">Caminho de instalação do plug-in:</string>
     <string name="mcp_server_json_config_title">Configuração JSON</string>
@@ -5022,8 +5022,8 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="skill_publish_body_section_repo_info">## 🔗 Informações do armazém</string>
     <string name="skill_publish_body_label_repo_url">**Endereço do armazém:** %1$s</string>
     <string name="skill_publish_body_section_install_method">## 📦 Método de instalação</string>
-    <string name="skill_publish_body_install_step1">1. Abra Operit → Gerenciamento de Pacotes → Habilidades</string>
-    <string name="skill_publish_body_install_step2">2. Clique em "Importar Habilidade" → "Importar do Armazém"</string>
+    <string name="skill_publish_body_install_step1">1. Abra Operit �?Gerenciamento de Pacotes �?Habilidades</string>
+    <string name="skill_publish_body_install_step2">2. Clique em "Importar Habilidade" �?"Importar do Armazém"</string>
     <string name="skill_publish_body_install_step3">3. Insira o endereço do armazém: `%1$s`</string>
     <string name="skill_publish_body_install_step4">4. Confirme a importação</string>
     <string name="skill_publish_body_section_tech_info">## 🛠️Informações Técnicas</string>
@@ -5220,7 +5220,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="functional_config_test_ui_controller_prompt">Estado atual da UI: [Button(label="OK",bounds="[0,0][100,50]")]\nMeta da tarefa: Clique em OK. \nHistórico de execução: []</string>
     <string name="functional_config_test_memory_prompt">Conteúdo da conversa:\nUsuário: Problema no teste de conexão. \nAssistente: Resposta do teste de conexão.</string>
     <string name="tool_permission_instruction_title">Instruções de uso</string>
-    <string name="tool_permission_instruction_content">1. As "Permissões padrão globais" acima controlam o comportamento padrão de todas as ferramentas. \n2. As ferramentas adicionadas em cada grupo abaixo definem “regras de exceção” para a ferramenta, que substituirão o padrão global. \n3. Clique novamente na ferramenta do mesmo grupo ou desmarque-a na caixa de diálogo de seleção para remover a configuração de exceção da ferramenta e deixá-la seguir o padrão global novamente.</string>
+    <string name="tool_permission_instruction_content">1. As "Permissões padrão globais" acima controlam o comportamento padrão de todas as ferramentas. \n2. As ferramentas adicionadas em cada grupo abaixo definem “regras de exceção�?para a ferramenta, que substituirão o padrão global. \n3. Clique novamente na ferramenta do mesmo grupo ou desmarque-a na caixa de diálogo de seleção para remover a configuração de exceção da ferramenta e deixá-la seguir o padrão global novamente.</string>
     <string name="token_price_description">Defina o preço em RMB para cada solicitação de API</string>
     <string name="floating_chat_cancel">Cancelar</string>
     <string name="floating_chat_send">enviar</string>
@@ -5266,7 +5266,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="emoticon_shyness">vergonha</string>
     <string name="emoticon_blush">corar</string>
     <string name="emoticon_embarrassed">Com licença</string>
-    <string name="autoglm_task_complete">✅ Missão concluída: %1$s</string>
+    <string name="autoglm_task_complete">�?Missão concluída: %1$s</string>
     <string name="autoglm_thinking_process">💭 Processo de pensamento:</string>
     <string name="autoglm_execute_action">🎯 Execute a ação:</string>
     <string name="version_update">Atualização de versão</string>
@@ -5601,7 +5601,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="webvisit_help_countdown">A contagem regressiva automática está em andamento. Clique em \"Cancelar contagem regressiva\" para interromper o processamento automático.</string>
     <string name="webvisit_help_cancel_auto">Clique em \"Cancelar Automático\" para mudar para o modo manual</string>
     <string name="webvisit_help_manual_mode">Mudando para o modo manual, clique em "Extração Manual" para continuar</string>
-    <string name="webvisit_help_extracted">A extração do conteúdo foi concluída, clique em “Continuar Processando” para continuar.</string>
+    <string name="webvisit_help_extracted">A extração do conteúdo foi concluída, clique em “Continuar Processando�?para continuar.</string>
     <string name="siliconflow_voice_alex">Alex - voz masculina calma</string>
     <string name="siliconflow_voice_benjamin">Benjamin - voz masculina profunda</string>
     <string name="siliconflow_voice_charles">Charles - Voz Masculina Magnética</string>
@@ -5761,7 +5761,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="anr_main_thread_section">【Tópico Principal】\n%1$s\n\n</string>
     <string name="anr_analysis_section">【Análise】\n%1$s\n\n</string>
     <string name="anr_recent_call_info">【Informações de chamadas recentes】\n</string>
-    <string name="anr_package_calls">【%1$s (%2$d chamadas)】\n</string>
+    <string name="anr_package_calls">�?1$s (%2$d chamadas)】\n</string>
     <string name="anr_cannot_extract_package_info">Falha ao extrair informações do pacote %1$s</string>
     <string name="anr_report_header">===== Relatório de monitoramento de ANR =====\n</string>
     <string name="anr_report_time">Hora: %1$s\n</string>
@@ -6535,7 +6535,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="speech_services_simple_tts_voice_default">Usar voz padrão do sistema</string>
     <string name="speech_services_simple_tts_voice_select">Selecionar voz do sistema</string>
     <string name="speech_services_simple_tts_voice_clear">Limpar voz do sistema</string>
-    <string name="speech_services_simple_tts_loading">Carregando vozes de TTS do sistema…</string>
+    <string name="speech_services_simple_tts_loading">Carregando vozes de TTS do sistema�?/string>
     <string name="chat_only_ai_message_allowed">Esta ação só pode ser executada em mensagens de IA</string>
     <string name="chat_regenerate_single">Regenerar individualmente</string>
     <string name="chat_regenerating_single">Regenerando esta resposta...</string>
@@ -6670,7 +6670,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="show_message_token_stats_description">Exibe informações concisas de tokens de subida/descida e cache na parte inferior das mensagens da IA.</string>
     <string name="show_message_timing_stats">Mostrar resumo de tempo da mensagem</string>
     <string name="show_message_timing_stats_description">Exibe o tempo do primeiro pacote e o tempo de geração na parte inferior das mensagens da IA.</string>
-    <string name="chat_message_token_stats_compact">token: %1$d ↑ %3$d (cache: %2$d) ↓ %4$d</string>
+    <string name="chat_message_token_stats_compact">token: %1$d �?%3$d (cache: %2$d) �?%4$d</string>
     <string name="chat_message_timing_stats_compact">tempo: %1$s (primeiro %2$s geração %3$s)</string>
     <string name="software_identity_title">Identidade do software</string>
     <string name="software_identity_description">Altera a identidade do software exibida no topo da barra lateral.</string>
@@ -6769,7 +6769,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="toolpkg_widget_picker_cancel">Cancelar</string>
     <string name="toolpkg_widget_picker_empty_title">Ainda não há widgets disponíveis</string>
     <string name="toolpkg_widget_picker_empty_body">Ative um ToolPkg que tenha um desktop widget registrado e volte para adicionar.</string>
-    <string name="toolpkg_widget_picker_selecting">Configurando…</string>
+    <string name="toolpkg_widget_picker_selecting">Configurando�?/string>
     <string name="chat_message_locator_favorites_filter">Mostrar apenas mensagens favoritas</string>
     <string name="attachment_package">Pacote</string>
     <string name="attachment_package_select_title">Selecionar pacote</string>
@@ -6910,7 +6910,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="plugin_market_search_placeholder">Pesquisar plugins</string>
     <string name="mcp_market_search_placeholder">Pesquisar MCP</string>
     <string name="change">Alterar</string>
-    <string name="comma_separator">，</string>
+    <string name="comma_separator">�?/string>
     <string name="github_search_failed">Falha na pesquisa do GitHub</string>
     <string name="artifact_market_remove_request_submitted_message">Solicitação de remoção de "%1$s" enviada</string>
     <string name="artifact_market_reopen_request_submitted_message">Solicitação de republicação de "%1$s" enviada</string>
@@ -7042,7 +7042,7 @@ Agora é possível usar o modo AutoGLM na interface de diálogo.</string>
     <string name="ai_message_image_attached_multimodal_notice">O conteúdo da imagem foi anexado como entrada multimodal a esta mensagem. Não use a ferramenta de leitura de arquivos para ler este caminho.</string>
     <string name="ai_message_result_prefix">[Resultado: </string>
     <string name="ai_message_result_suffix">]</string>
-    <string name="ai_message_package_warmup_title">【Pré-aquecimento do pacote】</string>
+    <string name="ai_message_package_warmup_title">【Pré-aquecimento do pacote�?/string>
     <string name="ai_message_package_warmup_empty">Nenhuma chamada de ferramenta de pacote foi detectada no escopo deste resumo, portanto, nenhum pré-aquecimento de pacote foi realizado.</string>
     <string name="ai_message_package_warmup_intro">Com base na frequência de uso das ferramentas no escopo deste resumo, os pacotes mais frequentes foram ativados automaticamente, e os resultados de retorno de use_package são fornecidos para o próximo pré-aquecimento.</string>
     <string name="ai_message_use_package_failed">Falha na chamada de use_package: %1$s</string>

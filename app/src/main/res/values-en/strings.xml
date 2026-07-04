@@ -89,7 +89,7 @@
     <string name="floating_listening">Listening...</string>
     <string name="floating_hold_microphone">Hold microphone</string>
     <string name="floating_start_recording_failed">Failed to start recording</string>
-    <string name="floating_recognizing">Recognizing‚Ä¶</string>
+    <string name="floating_recognizing">Recognizing‚Ä?/string>
     <string name="floating_thinking_2">Thinking...</string>
     <string name="floating_didnt_hear_clearly">Didn\'t hear clearly</string>
     <string name="floating_hello">Hello</string>
@@ -160,7 +160,7 @@
     <string name="workflow_action_delete_node">Delete node</string>
     <string name="workflow_source_node_format">Source node: %1$s</string>
     <string name="workflow_no_connectable_nodes">No connectable nodes</string>
-    <string name="workflow_connection_condition_arrow_format">‚Üí %1$s</string>
+    <string name="workflow_connection_condition_arrow_format">‚Ü?%1$s</string>
     <string name="workflow_edit_connection_condition">Edit</string>
     <string name="workflow_edit_connection_condition_title">Edit connection condition</string>
     <string name="workflow_connection_condition_default_true">true (default)</string>
@@ -312,7 +312,7 @@
     <string name="workflow_trigger_config_title">Trigger Config</string>
     <string name="workflow_trigger_config_json_label">Trigger config (JSON)</string>
     <string name="workflow_trigger_config_json_placeholder">{"key": "value"}</string>
-    <string name="workflow_speech_trigger_help">Note: Speech trigger matches pattern against the background STT (speech-to-text) output events (partial/final). You must enable ‚ÄúAlways listen‚Äù and set wake-up recognition mode to ‚ÄúSTT‚Äù. If you are using ‚ÄúPersonalized template wake-up‚Äù, no STT text events are produced, so this trigger will not work.</string>
+    <string name="workflow_speech_trigger_help">Note: Speech trigger matches pattern against the background STT (speech-to-text) output events (partial/final). You must enable ‚ÄúAlways listen‚Ä?and set wake-up recognition mode to ‚ÄúSTT‚Ä? If you are using ‚ÄúPersonalized template wake-up‚Ä? no STT text events are produced, so this trigger will not work.</string>
     <string name="workflow_app_open_trigger_help">Note: This trigger fires only on the first screen entry after a cold start, including launcher icon opens and external launches. Returning from background will not trigger it.</string>
 
     <string name="workflow_select_predecessor_node">Select predecessor node</string>
@@ -491,7 +491,7 @@
     <string name="voice_wakeup_personal_config_dialog_desc">Say the wake phrase three times. We will record your voice features for wake-up detection.</string>
     <string name="voice_wakeup_personal_config_step">Attempt %1$d</string>
     <string name="voice_wakeup_personal_config_record">Record</string>
-    <string name="voice_wakeup_personal_config_recording">Recording‚Ä¶</string>
+    <string name="voice_wakeup_personal_config_recording">Recording‚Ä?/string>
     <string name="voice_wakeup_personal_config_record_done">Done</string>
     <string name="voice_wakeup_personal_config_save">Save</string>
     <string name="voice_wakeup_personal_config_cancel">Cancel</string>
@@ -649,7 +649,7 @@
     <string name="free_usage_next_available">Next available: %1$s (patience is a virtue~)</string>
     <string name="free_usage_interval_tip">To prevent developer bankruptcy, waiting time doubles after each use~</string>
     <string name="free_usage_first_tip">This is your first use, next time you\'ll need to wait 1 day~</string>
-    <string name="free_usage_later_tip">Free stuff comes with limits, please wait %1$d more days (‡πë‚Ä¢ÃÄ„ÖÇ‚Ä¢ÃÅ)Ÿà‚úß</string>
+    <string name="free_usage_later_tip">Free stuff comes with limits, please wait %1$d more days (‡πë‚Ä¢ÃÄ„ÖÇ‚Ä¢Ã?Ÿà‚ú?/string>
     
     <!-- Plugin Loading Screen -->
     <string name="plugin_skip">Skip</string>
@@ -1046,7 +1046,7 @@
     <string name="copy_path">Copy Path</string>
     <string name="path_copied_to_clipboard">Path copied to clipboard</string>
     <string name="open_file_manager">Open File Manager</string>
-    <string name="navigate_to_external_files">Please navigate to Android/data/com.ai.assistance.operit/files/packages directory</string>
+    <string name="navigate_to_external_files">Please navigate to Android/data/com.ai.assistance.surlor/files/packages directory</string>
     <string name="package_js_only">Only JavaScript (.js) and ToolPkg (.toolpkg) files are supported</string>
     <string name="pkg_toolpkg_subpackages">ToolPkg Subpackages</string>
     <string name="pkg_toolpkg_version">Version: %1$s</string>
@@ -1595,8 +1595,8 @@
     <string name="message_info_wait_duration">Wait Duration</string>
     <string name="message_info_output_duration">Output Duration</string>
     <string name="message_info_token_summary">Token Summary</string>
-    <string name="message_info_token_input_short">‚Üë</string>
-    <string name="message_info_token_output_short">‚Üì</string>
+    <string name="message_info_token_input_short">‚Ü?/string>
+    <string name="message_info_token_output_short">‚Ü?/string>
     <string name="message_info_token_cached_short">Cached</string>
     <string name="message_info_unavailable">Not recorded</string>
     <string name="selected_content_copied">Selected content copied</string>
@@ -1706,7 +1706,7 @@
     <string name="workspace_project_type_flutter_description">For Flutter cross-platform development, includes the current stable app template and common command shortcuts</string>
     <string name="please_select_or_create_conversation">Please select or create a conversation first</string>
     <string name="latest">Latest</string>
-    <string name="main_highlights">‚ú® Main Highlights</string>
+    <string name="main_highlights">‚ú?Main Highlights</string>
     <string name="complete_update_content">üìã Complete Update Content</string>
     <string name="view_release">View Release</string>
     <string name="streaming_rendering">Streaming Rendering</string>
@@ -2041,14 +2041,14 @@
     <string name="process_limit_what_is_title">What are Phantom Process Limits?</string>
     <string name="process_limit_what_is_desc">Android 12+ introduced the Phantom Processes mechanism to limit the number of background child processes, preventing apps from consuming system resources by creating excessive child processes.</string>
     <string name="process_limit_benefits_title">Benefits of Removing Limits</string>
-    <string name="process_limit_benefits_desc">‚Ä¢ Allow apps to create more background child processes\n‚Ä¢ Improve background task execution capability\n‚Ä¢ Prevent child processes from being unexpectedly terminated\n‚Ä¢ Suitable for apps requiring multi-process handling</string>
+    <string name="process_limit_benefits_desc">‚Ä?Allow apps to create more background child processes\n‚Ä?Improve background task execution capability\n‚Ä?Prevent child processes from being unexpectedly terminated\n‚Ä?Suitable for apps requiring multi-process handling</string>
     <string name="process_limit_warnings_title">Cautions</string>
-    <string name="process_limit_warnings_desc">‚Ä¢ Only supports Android 12 and above\n‚Ä¢ May increase battery consumption and memory usage\n‚Ä¢ Requires ADB Shell or Root privileges\n‚Ä¢ Settings will be reset after device reboot</string>
+    <string name="process_limit_warnings_desc">‚Ä?Only supports Android 12 and above\n‚Ä?May increase battery consumption and memory usage\n‚Ä?Requires ADB Shell or Root privileges\n‚Ä?Settings will be reset after device reboot</string>
     <string name="process_limit_action_remove">Remove Limit</string>
     <string name="process_limit_action_remove_desc">Remove Android system phantom process count limits</string>
     <string name="process_limit_action_restore">Restore Limit</string>
     <string name="process_limit_action_restore_desc">Restore Android system default phantom process limits</string>
-    <string name="process_limit_status_checking">Checking‚Ä¶</string>
+    <string name="process_limit_status_checking">Checking‚Ä?/string>
     <string name="process_limit_status_removed">Limit Removed (Max: %s)</string>
     <string name="process_limit_status_limited">Limited (Current: %s processes)</string>
     <string name="process_limit_status_default">Default Limit (No custom value set)</string>
@@ -2057,7 +2057,7 @@
     <string name="process_limit_current_status">Current Status</string>
     <string name="process_limit_choose_action">Choose Action</string>
     <string name="process_limit_execute">Execute</string>
-    <string name="process_limit_executing">Executing‚Ä¶</string>
+    <string name="process_limit_executing">Executing‚Ä?/string>
     <string name="process_limit_success_title">Success</string>
     <string name="process_limit_error_title">Failed</string>
     <string name="process_limit_execution_history">Execution History</string>
@@ -2231,7 +2231,7 @@
     <string name="toolbox_permissions_search_hint">Search apps</string>
     <string name="toolbox_permissions_system_apps">System apps</string>
     <string name="toolbox_permissions_app_count">%d apps total</string>
-    <string name="toolbox_permissions_loading_apps">Loading app list‚Ä¶</string>
+    <string name="toolbox_permissions_loading_apps">Loading app list‚Ä?/string>
     <string name="toolbox_permissions_no_match">No matching apps found</string>
     <string name="toolbox_permissions_try_other_keywords">Try other keywords</string>
     <string name="toolbox_permissions_try_system_apps">Try checking "System apps" to see more</string>
@@ -2241,7 +2241,7 @@
     <string name="toolbox_permissions_total">Total permissions</string>
     <string name="toolbox_permissions_granted">Granted</string>
     <string name="toolbox_permissions_dangerous">Dangerous permissions</string>
-    <string name="toolbox_permissions_loading_info">Loading permission info‚Ä¶</string>
+    <string name="toolbox_permissions_loading_info">Loading permission info‚Ä?/string>
     <string name="toolbox_permissions_no_special">This app has no special permissions</string>
     <string name="toolbox_permissions_no_special_desc">This means the app doesn\'t need access to sensitive data or features</string>
     <string name="toolbox_permissions_count_suffix"> permissions</string>
@@ -2539,7 +2539,7 @@
     <string name="speech_services_simple_tts_voice_default">Use system default voice</string>
     <string name="speech_services_simple_tts_voice_select">Select system voice</string>
     <string name="speech_services_simple_tts_voice_clear">Clear system voice</string>
-    <string name="speech_services_simple_tts_loading">Loading system TTS voices‚Ä¶</string>
+    <string name="speech_services_simple_tts_loading">Loading system TTS voices‚Ä?/string>
     <string name="speech_services_tts_type_http">HTTP API (Remote)</string>
     <string name="speech_services_tts_type_siliconflow">SiliconFlow TTS</string>
     <string name="speech_services_tts_type_minimax">MiniMax TTS</string>
@@ -2564,7 +2564,7 @@
     <string name="speech_services_tts_cleaner_template_asterisk">Remove *xxxx*</string>
     <string name="speech_services_tts_cleaner_template_double_asterisk">Remove **xxxx**</string>
     <string name="speech_services_tts_cleaner_template_parenthesis">Remove (xxx)</string>
-    <string name="speech_services_tts_cleaner_template_chinese_parenthesis">Remove ÔºàxxxxÔºâ</string>
+    <string name="speech_services_tts_cleaner_template_chinese_parenthesis">Remove ÔºàxxxxÔº?/string>
     <string name="speech_services_tts_cleaner_template_xml">Remove XML tags</string>
     
     <!-- HTTP TTS Configuration -->
@@ -2804,9 +2804,9 @@
     <string name="test_item_video">Video</string>
     <string name="expand_desc">Expand</string>
     <string name="selected_desc">Selected</string>
-    <string name="functional_config_warning_image_unsupported">Warning: the selected model is not marked as ‚Äúsupports vision‚Äù, so image recognition may not work. Switch to a model that supports vision and enable ‚ÄúModel supports vision‚Äù.</string>
-    <string name="functional_config_warning_audio_unsupported">Warning: the selected model is not marked as ‚Äúsupports audio‚Äù, so audio recognition/transcription may not work. Switch to a model that supports audio and enable ‚ÄúModel supports audio‚Äù.</string>
-    <string name="functional_config_warning_video_unsupported">Warning: the selected model is not marked as ‚Äúsupports video‚Äù, so video understanding may not work. Switch to a model that supports video and enable ‚ÄúModel supports video‚Äù.</string>
+    <string name="functional_config_warning_image_unsupported">Warning: the selected model is not marked as ‚Äúsupports vision‚Ä? so image recognition may not work. Switch to a model that supports vision and enable ‚ÄúModel supports vision‚Ä?</string>
+    <string name="functional_config_warning_audio_unsupported">Warning: the selected model is not marked as ‚Äúsupports audio‚Ä? so audio recognition/transcription may not work. Switch to a model that supports audio and enable ‚ÄúModel supports audio‚Ä?</string>
+    <string name="functional_config_warning_video_unsupported">Warning: the selected model is not marked as ‚Äúsupports video‚Ä? so video understanding may not work. Switch to a model that supports video and enable ‚ÄúModel supports video‚Ä?</string>
 
     <!-- Function Types -->
     <string name="function_type_chat">Chat Function</string>
@@ -3099,7 +3099,7 @@
     <string name="emoticon_shyness">Shyness</string>
     <string name="emoticon_blush">Blush</string>
     <string name="emoticon_embarrassed">Embarrassed</string>
-    <string name="autoglm_task_complete">‚úÖ Task completed: %1$s</string>
+    <string name="autoglm_task_complete">‚ú?Task completed: %1$s</string>
     <string name="autoglm_thinking_process">üí≠ Thinking Process:</string>
     <string name="autoglm_execute_action">üéØ Execute Action:</string>
     <string name="version_update">Version Update</string>
@@ -3520,7 +3520,7 @@
     <string name="settings_token_price_description_with_currency">Set price per API request (%1$s)</string>
     <string name="settings_exchange_rate_title">Exchange Rate</string>
     <string name="settings_exchange_rate_subtitle">USD-priced models are converted to CNY total cost using this rate</string>
-    <string name="settings_usd_to_cny_rate_label">USD ‚Üí CNY Rate</string>
+    <string name="settings_usd_to_cny_rate_label">USD ‚Ü?CNY Rate</string>
     <string name="settings_rate_applied_hint">Total cost converted with 1 USD = %1$.4f CNY</string>
     <string name="settings_input_price_per_million">Input Price (per million tokens)</string>
     <string name="settings_output_price_per_million">Output Price (per million tokens)</string>
@@ -3886,7 +3886,7 @@
 
     <!-- llama.cpp Local Inference -->
     <string name="llama_local_model_tip">Local models are usually weaker. Consider disabling memory links and disabling tools for chat.</string>
-    <string name="llama_local_model_download_tip">llama.cpp models must be downloaded manually (.gguf). Put the model file in the folder below, then enter the file name in ‚ÄúModel name‚Äù:</string>
+    <string name="llama_local_model_download_tip">llama.cpp models must be downloaded manually (.gguf). Put the model file in the folder below, then enter the file name in ‚ÄúModel name‚Ä?</string>
     <string name="llama_local_model_dir">Default model folder: %1$s</string>
     <string name="llama_auto_config_tip">Batch size, mmap, Flash Attention, KV, and other Android compatibility settings are built in. In normal use, you only need thread count, context size, and GPU layers.</string>
     <string name="llama_select_downloaded_model">Select downloaded model</string>
@@ -4129,7 +4129,7 @@
     <string name="appearance_prompt_placeholder">e.g.: long hair, purple eyes, sweater vest...</string>
     <string name="appearance_prompt_tip">Tip: Use English keywords to describe appearance features, separate multiple keywords with commas</string>
     <string name="feature_explanation">Feature Explanation</string>
-    <string name="waifu_mode_explanation">‚Ä¢ Normal Mode: AI responses sent all at once\n‚Ä¢ Waifu Mode: AI responses split by sentences, each in separate bubbles\n‚Ä¢ Smart Delay: Calculate delay time based on sentence length\n‚Ä¢ Merge Send: consecutive short user messages are combined into one message after a pause\n‚Ä¢ Auto Cleanup: Remove status tags, show only plain text\n‚Ä¢ Optional Features: merge send, remove end punctuation, edit Waifu prompt, enable emoticons\n‚Ä¢ Use Case: Simulate more natural conversation rhythm\n‚Ä¢ Note: This mode may not adapt well to tool calls</string>
+    <string name="waifu_mode_explanation">‚Ä?Normal Mode: AI responses sent all at once\n‚Ä?Waifu Mode: AI responses split by sentences, each in separate bubbles\n‚Ä?Smart Delay: Calculate delay time based on sentence length\n‚Ä?Merge Send: consecutive short user messages are combined into one message after a pause\n‚Ä?Auto Cleanup: Remove status tags, show only plain text\n‚Ä?Optional Features: merge send, remove end punctuation, edit Waifu prompt, enable emoticons\n‚Ä?Use Case: Simulate more natural conversation rhythm\n‚Ä?Note: This mode may not adapt well to tool calls</string>
     <string name="settings_saved_message">Settings saved</string>
 
     <string name="settings_section_account">Account</string>
@@ -4168,8 +4168,8 @@
     <string name="edit_character_group">Edit Group</string>
     <string name="delete_character_group">Delete Group</string>
     <string name="delete_character_group_confirm">Delete group \"%1$s\"?</string>
-    <string name="role_response_planner_planning">Planning group speaking order‚Ä¶</string>
-    <string name="role_response_planner_member_replying">Generating a reply from \"%1$s\"‚Ä¶</string>
+    <string name="role_response_planner_planning">Planning group speaking order‚Ä?/string>
+    <string name="role_response_planner_member_replying">Generating a reply from \"%1$s\"‚Ä?/string>
     <string name="role_response_planner_failed">Group planning failed</string>
     <string name="group_members">Members</string>
     <string name="group_add_member">Add member</string>
@@ -4315,9 +4315,9 @@
 
     <string name="github_account">GitHub Account</string>
     <string name="login_github">Login to GitHub</string>
-    <string name="publish_mcp_plugins_to_market">‚Ä¢ Publish your MCP plugins to the market</string>
-    <string name="manage_published_plugins">‚Ä¢ Manage your published plugins</string>
-    <string name="better_installation_experience">‚Ä¢ Get better installation experience</string>
+    <string name="publish_mcp_plugins_to_market">‚Ä?Publish your MCP plugins to the market</string>
+    <string name="manage_published_plugins">‚Ä?Manage your published plugins</string>
+    <string name="better_installation_experience">‚Ä?Get better installation experience</string>
     
     <!-- MCP Publish Screen -->
     <string name="edit_description">Edit Description</string>
@@ -4475,18 +4475,18 @@
     <string name="mcp_publish_body_label_description">**Description:** %1$s</string>
     <string name="mcp_publish_body_section_repo_info">## üîó Repository Info</string>
     <string name="mcp_publish_body_label_repo_url">**Repository:** %1$s</string>
-    <string name="mcp_publish_body_section_quick_install">## ‚ö° Quick Install</string>
+    <string name="mcp_publish_body_section_quick_install">## ‚ö?Quick Install</string>
     <string name="mcp_publish_body_section_install_method">## üì¶ Installation</string>
     <string name="mcp_publish_body_method_repo_import_title">### Method 1: Import from Repo</string>
     <string name="mcp_publish_body_method_repo_import_step1">1. Open Operit MCP configuration screen</string>
-    <string name="mcp_publish_body_method_repo_import_step2">2. Tap "Import" ‚Üí "Import from Repo"</string>
+    <string name="mcp_publish_body_method_repo_import_step2">2. Tap "Import" ‚Ü?"Import from Repo"</string>
     <string name="mcp_publish_body_method_repo_import_step3">3. Enter repository URL: `%1$s`</string>
     <string name="mcp_publish_body_method_repo_import_step4">4. Set plugin name and import</string>
     <string name="mcp_publish_body_method_config_import_title">### Method 2: Import Config</string>
     <string name="mcp_publish_body_method_config_import_step1">1. Open Operit MCP configuration screen</string>
-    <string name="mcp_publish_body_method_config_import_step2">2. Tap "Import" ‚Üí "Import Config"</string>
+    <string name="mcp_publish_body_method_config_import_step2">2. Tap "Import" ‚Ü?"Import Config"</string>
     <string name="mcp_publish_body_method_config_import_step3">3. Paste the following config:</string>
-    <string name="mcp_publish_body_section_tech_info">## üõ†Ô∏è Technical Info</string>
+    <string name="mcp_publish_body_section_tech_info">## üõ†Ô∏?Technical Info</string>
     <string name="mcp_publish_body_table_header">| Item | Value |</string>
     <string name="mcp_publish_body_table_separator">|------|-----|</string>
     <string name="mcp_publish_body_table_row_platform">| Platform | Operit MCP Market |</string>
@@ -4609,7 +4609,7 @@
     <string name="toolpkg_widget_picker_cancel">Cancel</string>
     <string name="toolpkg_widget_picker_empty_title">No widgets available yet</string>
     <string name="toolpkg_widget_picker_empty_body">Enable a ToolPkg that registers a desktop widget, then add it again.</string>
-    <string name="toolpkg_widget_picker_selecting">Configuring‚Ä¶</string>
+    <string name="toolpkg_widget_picker_selecting">Configuring‚Ä?/string>
 
     <!-- Persona Card Generation Screen -->
     <string name="persona_card_generation_title">Character Card to Edit</string>
@@ -4638,10 +4638,10 @@
     <string name="please_select_or_create_card">Please select or create a character card from the sidebar to begin.</string>
     <string name="persona_generation_welcome">üé≠ Welcome to the Character Card Generation Assistant!\n\nLet\'s edit \'%1$s\' together!\nPlease tell me what character you want to create or what aspect you\'d like to modify?</string>
     <string name="new_character">New Character</string>
-    <string name="generating">Generating‚Ä¶</string>
+    <string name="generating">Generating‚Ä?/string>
     <string name="send_failed">Send failed: %1$s</string>
-    <string name="currently_generating">Generating‚Ä¶</string>
-    <string name="describe_character_hint">Describe the character you want‚Ä¶</string>
+    <string name="currently_generating">Generating‚Ä?/string>
+    <string name="describe_character_hint">Describe the character you want‚Ä?/string>
     <string name="character_card_complete">üéâ Character card generation complete! All information has been saved.</string>
     <string name="confirm_clear_chat_history">Are you sure you want to clear the chat history for the current character card? This action cannot be undone.</string>
     <string name="message_limit_reached_title">Message Limit Reached</string>
@@ -4690,37 +4690,37 @@
     <!-- Step 1 -->
     <string name="default_assistant_guide_step1_title">Open System Settings</string>
     <string name="default_assistant_guide_step1_desc">First, you need to enter the Android system settings interface</string>
-    <string name="default_assistant_guide_step1_detail1">‚Ä¢ Open System Settings ‚Üí Apps ‚Üí Default apps ‚Üí Digital assistant app</string>
-    <string name="default_assistant_guide_step1_detail2">‚Ä¢ Find and select "Operit AI" in the assistant app list</string>
-    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Settings ‚Üí Apps ‚Üí Default apps ‚Üí Digital assistant app ‚Üí Default digital assistant app</string>
+    <string name="default_assistant_guide_step1_detail1">‚Ä?Open System Settings ‚Ü?Apps ‚Ü?Default apps ‚Ü?Digital assistant app</string>
+    <string name="default_assistant_guide_step1_detail2">‚Ä?Find and select "Operit AI" in the assistant app list</string>
+    <string name="default_assistant_guide_step1_detail_android12">Android 12+: Settings ‚Ü?Apps ‚Ü?Default apps ‚Ü?Digital assistant app ‚Ü?Default digital assistant app</string>
     <string name="default_assistant_guide_open_settings">Open Settings</string>
     
     <!-- Step 2 -->
     <string name="default_assistant_guide_open_gesture_settings">Open Gesture Settings</string>
     <string name="default_assistant_guide_step2_title">Find Assistant Settings</string>
     <string name="default_assistant_guide_step2_desc">In system settings, find voice assistant or digital assistant related options</string>
-    <string name="default_assistant_guide_step2_detail1">‚Ä¢ The settings location may vary slightly between different phone manufacturers</string>
-    <string name="default_assistant_guide_step2_detail2">‚Ä¢ Usually located at: Settings ‚Üí Apps ‚Üí Default apps ‚Üí Digital assistant app</string>
-    <string name="default_assistant_guide_step2_detail3">‚Ä¢ Voice wake-up: \"Hey Google\" or your device\'s designated wake word (device support required)</string>
+    <string name="default_assistant_guide_step2_detail1">‚Ä?The settings location may vary slightly between different phone manufacturers</string>
+    <string name="default_assistant_guide_step2_detail2">‚Ä?Usually located at: Settings ‚Ü?Apps ‚Ü?Default apps ‚Ü?Digital assistant app</string>
+    <string name="default_assistant_guide_step2_detail3">‚Ä?Voice wake-up: \"Hey Google\" or your device\'s designated wake word (device support required)</string>
     <string name="default_assistant_guide_step2_note">Note: Gesture settings may vary between phone brands. Please check available options in system settings</string>
-    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Settings ‚Üí Apps ‚Üí Default apps ‚Üí Digital assistant app ‚Üí Default digital assistant app</string>
+    <string name="default_assistant_guide_step2_detail_android12">Android 12+: Settings ‚Ü?Apps ‚Ü?Default apps ‚Ü?Digital assistant app ‚Ü?Default digital assistant app</string>
     
     <!-- Step 3 -->
     <string name="default_assistant_guide_step3_title">Select Operit</string>
     <string name="default_assistant_guide_step3_desc">Choose Operit AI from the assistant app list</string>
-    <string name="default_assistant_guide_step3_detail1">‚Ä¢ Find \"Operit AI\" in the available assistant apps list</string>
-    <string name="default_assistant_guide_step3_detail2">‚Ä¢ Tap to select, and the system will set Operit as the default assistant</string>
-    <string name="default_assistant_guide_step3_detail3">‚Ä¢ You can try speaking or typing to interact with the assistant</string>
+    <string name="default_assistant_guide_step3_detail1">‚Ä?Find \"Operit AI\" in the available assistant apps list</string>
+    <string name="default_assistant_guide_step3_detail2">‚Ä?Tap to select, and the system will set Operit as the default assistant</string>
+    <string name="default_assistant_guide_step3_detail3">‚Ä?You can try speaking or typing to interact with the assistant</string>
     
     <!-- Step 4 -->
     <string name="default_assistant_guide_step4_title">Test Voice Assistant</string>
     <string name="default_assistant_guide_step4_desc">After setup, test if it can be launched normally</string>
-    <string name="default_assistant_guide_step4_detail1">‚Ä¢ Long-press the Home button (home screen button) should invoke Operit voice assistant</string>
-    <string name="default_assistant_guide_step4_detail2">‚Ä¢ If voice wake-up is supported, saying \"Hey Google\" or your device\'s designated wake word may also trigger Operit</string>
+    <string name="default_assistant_guide_step4_detail1">‚Ä?Long-press the Home button (home screen button) should invoke Operit voice assistant</string>
+    <string name="default_assistant_guide_step4_detail2">‚Ä?If voice wake-up is supported, saying \"Hey Google\" or your device\'s designated wake word may also trigger Operit</string>
     
     <!-- Troubleshooting -->
     <string name="default_assistant_guide_troubleshooting_title">Having Problems?</string>
-    <string name="default_assistant_guide_troubleshooting_content">If you can\'t find Operit in the list, please ensure:\n\n‚Ä¢ The app is properly installed and not disabled\n‚Ä¢ Necessary permissions have been granted (microphone, overlay, etc.)\n‚Ä¢ Try restarting the device and setting it up again\n\nSome custom systems may restrict third-party apps from being set as default assistants. If you encounter this situation, you can still use Operit through the in-app floating window feature.</string>
+    <string name="default_assistant_guide_troubleshooting_content">If you can\'t find Operit in the list, please ensure:\n\n‚Ä?The app is properly installed and not disabled\n‚Ä?Necessary permissions have been granted (microphone, overlay, etc.)\n‚Ä?Try restarting the device and setting it up again\n\nSome custom systems may restrict third-party apps from being set as default assistants. If you encounter this situation, you can still use Operit through the in-app floating window feature.</string>
 
     <!-- Voice Interaction Service -->
     <string name="voice_interaction_service_name">Operit AI Assistant</string>
@@ -4772,7 +4772,7 @@
     <string name="execution_failed">Execution Failed</string>
     <string name="copy_result">Copy Result</string>
     <string name="tool_call_parameters">Call Parameters</string>
-    <string name="tool_call_param_bytes">%1$d‚Üì</string>
+    <string name="tool_call_param_bytes">%1$d‚Ü?/string>
     <string name="tool_call">Tool Call</string>
     <string name="lines_count">lines</string>
     <string name="edit_message">Edit Message</string>
@@ -4901,13 +4901,13 @@
     <string name="chats_assigned_to_character">Assigned %1$d chat(s) to \'%2$s\'</string>
     <string name="chats_group_updated">Set group to \'%2$s\' for %1$d chat(s)</string>
     <string name="batch_update_failed">Batch update failed: %1$s</string>
-    <string name="loading_data_please_wait">Loading data, please wait‚Ä¶</string>
+    <string name="loading_data_please_wait">Loading data, please wait‚Ä?/string>
     <string name="no_chat_stats_to_assign">No chat statistics found to assign</string>
     <string name="please_select_a_character_card">Please select a character card</string>
     <string name="assigned_to_character_card">Assigned to character card \'%1$s\'</string>
     <string name="assign_failed_error">Assignment failed: %1$s</string>
     <string name="chat_history_overview">Chat History Overview</string>
-    <string name="counting_chat_data">Counting chat data‚Ä¶</string>
+    <string name="counting_chat_data">Counting chat data‚Ä?/string>
     <string name="no_chat_data_available">No chat data available.</string>
     <string name="chats_and_messages_count">%1$d conversations ¬∑ %2$d messages</string>
     <string name="click_to_assign_to_card">Click to assign to existing character card</string>
@@ -4980,7 +4980,7 @@
     <string name="show_message_timing_stats_description">Show first-token and generation timing below AI messages</string>
     <string name="show_message_timestamp">Show Message Time</string>
     <string name="show_message_timestamp_description">Show the time of that AI message below it</string>
-    <string name="chat_message_token_stats_compact">token: %1$d ‚Üë %3$d (cache: %2$d) ‚Üì %4$d</string>
+    <string name="chat_message_token_stats_compact">token: %1$d ‚Ü?%3$d (cache: %2$d) ‚Ü?%4$d</string>
     <string name="chat_message_timing_stats_compact">usage: %1$s (first %2$s out %3$s)</string>
     <string name="chat_message_timestamp_compact">time: %1$s</string>
     <string name="global_user_name">Global User Name</string>
@@ -5118,8 +5118,8 @@
     <string name="backup_raw_snapshot_restore_from_file">Restore from file</string>
     <string name="backup_raw_snapshot_backing_up">Creating file snapshot backup...</string>
     <string name="backup_raw_snapshot_restoring">Restoring file snapshot backup...</string>
-    <string name="backup_raw_snapshot_progress_preparing">Preparing‚Ä¶</string>
-    <string name="backup_raw_snapshot_progress_scanning_files">Scanning files‚Ä¶</string>
+    <string name="backup_raw_snapshot_progress_preparing">Preparing‚Ä?/string>
+    <string name="backup_raw_snapshot_progress_scanning_files">Scanning files‚Ä?/string>
     <string name="backup_raw_snapshot_progress_scanning_files_with_count">Scanning files: %1$d</string>
     <string name="backup_raw_snapshot_progress_zipping_files">Packaging files...</string>
     <string name="backup_raw_snapshot_progress_zipping_external_files">Packaging Android/data/package/files...</string>
@@ -5249,7 +5249,7 @@
     <string name="backup_model_config_warning_model_params">Model Parameters</string>
     <string name="backup_model_config_warning_custom_params">Custom Parameters</string>
     <string name="backup_model_config_warning_security_tips">Security Recommendations:</string>
-    <string name="backup_model_config_warning_tips">‚Ä¢ Do not share this file with others\n‚Ä¢ Do not upload to public cloud storage\n‚Ä¢ Move the file to a secure location\n‚Ä¢ Use encryption tools to protect the file</string>
+    <string name="backup_model_config_warning_tips">‚Ä?Do not share this file with others\n‚Ä?Do not upload to public cloud storage\n‚Ä?Move the file to a secure location\n‚Ä?Use encryption tools to protect the file</string>
     <string name="backup_model_config_warning_export_path">Export Location:</string>
     <string name="backup_model_config_warning_confirm">I Understand</string>
     
@@ -5379,7 +5379,7 @@
     <string name="vd_overlay_a11y_stop_automation">Stop automation</string>
 
     <string name="toolreg_env_info"> (env: %1$s)</string>
-    <string name="toolreg_env_arrow_info"> (%1$s ‚Üí %2$s)</string>
+    <string name="toolreg_env_arrow_info"> (%1$s ‚Ü?%2$s)</string>
     <string name="toolreg_execute_shell_desc">Execute ADB shell: %1$s</string>
     <string name="toolreg_close_all_virtual_displays_desc">Close all virtual displays</string>
     <string name="toolreg_unnamed">Unnamed</string>
@@ -5508,7 +5508,7 @@
     <string name="toolreg_swipe_desc">Swipe: (%1$s,%2$s) -&gt; (%3$s,%4$s)</string>
     <string name="toolreg_ffmpeg_execute_desc">Execute FFmpeg command: %1$s</string>
     <string name="toolreg_ffmpeg_info_desc">Get FFmpeg info</string>
-    <string name="toolreg_ffmpeg_convert_desc">Convert video: %1$s ‚Üí %2$s</string>
+    <string name="toolreg_ffmpeg_convert_desc">Convert video: %1$s ‚Ü?%2$s</string>
 
     <!-- AutoGLM One-Click Configuration -->
     <string name="autoglm_config_name">AutoGLM Configuration</string>
@@ -5603,7 +5603,7 @@
     <string name="ui_accessibility_mode">Accessibility Mode</string>
     <string name="ui_accessibility_mode_description">Optimize UI automation behavior for accessibility users like TalkBack, prioritize providing readable operation steps, and carefully execute automatic taps.</string>
     <string name="workflow_execution_failed">Execution Failed</string>
-    <string name="workflow_execution_running">Running‚Ä¶</string>
+    <string name="workflow_execution_running">Running‚Ä?/string>
     <string name="workflow_execution_success">Execution Successful</string>
     <string name="workflow_node_failed">Failed</string>
     <string name="workflow_node_pending">Pending</string>
@@ -5841,8 +5841,8 @@
     <string name="mcp_open_config_file">Open Config File</string>
     <string name="mcp_config_file_location">Config file location: %1$s</string>
     <string name="mcp_merged_servers">Merged %1$d server configs</string>
-    <string name="mcp_merge_failed">‚úó Merge failed: %1$s</string>
-    <string name="mcp_import_exception">‚úó Import exception: %1$s</string>
+    <string name="mcp_merge_failed">‚ú?Merge failed: %1$s</string>
+    <string name="mcp_import_exception">‚ú?Import exception: %1$s</string>
     <string name="mcp_please_enter_config">Please enter config content</string>
     <string name="mcp_server_plugin_install_path_label">Plugin install path:</string>
     <string name="mcp_server_json_config_title">JSON config</string>
@@ -5877,11 +5877,11 @@
     <string name="skill_publish_body_section_repo_info">## üîó Repository Info</string>
     <string name="skill_publish_body_label_repo_url">**Repository URL:** %1$s</string>
     <string name="skill_publish_body_section_install_method">## üì¶ Installation</string>
-    <string name="skill_publish_body_install_step1">1. Open Operit ‚Üí Package Manager ‚Üí Skills</string>
-    <string name="skill_publish_body_install_step2">2. Tap "Import Skill" ‚Üí "Import from Repository"</string>
+    <string name="skill_publish_body_install_step1">1. Open Operit ‚Ü?Package Manager ‚Ü?Skills</string>
+    <string name="skill_publish_body_install_step2">2. Tap "Import Skill" ‚Ü?"Import from Repository"</string>
     <string name="skill_publish_body_install_step3">3. Enter repository URL: `%1$s`</string>
     <string name="skill_publish_body_install_step4">4. Confirm import</string>
-    <string name="skill_publish_body_section_tech_info">## üõ†Ô∏è Technical Info</string>
+    <string name="skill_publish_body_section_tech_info">## üõ†Ô∏?Technical Info</string>
     <string name="skill_publish_body_table_header">| Item | Value |</string>
     <string name="skill_publish_body_table_separator">|------|-------|</string>
     <string name="skill_publish_body_table_row_platform">| Platform | Operit Skill Market |</string>
@@ -6975,7 +6975,7 @@
     <string name="perform_edit_edittext_empty">EditText cannot be empty</string>
 
     <!-- GraphVisualizer -->
-    <string name="graph_char_for_measurement">‰∏≠</string>
+    <string name="graph_char_for_measurement">‰∏?/string>
 
     <!-- MnnModelDownloadScreen -->
     <!-- No strings needed here -->
@@ -7459,7 +7459,7 @@
     <string name="supported_app_versions">Supported app versions</string>
     <string name="supported_app_versions_short">Compatible with %1$s</string>
     <string name="unsupported_artifact_version_title">Current app version may be incompatible</string>
-    <string name="unsupported_artifact_version_message">„Äå%1$s„Äçdeclares supported app version as %3$s, current app version is %2$s. Continuing to download may still fail or be unusable.</string>
+    <string name="unsupported_artifact_version_message">„Ä?1$s„Äçdeclares supported app version as %3$s, current app version is %2$s. Continuing to download may still fail or be unusable.</string>
     <string name="continue_download_anyway">Continue download anyway</string>
     <string name="publisher_colon">Publisher: %1$s</string>
     <string name="market_registrar_colon">Registrar %1$s</string>
@@ -7493,7 +7493,7 @@
     <string name="market_detail_open_page">Open page</string>
     <string name="market_detail_post_comment">Post comment</string>
     <string name="market_detail_deleting_comment">Deleting comment</string>
-    <string name="market_detail_deleting_comment_message">Please wait while the change syncs to the server‚Ä¶</string>
+    <string name="market_detail_deleting_comment_message">Please wait while the change syncs to the server‚Ä?/string>
     <string name="market_detail_like_action">Like</string>
     <string name="market_detail_favorite_action">Favorite</string>
     <string name="market_detail_category_label">Category</string>
@@ -7514,8 +7514,8 @@
     <string name="invalid_artifact_metadata">The metadata for this market item is invalid and cannot display details.</string>
     <string name="artifact_publication_pending_review_waiting_schedule">Under review. Please wait for scheduled release.</string>
     <string name="artifact_publication_approved_waiting_schedule">Approved. Please wait for scheduled release.</string>
-    <string name="confirm_remove_script_from_market">Are you sure you want to remove the script„Äå%1$s„Äçfrom the market? This will close the corresponding Issue but will not delete your publish repository.</string>
-    <string name="confirm_remove_package_from_market">Are you sure you want to remove the package„Äå%1$s„Äçfrom the market? This will close the corresponding Issue but will not delete your publish repository.</string>
+    <string name="confirm_remove_script_from_market">Are you sure you want to remove the script„Ä?1$s„Äçfrom the market? This will close the corresponding Issue but will not delete your publish repository.</string>
+    <string name="confirm_remove_package_from_market">Are you sure you want to remove the package„Ä?1$s„Äçfrom the market? This will close the corresponding Issue but will not delete your publish repository.</string>
     <string name="script_publish_info_description">The script will first be uploaded to your own OperitForge publish repository, then the metadata will be registered to OperitScriptMarket. Please ensure the script content, version, and description are accurate.</string>
     <string name="script_edit_info_description">You are editing the information of a published script. After updating, the metadata of the corresponding Issue in the market repository will be overwritten.</string>
     <string name="package_publish_info_description">The package will first be uploaded to your own OperitForge publish repository, then the metadata will be registered to OperitPackageMarket. Please ensure the package content, version, and description are accurate.</string>
@@ -7877,7 +7877,7 @@
     <string name="workspace_attachment_change_modified">Modified</string>
     <string name="workspace_attachment_change_deleted">Deleted</string>
     <string name="workspace_attachment_change_moved">Moved</string>
-    <string name="artifact_publish_node_updated">Node„Äå%1$s„Äçupdated</string>
+    <string name="artifact_publish_node_updated">Node„Ä?1$s„Äçupdated</string>
     <string name="artifact_project_node_view_title">Node View</string>
     <string name="artifact_project_nodes_loading">Loading project nodes...</string>
     <string name="artifact_project_node_selection_hint">Click to select a node, click again to deselect.</string>
@@ -7898,11 +7898,11 @@
     <string name="skill_update_login_required">You must log in with GitHub to update a Skill.</string>
     <string name="skill_publish_name_empty">Skill name cannot be empty.</string>
     <string name="skill_publish_check_name_conflict_failed">Failed to check for Skill name conflict: %1$s</string>
-    <string name="skill_publish_name_taken_message">There is already a plugin named„Äå%1$s„Äçin the Skill marketplace. Please choose a different name.</string>
+    <string name="skill_publish_name_taken_message">There is already a plugin named„Ä?1$s„Äçin the Skill marketplace. Please choose a different name.</string>
     <string name="ai_message_image_attached_multimodal_notice">Image content has been attached as multimodal input with this message. Do not call file reading tools to read this path.</string>
     <string name="ai_message_result_prefix">[Result: </string>
     <string name="ai_message_result_suffix">]</string>
-    <string name="ai_message_package_warmup_title">„ÄêPackage Warmup„Äë</string>
+    <string name="ai_message_package_warmup_title">„ÄêPackage Warmup„Ä?/string>
     <string name="ai_message_package_warmup_empty">No package tool calls were detected within the scope of this summary, so no package warmup was performed.</string>
     <string name="ai_message_package_warmup_intro">Based on the frequency of tool usage within the scope of this summary, the most frequently used packages have been automatically activated, and the results of use_package are attached for the next warmup round.</string>
     <string name="ai_message_use_package_failed">use_package call failed: %1$s</string>
