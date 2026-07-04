@@ -24,6 +24,7 @@ import com.ai.assistance.operit.core.tools.AIToolHandler
 import com.ai.assistance.operit.core.tools.FileOperationData
 import com.ai.assistance.operit.data.collects.ApiProviderConfigs
 import com.ai.assistance.operit.data.model.ApiProviderType
+import com.ai.assistance.operit.gametool.download.ModelDownloadManager
 import com.ai.assistance.operit.data.model.AttachmentInfo
 import com.ai.assistance.operit.data.model.AITool
 import com.ai.assistance.operit.data.model.ChatHistory
@@ -416,6 +417,19 @@ class ChatViewModel(private val context: Context) : ViewModel() {
         // Initialize delegates in correct order to avoid circular references
         initializeDelegates()
 
+        // 如果本地模型已下载，自动切换到 llama.cpp 本地推理，无需 API key
+        val localModel = ModelDownloadManager.getDownloadedModel(context)
+        val hasLocalModel = localModel != null
+        if (hasLocalModel) {
+            AppLogger.i(TAG, "检测到本地模型: ${localModel!!.displayName}，自动切换为本地推理")
+            apiConfigDelegate.updateApiProviderType(ApiProviderType.LLAMA_CPP)
+            apiConfigDelegate.updateModelName(localModel.id)
+            apiConfigDelegate.updateApiEndpoint("")
+            apiConfigDelegate.saveApiSettings()
+            // 本地模型已就绪，直接关闭配置弹窗，避免被后续异步配置加载覆盖回 DEEPSEEK
+            _shouldShowConfigDialog.value = false
+        }
+
         // Setup additional components
         setupPermissionSystemCollection()
         setupAttachmentDelegateToastCollection()
@@ -424,6 +438,7 @@ class ChatViewModel(private val context: Context) : ViewModel() {
         initializeVoiceService()
 
         // 配置提示只跟随当前活跃聊天配置，避免被其他未使用配置误伤。
+        // 如果本地模型已下载，无论当前配置是什么，都不应再强制要求 API key。
         viewModelScope.launch {
             combine(
                 isApiConfigInitialized,
@@ -431,15 +446,45 @@ class ChatViewModel(private val context: Context) : ViewModel() {
                 apiProviderType,
                 apiEndpoint
             ) { initialized, currentApiKey, currentProviderType, currentApiEndpoint ->
-                initialized &&
-                    currentProviderType == ApiProviderType.DEEPSEEK &&
-                    ApiProviderConfigs.requiresApiKey(
-                        currentProviderType,
-                        currentApiEndpoint
-                    ) &&
-                    currentApiKey.isBlank()
+                if (ModelDownloadManager.getDownloadedModel(context) != null) {
+                    false
+                } else {
+                    initialized &&
+                        currentProviderType == ApiProviderType.DEEPSEEK &&
+                        ApiProviderConfigs.requiresApiKey(
+                            currentProviderType,
+                            currentApiEndpoint
+                        ) &&
+                        currentApiKey.isBlank()
+                }
             }.collect { shouldShow ->
                 _shouldShowConfigDialog.value = shouldShow
+            }
+        }
+
+        // 配置初始化完成后，如果本地模型仍存在且当前未配置有效 API key，
+        // 再次强制切回本地推理，防止 ApiConfigDelegate 的异步配置流覆盖 provider。
+        viewModelScope.launch {
+            isApiConfigInitialized.filter { it }.first()
+            val downloaded = ModelDownloadManager.getDownloadedModel(context)
+            if (downloaded != null && apiProviderType.value != ApiProviderType.LLAMA_CPP) {
+                val currentKey = apiKey.value
+                val currentEndpoint = apiEndpoint.value
+                val needsKey = ApiProviderConfigs.requiresApiKey(
+                    apiProviderType.value,
+                    currentEndpoint
+                )
+                if (currentKey.isBlank() || needsKey) {
+                    AppLogger.i(
+                        TAG,
+                        "配置初始化完成，重新确认本地模型: ${downloaded.displayName}，provider=${apiProviderType.value} -> LLAMA_CPP"
+                    )
+                    apiConfigDelegate.updateApiProviderType(ApiProviderType.LLAMA_CPP)
+                    apiConfigDelegate.updateModelName(downloaded.id)
+                    apiConfigDelegate.updateApiEndpoint("")
+                    apiConfigDelegate.saveApiSettings()
+                    _shouldShowConfigDialog.value = false
+                }
             }
         }
     }
