@@ -7,10 +7,14 @@ on:
     branches: [ main, master ]
   workflow_dispatch:  # 允许手动触发
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
