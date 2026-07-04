@@ -606,15 +606,17 @@
     <string name="network_status_label">网络状态</string>
 
     <!-- Configuration Screen -->
-    <string name="config_title">Surlor AI 助手</string>
-    <string name="config_description">我们默认使用DeepSeek API，如需更换请点击下方自定义选项</string>
+    <string name="config_title">AI 对话配置</string>
+    <string name="config_description">检测到本地模型时可直接对话；无本地模型时可输入 API Key 使用云端服务</string>
     <string name="config_api_key_label">API密钥</string>
-    <string name="config_api_key_placeholder">DeepSeek API密钥</string>
+    <string name="config_api_key_placeholder">输入你的 API 密钥</string>
     <string name="config_save_button">确认并保存</string>
     <string name="config_get_token">获取Token</string>
     <string name="config_use_free">薅贡献者的</string>
     <string name="config_custom">自定义</string>
     <string name="config_free_usage_exceeded">今日免费次数已用完</string>
+    <string name="config_local_model_ready">本地模型已就绪，无需 API Key</string>
+    <string name="config_use_local_model">开始本地模型对话</string>
     
     <!-- 一键配置相关 -->
     <string name="one_click_config_title">一键配置</string>

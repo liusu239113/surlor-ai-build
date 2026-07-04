@@ -51,6 +51,22 @@ object ModelDownloadManager {
 
     private const val PREFS_NAME = "model_download_prefs"
     private const val KEY_MODEL_SELECTION_COMPLETED = "model_selection_completed"
+    private const val KEY_MODEL_DOWNLOAD_COMPLETED_PREFIX = "model_download_completed_"
+
+    private fun getModelCompletedKey(model: ModelInfo): String =
+        KEY_MODEL_DOWNLOAD_COMPLETED_PREFIX + model.id
+
+    private fun setModelDownloadCompleted(context: Context, model: ModelInfo, completed: Boolean = true) {
+        context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .edit()
+            .putBoolean(getModelCompletedKey(model), completed)
+            .apply()
+    }
+
+    private fun isModelDownloadCompleted(context: Context, model: ModelInfo): Boolean {
+        return context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .getBoolean(getModelCompletedKey(model), false)
+    }
 
     /**
      * 检查模型选择流程是否已完成（下载成功或用户跳过）
@@ -87,11 +103,14 @@ object ModelDownloadManager {
     }
 
     /**
-     * 检查模型是否已下载完成（文件存在且大小匹配）
+     * 检查模型是否已下载完成（文件存在且大小匹配，或下载流程已标记完成）
      */
     fun isModelDownloaded(context: Context, model: ModelInfo = GameModelConfig.getRecommendedModel()): Boolean {
         val file = getModelFile(context, model)
-        return file.exists() && file.length() >= model.fileSizeMb * 1024 * 1024 * 0.95
+        if (!file.exists()) return false
+        val sizeOk = file.length() >= model.fileSizeMb * 1024 * 1024 * 0.95
+        val markedCompleted = isModelDownloadCompleted(context, model)
+        return sizeOk || markedCompleted
     }
 
     /**
@@ -213,6 +232,8 @@ object ModelDownloadManager {
                 if (!tempFile.renameTo(file)) {
                     throw IOException("无法重命名临时文件")
                 }
+
+                setModelDownloadCompleted(context, model, true)
 
                 onProgress(
                     DownloadProgress(

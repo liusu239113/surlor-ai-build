@@ -1,50 +1,58 @@
-#!/usr/bin/env python3
-"""Generate Android app icons from logo.png"""
-
-from PIL import Image
+from PIL import Image, ImageDraw
 import os
 
-# Icon sizes for different densities
-ICON_SIZES = {
-    'mipmap-mdpi': 48,
-    'mipmap-hdpi': 72,
-    'mipmap-xhdpi': 96,
-    'mipmap-xxhdpi': 144,
-    'mipmap-xxxhdpi': 192,
+BASE = os.path.dirname(os.path.abspath(__file__))
+LOGO = os.path.join(BASE, "logo.png")
+RES = os.path.join(BASE, "app", "src", "main", "res")
+
+SIZES = {
+    "mipmap-mdpi": 48,
+    "mipmap-hdpi": 72,
+    "mipmap-xhdpi": 96,
+    "mipmap-xxhdpi": 144,
+    "mipmap-xxxhdpi": 192,
 }
 
-def generate_icons():
-    project_root = "D:/WorkBuddy/projects/Surlor AI"
-    logo_path = os.path.join(project_root, "logo.png")
-    
-    # Open and resize logo
-    img = Image.open(logo_path)
-    
-    for density, size in ICON_SIZES.items():
-        # Resize image
-        resized = img.resize((size, size), Image.Resampling.LANCZOS)
-        
-        # Save as ic_launcher.png
-        output_dir = os.path.join(project_root, "app/src/main/res", density)
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # Regular icon
-        regular_path = os.path.join(output_dir, "ic_launcher.png")
-        resized.save(regular_path, "PNG")
-        print(f"Created: {regular_path}")
-        
-        # Round icon (same for now, can be customized later)
-        round_path = os.path.join(output_dir, "ic_launcher_round.png")
-        resized.save(round_path, "PNG")
-        print(f"Created: {round_path}")
-    
-    # Also create a high-res version for Play Store (512x512)
-    play_store = img.resize((512, 512), Image.Resampling.LANCZOS)
-    play_store_path = os.path.join(project_root, "app/src/main/play_store_icon.png")
-    play_store.save(play_store_path, "PNG")
-    print(f"Created Play Store icon: {play_store_path}")
-    
-    print("\nAll icons generated successfully!")
+
+def make_round(src: Image.Image, size: int) -> Image.Image:
+    """生成圆形图标，保留透明背景。"""
+    src = src.resize((size, size), Image.LANCZOS).convert("RGBA")
+    mask = Image.new("L", (size, size), 0)
+    draw = ImageDraw.Draw(mask)
+    draw.ellipse((0, 0, size, size), fill=255)
+    out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    out.paste(src, (0, 0), mask)
+    return out
+
+
+def main():
+    if not os.path.exists(LOGO):
+        raise FileNotFoundError(f"找不到 logo: {LOGO}")
+
+    src = Image.open(LOGO).convert("RGBA")
+
+    # 如果 logo 不是正方形，按短边居中裁剪
+    w, h = src.size
+    if w != h:
+        side = min(w, h)
+        left = (w - side) // 2
+        top = (h - side) // 2
+        src = src.crop((left, top, left + side, top + side))
+
+    for folder, size in SIZES.items():
+        out_dir = os.path.join(RES, folder)
+        os.makedirs(out_dir, exist_ok=True)
+
+        square = src.resize((size, size), Image.LANCZOS)
+        square_path = os.path.join(out_dir, "ic_launcher.png")
+        square.save(square_path, "PNG")
+
+        round_img = make_round(src, size)
+        round_path = os.path.join(out_dir, "ic_launcher_round.png")
+        round_img.save(round_path, "PNG")
+
+        print(f"Generated {folder}: {square_path}, {round_path}")
+
 
 if __name__ == "__main__":
-    generate_icons()
+    main()
