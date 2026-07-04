@@ -73,4 +73,7 @@ dependencies {
 
     // OkHttp
     implementation(libs.okhttp)
+
+    // Desugaring (must match isCoreLibraryDesugaringEnabled above)
+    coreLibraryDesugaring(libs.desugar.jdk)
 }
