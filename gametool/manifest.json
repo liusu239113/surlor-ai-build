@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.surlor.gamekit",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "Surlor AI 游戏开发工作室",
+    "en": "Surlor AI Game Dev Studio"
+  },
+  "description": {
+    "zh": "Surlor AI 游戏开发套件 - AI驱动的手机端游戏开发工具，支持AI对话生成H5游戏、实时预览、APK打包、UI调整。内置手机端可运行的最佳AI模型。",
+    "en": "Surlor AI game development kit - AI-powered mobile game dev tool with conversational generation, real-time preview, APK packaging, and UI editing."
+  },
+  "enabled_by_default": true,
+  "icon": "🎮",
+  "subpackages": [
+    {
+      "id": "game_generator",
+      "entry": "dist/packages/game_generator.js"
+    },
+    {
+      "id": "game_packager",
+      "entry": "dist/packages/game_packager.js"
+    },
+    {
+      "id": "game_preview",
+      "entry": "dist/packages/game_preview.js"
+    }
+  ],
+  "resources": [
+    {
+      "key": "game_templates",
+      "path": "resources/templates.json",
+      "mime": "application/json"
+    },
+    {
+      "key": "webview_shell_apk",
+      "path": "resources/webview_shell.apk",
+      "mime": "application/vnd.android.package-archive"
+    }
+  ],
+  "workflow_templates": [
+    {
+      "id": "generate_h5_game",
+      "name": "生成 H5 游戏",
+      "description": "通过 AI 对话生成 H5 游戏并实时预览",
+      "steps": [
+        "用户描述游戏需求",
+        "AI 生成完整的 H5 游戏代码",
+        "在 WebView 中实时预览",
+        "用户反馈修改意见",
+        "AI 迭代优化代码",
+        "打包为独立 APK"
+      ]
+    }
+  ]
+}

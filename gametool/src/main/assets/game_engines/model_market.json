@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "modelName": "Llama-3.2-3B-Instruct-Q4_K_M",
+      "size_gb": 2.02,
+      "tags": ["game", "code", "recommended", "best"],
+      "sources": {
+        "huggingface": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "modelscope": "https://modelscope.cn/models/llama-community/Llama-3.2-3B-Instruct-GGUF/resolve/master/Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+      },
+      "description": "🏆 首选推荐！Meta Llama 3.2 3B 指令微调版，Q4_K_M量化。手机端最佳游戏代码生成模型，6GB+内存设备流畅运行。代码能力在手机模型中排名前3。"
+    },
+    {
+      "modelName": "Llama-3.2-3B-Instruct-Q4_0_4_4",
+      "size_gb": 1.92,
+      "tags": ["game", "code", "arm-optimized"],
+      "sources": {
+        "huggingface": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_0_4_4.gguf",
+        "modelscope": "https://modelscope.cn/models/llama-community/Llama-3.2-3B-Instruct-GGUF/resolve/master/Llama-3.2-3B-Instruct-Q4_0_4_4.gguf"
+      },
+      "description": "ARM手机芯片优化版(Q4_0_4_4)，在骁龙/天玑/麒麟芯片上推理速度更快，体积仅1.92GB。"
+    },
+    {
+      "modelName": "Granite-4.0-H-1B-Q4_K_M",
+      "size_gb": 0.78,
+      "tags": ["code", "lightweight"],
+      "sources": {
+        "huggingface": "https://huggingface.co/ibm-granite/granite-4.0-h-1b-GGUF/resolve/main/granite-4.0-h-1b-Q4_K_M.gguf",
+        "modelscope": "https://modelscope.cn/models/IBM/granite-4.0-h-1b-GGUF/resolve/master/granite-4.0-h-1b-Q4_K_M.gguf"
+      },
+      "description": "IBM Granite 4.0 H 1B，专为代码生成优化的轻量模型，Q4量化后仅780MB，适合4GB内存低端手机。"
+    },
+    {
+      "modelName": "Qwen3-1.7B-Q4_K_M",
+      "size_gb": 1.1,
+      "tags": ["code", "reasoning", "chinese"],
+      "sources": {
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/main/qwen3-1.7b-q4_k_m.gguf",
+        "modelscope": "https://modelscope.cn/models/qwen/Qwen3-1.7B-GGUF/resolve/master/qwen3-1.7b-q4_k_m.gguf"
+      },
+      "description": "阿里通义千问3代 1.7B，推理能力强，中文支持最好，适合需要中文交互的游戏开发场景。"
+    }
+  ]
+}
